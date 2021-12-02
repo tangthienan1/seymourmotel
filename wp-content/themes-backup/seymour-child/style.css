@@ -1,0 +1,80 @@
+/*
+Theme Name: Seymour Child Theme
+Description: Seymour Child Theme For Wordpress
+Author: Grouphoenix
+Author URI: http://grouphoenix.com/
+Template: seymour
+Version: 1.0
+*/
+@import url("../seymour/style.css");
+.mynav .current-menu-item a{color:#C3BF49 !important;}
+.mynav .current-menu-item .sub-menu a{color:#fff !important;}
+.mynav .current-menu-item .sub-menu a:hover{color:#C3BF49 !important;}
+.pagination-block{
+	background: #f5f5f5;
+	color: #434343;
+	padding: 5px;
+	float: left;
+	margin: 10px 0px;
+}
+.pagination-block a{
+	color: #959595;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+.pagination-block .page-numbers.current{
+
+	background: #C3BF49;
+	padding: 8px;
+	width: 100%;
+	color: #fff;
+
+}
+.attraction .pv{font-size: 23px !important}
+
+/*accomodation changes*/
+.price-book .pstart h4{
+	margin:0;
+}
+
+.price-book .pbook{
+	padding:7px 17px;
+	color:#fff;
+	background: #afafaf;
+
+}
+.static-bg {
+	min-height: 280px;
+}
+
+
+/*socials*/
+.social{
+	margin-top: 15px;
+}
+.social ul{
+	margin:0 -5px;
+}
+.social li{
+	padding: 0 5px;
+	text-align: center;
+}
+.social ul li a{
+	width:28px;
+	height:28px;
+	line-height: 28px;
+	display: inline-block;
+	background-color: #c3bf49 ;
+	color:#fff;
+	border-radius: 50%;
+}
+.accd-left p a, address a{color:#333;text-decoration:underline}
+
+.header .logo a img{width:150px !important}
+.tol_no{position:relative; text-align: right;}
+.tol_no h3{margin: 0px; color:#C3BF49;}
+@media (min-width:480px ) and (max-width: 768px) {
+	.tol_no{position:relative; text-align: left;}
+}
+
+#message{    height: 64px;}

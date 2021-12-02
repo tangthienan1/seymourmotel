@@ -1,0 +1,2 @@
+[02-May-2020 19:47:56 Australia/Sydney] PHP Fatal error:  Class 'getid3_handler' not found in /home/seymourm/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[20-May-2020 11:59:23 Australia/Sydney] PHP Fatal error:  Class 'getid3_handler' not found in /home/seymourm/public_html/wp-includes/ID3/module.audio.ac3.php on line 19

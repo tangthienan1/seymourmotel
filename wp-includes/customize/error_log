@@ -1,0 +1,5 @@
+[31-Jul-2020 17:01:50 Australia/Sydney] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home/seymourm/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[31-Jul-2020 17:01:52 Australia/Sydney] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home/seymourm/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[31-Jul-2020 22:58:23 Australia/Sydney] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home/seymourm/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[31-Jul-2020 22:58:55 Australia/Sydney] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home/seymourm/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[01-Aug-2020 02:11:39 Australia/Sydney] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home/seymourm/public_html/wp-includes/customize/class-wp-customize-theme-control.php on line 17

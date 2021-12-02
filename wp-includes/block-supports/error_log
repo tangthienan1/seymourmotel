@@ -1,0 +1,20 @@
+[02-Oct-2021 09:14:12 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/border.php on line 170
+[02-Oct-2021 09:14:13 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/duotone.php on line 426
+[02-Oct-2021 09:14:14 Australia/Sydney] PHP Fatal error:  Call to undefined function add_filter() in /home/seymourm/public_html/wp-includes/block-supports/elements.php on line 71
+[02-Oct-2021 09:14:15 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/layout.php on line 99
+[02-Oct-2021 09:14:16 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/spacing.php on line 89
+[04-Oct-2021 02:20:43 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/border.php on line 170
+[04-Oct-2021 02:20:44 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/duotone.php on line 426
+[04-Oct-2021 02:20:45 Australia/Sydney] PHP Fatal error:  Call to undefined function add_filter() in /home/seymourm/public_html/wp-includes/block-supports/elements.php on line 71
+[04-Oct-2021 02:20:46 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/layout.php on line 99
+[04-Oct-2021 02:20:47 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/spacing.php on line 89
+[19-Oct-2021 07:42:52 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/border.php on line 170
+[19-Oct-2021 07:43:33 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/duotone.php on line 426
+[19-Oct-2021 07:44:02 Australia/Sydney] PHP Fatal error:  Call to undefined function add_filter() in /home/seymourm/public_html/wp-includes/block-supports/elements.php on line 71
+[19-Oct-2021 07:44:21 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/layout.php on line 99
+[19-Oct-2021 07:44:34 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/spacing.php on line 89
+[20-Oct-2021 09:03:41 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/border.php on line 170
+[20-Oct-2021 09:03:47 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/duotone.php on line 426
+[20-Oct-2021 09:03:53 Australia/Sydney] PHP Fatal error:  Call to undefined function add_filter() in /home/seymourm/public_html/wp-includes/block-supports/elements.php on line 71
+[20-Oct-2021 09:04:00 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/layout.php on line 99
+[20-Oct-2021 09:04:05 Australia/Sydney] PHP Fatal error:  Class 'WP_Block_Supports' not found in /home/seymourm/public_html/wp-includes/block-supports/spacing.php on line 89

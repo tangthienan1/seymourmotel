@@ -17,7 +17,7 @@ class AR_Home_Slider
     public function __construct()
     {
         $this->_meta_box = $this->boxes();
-        $this->_fields =& $this->_meta_box['fields'];
+        $this->_fields = &$this->_meta_box['fields'];
         $this->register_post_type();
         //$this->taxonomies();
 
@@ -31,7 +31,8 @@ class AR_Home_Slider
     public function register_post_type()
     {
         $args = array(
-            'labels' => array('name' => _x('Slider', 'mdev-home-'),
+            'labels' => array(
+                'name' => _x('Slider', 'mdev-home-'),
                 'singular_name' => _x('Slider', 'ar-home-slider'),
                 'add_new' => _x('Add New Slide', 'ar-home-slider'),
                 'add_new_item' => _x('Add New Slide ', 'ar-home-slider'),
@@ -45,7 +46,7 @@ class AR_Home_Slider
                 'menu_name' => _x('Slider Manager', 'ar-home-slider'),
             ),
             'hierarchical' => false,
-            'supports' => array('title','page-attributes', 'thumbnail'),
+            'supports' => array('title', 'page-attributes', 'thumbnail'),
             'public' => true,
             'show_ui' => true,
             'show_in_menu' => true,
@@ -62,6 +63,40 @@ class AR_Home_Slider
         );
 
         register_post_type('slider_manager', $args);
+
+        $args = array(
+            'labels' => array(
+                'name' => _x('Slider', 'mdev-home-'),
+                'singular_name' => _x('Slider', 'ar-home-slider'),
+                'add_new' => _x('Add New Slide', 'ar-home-slider'),
+                'add_new_item' => _x('Add New Slide ', 'ar-home-slider'),
+                'edit_item' => _x('Edit Slider  ', 'ar-home-slider'),
+                'new_item' => _x('New Slider ', 'ar-home-slider'),
+                'view_item' => _x('View Slider', 'ar-home-slider'),
+                'search_items' => _x('Search Slider ', 'ar-home-slider'),
+                'not_found' => _x('Not found any Slider', 'ar-home-slider'),
+                'not_found_in_trash' => _x('No Slider  found in Trash', 'ar-home-slider'),
+                'parent_item_colon' => _x('Parent Slider:', 'ar-home-slider'),
+                'menu_name' => _x('Slider Manager ACC', 'ar-home-slider'),
+            ),
+            'hierarchical' => false,
+            'supports' => array('title', 'page-attributes', 'thumbnail'),
+            'public' => true,
+            'show_ui' => true,
+            'show_in_menu' => true,
+            'show_in_nav_menus' => true,
+            'publicly_queryable' => true,
+            'exclude_from_search' => true,
+            'has_archive' => true,
+            'query_var' => true,
+            'can_export' => true,
+            'rewrite' => true,
+            'capability_type' => 'post',
+            'rewrite' => array('slug' => 'sliders')
+
+        );
+
+        register_post_type('slider_manager_acc', $args);
     }
 
     function add()
@@ -110,7 +145,6 @@ class AR_Home_Slider
         $this->show_field_begin($field, $meta);
         echo "<input type='text' name='{$field['id']}' id='{$field['id']}' value='$meta' size='30' style='width:97%' /><br />";
         $this->show_field_end($field, $meta);
-
     }
     /******************** END META BOX FIELDS **********************/
 
@@ -181,7 +215,7 @@ class AR_Home_Slider
         }
     }
 
-   
+
     /**
      * setting  for the Slider manager
      */
@@ -215,7 +249,6 @@ class AR_Home_Slider
                 )
             )
         );
-
     }
 
 

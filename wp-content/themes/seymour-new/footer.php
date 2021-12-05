@@ -5,8 +5,10 @@
       <p class="text -center">&copy;<?php echo date('Y') - 1; ?> Seymour Motel. All Rights Reserved.</p>
     </div>
     <div class="copyright__flex-society">
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-facebook"></i>
+      <div class="text-center">
+        <img class="mr-1" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/instagram.png" />
+        <img class="" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/facebook.png" />
+      </div>
     </div>
     <div class="copyright__flex-address">144 Goulburn Valley Hwy, Seymour, VIC 3660</div>
   </div>

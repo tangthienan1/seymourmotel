@@ -16,113 +16,151 @@ $query_acco = new WP_Query($args);
 			<div class="mx-auto text-center py-5" style="width: 680px">
 				<h1 class="rozha-font">Accomodation</h1>
 			</div>
-			<?php get_template_part('inc/slider') ?>
+			<?php get_template_part('inc/slider-accomodation') ?>
 		</section>
 
-		<section>
-
-			<section>
-				<?php $back_image = (get_field('banner_image')) ? get_field('banner_image') : get_bloginfo('template_directory') . "/images/static-bg.jpg"; ?>
-				<div class="static-bg relative fill" style="background-image:url('<?php echo $back_image; ?>')">
-					<div class="cover absolute">
-						<div class="mytable">
-							<div class="table-cell va-bottom">
-								<div class="sb-caption">
-									<div class="container">
-										<h2><?php echo ucwords(get_the_title()); ?></h2>
-										<p>
-											<?php the_excerpt(); ?>
-										</p>
-										<div class="vspace10px"></div>
-									</div>
-								</div>
-							</div>
-						</div>
+		<section class="main__banner">
+			<div class="main__banner_wrapper">
+				<div class="main__banner_info">
+					<div>Start from</div>
+					<div class="main__banner_info-price">$110 / night</div>
+					<div class="main__banner_info-text">These rooms have been designed specifically to meet the needs of individuals.
+						They are extremely comfortable, allowing you to begin a new "next day"
+						with a positive mindset. The gentle touch of nature in a calm and quiet environment
+						can be a great relief for your's tiredness.
 					</div>
-					<div class="cover absolute sb-overlay"></div>
-				</div>
-				<div class="vspace40px"></div>
-				<div class="accomodations">
-					<div class="container">
-						<?php if ($query_acco->have_posts()) : $i = 0;
-							while ($query_acco->have_posts()) : $query_acco->the_post();
-								$i++; ?>
-								<div class="mytable e-acc">
-									<?php if ($i % 2 == 0) { ?>
-										<div class="table-cell va-middle half-width ea-img">
-
-											<?php if (get_field("cover_image")) :
-												$image = get_field('cover_image');
-												$size1400 = wp_get_attachment_image_src($image['id'], 'Seymour-Image-Thumb');
-											?>
-												<img src="<?php echo $size1400[0]; ?>" class="img-responsive" alt="<?php echo $image['alt']; ?>" title="<?php echo $image['title']; ?>" />
-											<?php
-											endif; ?>
-										</div>
-									<?php } ?>
-									<div class="table-cell va-middle half-width ea-desc">
-										<h2><a href="<?php echo esc_url(get_the_permalink()); ?>"><?php the_title(); ?></a></h2>
-										<div class="vspace15px"></div>
-										<ul class="floated-list clearfix">
-											<li>
-												<img src="<?php bloginfo('template_directory'); ?>/icons/tv.png" alt="">
-											</li>
-											<li>
-												<img src="<?php bloginfo('template_directory'); ?>/icons/wifi.png" alt="">
-											</li>
-										</ul>
-										<div class="vspace15px"></div>
-										<?php the_excerpt(); ?>
-										<div class="vspace15px"></div>
-										<div class="price-book clearfix">
-											<div class="pstart pull-left">
-												<h4>
-													<span class="theme-blue"><?php echo _e('Price:', 'Seymour'); ?> </span><span class="theme-black"><?php if (get_field('price')) echo '$' . get_field('price') . ' ' . '/ Per Night'; ?></span>
-												</h4>
-											</div>
-											<div class="pull-right"> <a target="_blank" href="https://useross.com/booking.php?dialog=motel&motel_id=433">
-													<div class="pbook">BOOK DIRECT</div>
-												</a></div>
-											<!-- <form class="form-horizontal pull-right" action="<?php //echo home_url('/book-now');
-																									?>" method="post">
-<input type="hidden"  name="room_id" value="<?php //echo get_the_ID();
-											?>" type="text" class="form-control input-md">
-<button type="submit" name="booking" class="pbook" >BOOK DIRECT</button>
-</form> -->
-										</div>
-									</div>
-									<?php if ($i % 2 != 0) { ?>
-										<div class="table-cell va-middle half-width ea-img">
-											<?php if (get_field("cover_image")) :
-												$image = get_field('cover_image');
-												$size1400 = wp_get_attachment_image_src($image['id'], 'Seymour-Image-Thumb');
-											?>
-												<img src="<?php echo $size1400[0]; ?>" class="img-responsive" alt="<?php echo $image['alt']; ?>" title="<?php echo $image['title']; ?>" />
-											<?php
-											endif; ?>
-										</div>
-									<?php } ?>
-								</div>
-						<?php endwhile;
-						endif; ?>
-						<div class="pagination-block">
-							<?php
-							$total_pages = $query_acco->max_num_pages;
-							if ($total_pages > 1) {
-								$current_page = max(1, $paged);
-								echo paginate_links(array(
-									'base' => get_pagenum_link(1) . '%_%',
-									'show_all' => true,
-									'format' => '/page/%#%',
-									'prev_next' => true,
-									'current' => $current_page,
-									'total' => $total_pages,
-								));
-							}
-							?>
-						</div>
+					<div class="main__banner_info-benefit">
+						<span>
+							<i class="fas fa-check"></i> Free Breakfast
+						</span>
+						<span>
+							<i class="fas fa-check"></i> Free Breakfast
+						</span>
+					</div>
+					<div class="main__banner_info-button flex-button">
+						<div class="tol_no danger">BOOK NOW</div>
+						<div class="tol_no undanger">HOW TO BOOK</div>
 					</div>
 				</div>
+				<div class="main__banner_img">
+					<?php $back_image = (get_field('banner_image')) ? get_field('banner_image') : get_bloginfo('template_directory') . "/images/static-bg.jpg"; ?>
+					<img src="<?php echo $back_image; ?>" style="width:100%; height:100%">
+				</div>
+			</div>
+
+		</section>
+
+		<section class="main__highlight">
+			<h2>Room HighLight</h2>
+			<div class="main__highlight_container">
+				<div class="main__highlight_container-highlight">
+					<h3>Highlight</h3>
+					<p>People always don’t travel in groups – some travel alone for various reasons.</p>
+				</div>
+				<div class="main__highlight_container-img1">
+					<img src="https://picsum.photos/536/330" alt="">
+				</div>
+				<div class="main__highlight_container-img2">
+					<img src="https://picsum.photos/648/400" alt="">
+				</div>
+				<div class="main__highlight_container-img3">
+					<img src="https://picsum.photos/424/540" alt="">
+				</div>
+				<div class="main__highlight_container-highlight">
+					<h3>Who should choose this</h3>
+					<p>For an individual traveller, hiring a double room is an unwanted expenditure.</p>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="main__facilities">
+			<div class="main__facilities-info">
+				<h3>Facilities</h3>
+				<p>These rooms also have all the basic facilities in addition to the safety and comfort.</p>
+				<div class="main__facilities-benefit">
+					<ul>
+						<li>
+							<!-- <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/wifi.png" style="width: 24px; height: 24px; margin-right: 14px" /> -->
+							Wifi
+						</li>
+						<li>
+							<!-- <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/tv.png" style="width: 24px; height: 24px; margin-right: 14px" /> -->
+							Flat Screen TV
+						</li>
+						<li>Microwave</li>
+						<li>
+							<!-- <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/air-condition.png" style="width: 24px; height: 24px; margin-right: 14px" /> -->
+							Air Conditioning
+						</li>
+						<li>Wardrobe</li>
+						<li>Toaster</li>
+						<li>Tea & Coffee</li>
+						<li>
+							<!-- <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/bathroom.png" style="width: 24px; height: 24px; margin-right: 14px" /> -->
+							Private Bathroom
+						</li>
+						<li>Seating Area</li>
+						<li>Electric Blanket</li>
+						<li>Free toiletries</li>
+					</ul>
+					<ul>
+						<li>Towels</li>
+						<li>Hair Dryer</li>
+						<li>Iron & Iron board</li>
+						<li>Shower</li>
+						<li>Refrigerator</li>
+						<li>Electric Kettle</li>
+						<li>Kitchenware</li>
+						<li>Garden & Pool View</li>
+						<li>Carpeted Room</li>
+						<li>Linen</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="main__facilities-img">
+				<img src="https://picsum.photos/708">
+			</div>
+		</section>
+		<!-- More Options -->
+		<section class="main__more">
+			<div class="main__more_right">
+				<div class="main__more-title">
+					<h2>Twin Room</h2>
+				</div>
+				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-2.png">
+				<div class="main__more_right-price">
+					<div>Start from</div>
+					<div>$120/night</div>
+				</div>
+			</div>
+			<div class="main__more_left">
+				<div class="main__more-title">
+					<h2>Family Room</h2>
+				</div>
+				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-3.png">
+				<div class="main__more_left-price">
+					<div>Start from</div>
+					<div>$160/night</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="main__gallery">
+			<div class="main__gallery-title">
+				<h2>Gallery</h2>
+			</div>
+			<div class="main__gallery-img">
+				<img src="https://picsum.photos/312" alt="">
+			</div>
+			<div class="main__gallery-img">
+				<img src="https://picsum.photos/312" alt="">
+			</div>
+			<div class="main__gallery-img">
+				<img src="https://picsum.photos/312" alt="">
+			</div>
+		</section>
 	</main>
 	<?php get_footer(); ?>
 </div>
@@ -132,11 +170,27 @@ $args = array('orderby' => 'menu_order', 'order' => 'ASC', 'posts_per_page' => $
 $slider = get_posts($args);
 if (!empty($slider)) : $slides = "[";
 	foreach ($slider as $slide) :
-		$slides .= '{image:"' . wp_get_attachment_url(get_post_thumbnail_id($slide->ID)) . '",';
-		$slides .= 'title: "<p>' . get_post_meta($slide->ID, 'AR_slider_caption', true) . '</p><h1>' . $slide->post_title . '</h1>"},';
+		$attachments = get_children(array(
+			'post_parent' => $slide->ID,
+			'post_status' => 'inherit',
+			'post_type' => 'attachment',
+			'post_mime_type' => 'image',
+			'order' => 'ASC',
+			'orderby' => 'menu_order ID'
+		));
+
+		foreach ($attachments as $att_id => $attachment) {
+			$full_img_url = wp_get_attachment_url($attachment->ID);
+
+			$slides .= '{image:"' . $full_img_url . '",';
+			$slides .= 'title: "<p>' . get_post_meta($slide->ID, 'AR_slider_caption', true) . '</p><h1>' . $slide->post_title . '</h1>"},';
+		}
+
 	endforeach;
 	$slides .= "]";
-endif
+endif;
+
+
 ?>
 <script type="text/javascript">
 	jQuery(function($) {

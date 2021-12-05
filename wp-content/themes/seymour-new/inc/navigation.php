@@ -10,9 +10,9 @@
                    <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'floated-list clearfix uppercase pull-right', 'menu' => 'primary')); ?>
 
                </div>
-               <div class="nav-button">
-                   <div class="tol_no mynav hidden-md hidden-lg">CALL US +61 3 5792 15000</div>
-                   <div class="tol_no mynav hidden-md hidden-lg">Book now</div>
+               <div class="flex-button">
+                   <div class="tol_no mynav hidden-md hidden-lg un-danger">CALL US +61 3 5792 15000</div>
+                   <div class="tol_no mynav hidden-md hidden-lg danger">Book now</div>
                </div>
            </div>
        </div>

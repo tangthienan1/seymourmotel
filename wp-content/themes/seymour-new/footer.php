@@ -1,7 +1,7 @@
 <div class="copyright">
   <div class="copyright__flex">
     <div class="copyright__flex-policy">
-      <a href="#">Privacy Policy</a>
+      <a href="/seymour-policy">Privacy Policy</a>
       <p class="text -center">&copy;<?php echo date('Y') - 1; ?> Seymour Motel. All Rights Reserved.</p>
     </div>
     <div class="copyright__flex-society">

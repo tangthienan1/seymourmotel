@@ -77,7 +77,7 @@ endif
     </section>
 
     <section>
-      <div class="row justify-content-between px-6" style="padding-bottom: 200px">
+      <div class="row justify-content-between px-6">
         <div class="col-12 col-md-7 mb-5">
           <div style="padding: 54px 0">
             <div>
@@ -96,16 +96,10 @@ endif
           </div>
         </div>
 
-        <div class="col-8 col-md-4 text-right ml-auto ml-md-none wow fadeInRight" style="position: relative">
+        <div data-wow-delay="500ms" class="col-8 col-md-4 text-right ml-auto ml-md-none wow fadeInRight" style="position: relative; height: 800px">
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcome1.png" class="img-fluid" />
           <div class="text-center" style="height: 560px; position: absolute; left: -80%; top: 60%">
-            <div class="
-                  btn__arrow
-                  d-flex
-                  align-items-center
-                  justify-content-center
-                  mb-4
-                ">
+            <div class="btn__arrow d-flex align-items-center mb-4" style="transform: translate(25%, 0)">
               <p class="mb-0">DISCOVER</p>
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
             </div>
@@ -173,7 +167,7 @@ endif
           </div>
         </div>
 
-        <div class="row justify-content-start wow fadeInLeft">
+        <div data-wow-delay="500ms" class="row justify-content-start wow fadeInLeft">
           <div class="col-12 col-md-6">
             <div class="room__type-wrapper room__type-left">
               <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" />
@@ -210,7 +204,7 @@ endif
           </div>
         </div>
         <div class="row justify-content-end">
-          <div class="col-12 col-md-6 wow fadeInRight">
+          <div data-wow-delay="500ms" class="col-12 col-md-6 wow fadeInRight">
             <div class="room__type-wrapper room__type-right ml-auto">
               <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-2.png" />
               <div class="d-block d-md-none d-flex justify-content-between w-100">
@@ -248,7 +242,7 @@ endif
 
         <div class="row justify-content-start">
           <div class="col-md-1 d-none d-md-block"></div>
-          <div class="col-12 col-md-6 wow fadeInLeft">
+          <div data-wow-delay="500ms" class="col-12 col-md-6 wow fadeInLeft">
             <div class="room__type-wrapper room__type-left">
               <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-3.png" />
               <div class="d-block d-md-none d-flex justify-content-between w-100">
@@ -292,11 +286,9 @@ endif
         <p class="cta__wrapper-description">Find the best suit you</p>
         <div class="row justify-content-center">
           <div class="col-12 col-md-2">
-            <a href="">
-              <button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
-                BOOK NOW
-              </button>
-            </a>
+            <button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
+              BOOK NOW
+            </button>
           </div>
           <div class="col-12 col-md-2">
             <a href="/how-to-book">
@@ -311,11 +303,14 @@ endif
 
     <section>
       <div class="row justify-content-between pl-6 pr-6">
-        <div class="col-md-5 d-none d-md-block wow fadeInLeft">
+        <div data-wow-delay="500ms" class="col-md-5 d-none d-md-block wow fadeInLeft">
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100" alt="" />
         </div>
         <div class="col-12 col-md-7 col-lg-6">
-          <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2">
+          <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2" data-description="Seymour Motel is an ideal rest stop for travelers as well as a
+              wonderful place to stay while exploring the town's true beauty.
+              There are three options available to you, depending on your needs
+              and purposes.">
             Facility
           </h2>
           <p style="font-weight: 200">
@@ -331,8 +326,15 @@ endif
             </div>
           </a>
 
-          <div class="row justify-content-between facility__list-wrapper" style="padding-top: 40px; padding-right: 60px">
-            <div class="d-flex pb-4 col-12 col-md-6 align-items-center">
+          <div class="row justify-content-between home__facilities-wrapper" style="margin-top: 40px; margin-right: 60px">
+            <div class="home__facilities-popup"></div>
+            <div class="
+                  d-flex
+                  pb-4
+                  col-12 col-md-6
+                  align-items-center
+                  home__facilities-item
+                ">
               <div class="facility__description-wrapper">
                 <p>
                   At Seymour, robust and uninterrupted Wi-Fi networks enable
@@ -343,7 +345,13 @@ endif
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/wifi.png" style="width: 24px; height: 24px; margin-right: 14px" />
               <p style="font-size: 20px; font-weight: 300; margin: 0">Wifi</p>
             </div>
-            <div class="d-flex pb-4 col-12 col-md-6 align-items-center">
+            <div class="
+                  d-flex
+                  pb-4
+                  col-12 col-md-6
+                  align-items-center
+                  home__facilities-item
+                ">
               <div class="facility__description-wrapper">
                 <p>
                   Free parking lots are conveniently located in front of each
@@ -355,7 +363,13 @@ endif
                 Flat Screen TV
               </p>
             </div>
-            <div class="d-flex pb-4 col-12 col-md-6 align-items-center">
+            <div class="
+                  d-flex
+                  pb-4
+                  col-12 col-md-6
+                  align-items-center
+                  home__facilities-item
+                ">
               <div class="facility__description-wrapper">
                 <p>
                   We offer complimentary continental breakfasts as
@@ -368,7 +382,13 @@ endif
                 Free Parking
               </p>
             </div>
-            <div class="d-flex pb-4 col-12 col-md-6 align-items-center">
+            <div class="
+                  d-flex
+                  pb-4
+                  col-12 col-md-6
+                  align-items-center
+                  home__facilities-item
+                ">
               <div class="facility__description-wrapper">
                 <p>
                   An outdoor BBQ facility is provided to our guests which is
@@ -381,7 +401,13 @@ endif
               </p>
             </div>
             <!-- RIGHT -->
-            <div class="d-flex pb-4 col-12 col-md-6 align-items-center">
+            <div class="
+                  d-flex
+                  pb-4
+                  col-12 col-md-6
+                  align-items-center
+                  home__facilities-item
+                ">
               <div class="facility__description-wrapper">
                 <p>
                   Each and every room in the Seymour Motel is equipped with a
@@ -394,7 +420,13 @@ endif
                 Free Breakfast
               </p>
             </div>
-            <div class="d-flex pb-4 col-12 col-md-6 align-items-center">
+            <div class="
+                  d-flex
+                  pb-4
+                  col-12 col-md-6
+                  align-items-center
+                  home__facilities-item
+                ">
               <div class="facility__description-wrapper">
                 <p>
                   All rooms are equipped with proper air conditioning
@@ -406,7 +438,13 @@ endif
                 Swimming Pool
               </p>
             </div>
-            <div class="d-flex pb-4 col-12 col-md-6 align-items-center">
+            <div class="
+                  d-flex
+                  pb-4
+                  col-12 col-md-6
+                  align-items-center
+                  home__facilities-item
+                ">
               <div class="facility__description-wrapper">
                 <p>
                   Seymour's perfectly set swimming pool, open all year, has
@@ -418,7 +456,13 @@ endif
                 Free BBQ Facility
               </p>
             </div>
-            <div class="d-flex pb-4 col-12 col-md-6 align-items-center">
+            <div class="
+                  d-flex
+                  pb-4
+                  col-12 col-md-6
+                  align-items-center
+                  home__facilities-item
+                ">
               <div class="facility__description-wrapper">
                 <p>
                   All of the bathrooms are well-equipped and well-maintained,
@@ -460,82 +504,81 @@ endif
           </p>
         </div>
       </div>
+      <div class="splide-2 pl-6">
+        <div class="splide__arrows d-flex justify-content-end pr-6">
+          <div class="text-right pr-4 slide__btn slide__btn-prev">
+            <p class="mb-0">Previous</p>
+            <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 3L5 0.113249V5.88675L0 3ZM88 3.5H4.5V2.5H88V3.5Z" />
+            </svg>
+          </div>
+          <div class="text-left slide__btn-next slide__btn">
+            <p class="mb-0">Next</p>
+            <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
+              <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
+            </svg>
+          </div>
+        </div>
+        <div class="splide__track home__banner-wrapper">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="local__item-wrapper">
+                <div>
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19.png" alt="" style="margin-bottom: 24px; height: 340px; width: 430px" />
+                </div>
+                <h3>Wonderful Town</h3>
+                <p>
+                  Towns in the Mitchell Shire were considered a major stop for
+                  those that came to the goldfields from the ports and towns
+                  of the Melbourne area, consisting of drinking houses and
+                  other essential services by then.
+                </p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="local__item-wrapper">
+                <div>
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19-1.png" alt="" style="margin-bottom: 24px; height: 340px; width: 430px" />
+                </div>
+                <h3>Sport & Recreation</h3>
+                <p>
+                  One of the major attractions in Seymour is its farming
+                  exhibition held annually every February providing visitors
+                  the opportunity to enjoy different foods, see extraordinary
+                  livestock breeds and beautiful crafts.
+                </p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="local__item-wrapper">
+                <div>
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19-2.png" alt="" style="margin-bottom: 24px; height: 340px; width: 430px" />
+                </div>
+                <h3>Interesting Events</h3>
+                <p>
+                  Goulburn River is famous for many other interesting
+                  activities for those who love adventurous outdoor activities
+                  such as fishing or boating,
+                </p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="local__item-wrapper">
+                <div>
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-30.png" alt="" style="margin-bottom: 24px; height: 340px; width: 430px" />
+                </div>
+                <h3>Wonderful Town</h3>
+                <p>
+                  Goulburn River is famous for many other interesting
+                  activities for those who love adventurous outdoor activities
+                  such as fishing or boating,
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
-
-    <div class="splide-2 pl-6">
-      <div class="splide__arrows d-flex justify-content-end pr-6">
-        <div class="text-right pr-4 slide__btn slide__btn-prev">
-          <p class="mb-0">Previous</p>
-          <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 3L5 0.113249V5.88675L0 3ZM88 3.5H4.5V2.5H88V3.5Z" />
-          </svg>
-        </div>
-        <div class="text-left slide__btn-next slide__btn">
-          <p class="mb-0">Next</p>
-          <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
-            <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
-          </svg>
-        </div>
-      </div>
-      <div class="splide__track home__banner-wrapper">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <div class="local__item-wrapper">
-              <div>
-                <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19.png" alt="" style="margin-bottom: 24px; height: 340px; width: 430px" />
-              </div>
-              <h3>Wonderful Town</h3>
-              <p>
-                Towns in the Mitchell Shire were considered a major stop for
-                those that came to the goldfields from the ports and towns of
-                the Melbourne area, consisting of drinking houses and other
-                essential services by then.
-              </p>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="local__item-wrapper">
-              <div>
-                <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19-1.png" alt="" style="margin-bottom: 24px; height: 340px; width: 430px" />
-              </div>
-              <h3>Sport & Recreation</h3>
-              <p>
-                One of the major attractions in Seymour is its farming
-                exhibition held annually every February providing visitors the
-                opportunity to enjoy different foods, see extraordinary
-                livestock breeds and beautiful crafts.
-              </p>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="local__item-wrapper">
-              <div>
-                <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19-2.png" alt="" style="margin-bottom: 24px; height: 340px; width: 430px" />
-              </div>
-              <h3>Interesting Events</h3>
-              <p>
-                Goulburn River is famous for many other interesting activities
-                for those who love adventurous outdoor activities such as
-                fishing or boating,
-              </p>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="local__item-wrapper">
-              <div>
-                <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-30.png" alt="" style="margin-bottom: 24px; height: 340px; width: 430px" />
-              </div>
-              <h3>Wonderful Town</h3>
-              <p>
-                Goulburn River is famous for many other interesting activities
-                for those who love adventurous outdoor activities such as
-                fishing or boating,
-              </p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
 
     <section>
       <div class="d-flex justify-content-between px-6 py-6">

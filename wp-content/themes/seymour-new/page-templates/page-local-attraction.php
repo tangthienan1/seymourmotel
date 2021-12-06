@@ -35,41 +35,41 @@ $query_acco = new WP_Query($args);
 			<div class="row justify-content-end">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-1.png" alt="" class="img-fluid" />
-					<p class="pt-4">Snowfields</p>
+					<h3 class="pt-4">Snowfields</h3>
 				</div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-2.png" alt="" class="img-fluid" />
-					<p class="pt-4">Galleries & Exhibition</p>
+					<h3 class="pt-4">Galleries & Exhibition</h3>
 				</div>
 			</div>
 			<div class="row justify-content-start">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-3.png" alt="" class="img-fluid" />
-					<p class="pt-4">History & Heritage</p>
+					<h3 class="pt-4">History & Heritage</h3>
 				</div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-4.png" alt="" class="img-fluid" />
-					<p class="pt-4">Fishing</p>
+					<h3 class="pt-4">Fishing</h3>
 				</div>
 			</div>
 			<div class="row justify-content-start">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-5.png" alt="" class="img-fluid" />
-					<p class="pt-4">River Activities</p>
+					<h3 class="pt-4">River Activities</h3>
 				</div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-6.png" alt="" class="img-fluid" />
-					<p class="pt-4">Great Outdoors</p>
+					<h3 class="pt-4">Great Outdoors</h3>
 				</div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-7.png" alt="" class="img-fluid" />
-					<p class="pt-4">Sport & Leisure</p>
+					<h3 class="pt-4">Sport & Leisure</h3>
 				</div>
 			</div>
 			<div class="row justify-content-start">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-8.png" alt="" class="img-fluid" />
-					<p class="pt-4">Activity Trails</p>
+					<h3 class="pt-4">Activity Trails</h3>
 				</div>
 			</div>
 		</section>

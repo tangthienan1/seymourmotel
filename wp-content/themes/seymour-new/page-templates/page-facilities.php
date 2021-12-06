@@ -40,7 +40,7 @@ $query_acco = new WP_Query($args);
                                             can find your Wi-Fi password at the reception. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/wifi.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/wifi.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Wifi
                                     </p>
@@ -52,7 +52,7 @@ $query_acco = new WP_Query($args);
                                             each unit. Extra spots are available if required.
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/toaster.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/toaster.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Toaster
                                     </p>
@@ -65,7 +65,7 @@ $query_acco = new WP_Query($args);
                                             9:00 AM seven days a week. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/kitchenware.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/kitchenware.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Kitchenware
                                     </p>
@@ -77,7 +77,7 @@ $query_acco = new WP_Query($args);
                                             is located next to the swimming pool.
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/breakfast.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/breakfast.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Free Breakfast
                                     </p>
@@ -90,7 +90,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/tea.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/tea.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Tea & Coffee
                                     </p>
@@ -103,7 +103,7 @@ $query_acco = new WP_Query($args);
                                             can find your Wi-Fi password at the reception. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/linen.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/linen.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Linen
                                     </p>
@@ -116,7 +116,7 @@ $query_acco = new WP_Query($args);
                                             can find your Wi-Fi password at the reception. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/microwave.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/microwave.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Microwave
                                     </p>
@@ -129,7 +129,7 @@ $query_acco = new WP_Query($args);
                                             can find your Wi-Fi password at the reception. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/electric.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/electric.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Electric Kettle
                                     </p>
@@ -148,7 +148,7 @@ $query_acco = new WP_Query($args);
                                             each unit. Extra spots are available if required.
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/free-parking.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/free-parking.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Free Parking
                                     </p>
@@ -161,7 +161,7 @@ $query_acco = new WP_Query($args);
                                             9:00 AM seven days a week. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/safe-area.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/safe-area.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Seating Area
                                     </p>
@@ -173,7 +173,7 @@ $query_acco = new WP_Query($args);
                                             is located next to the swimming pool.
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/swimming.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/swimming.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Swimming Pool
                                     </p>
@@ -186,7 +186,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/garden.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/garden.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Garden & Pool View
                                     </p>
@@ -199,7 +199,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/bbq.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/bbq.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Free BBQ Facility
                                     </p>
@@ -217,7 +217,7 @@ $query_acco = new WP_Query($args);
                                             can find your Wi-Fi password at the reception. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/tv.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/tv.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Flat Screen TV
                                     </p>
@@ -229,7 +229,7 @@ $query_acco = new WP_Query($args);
                                             each unit. Extra spots are available if required.
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/toiletries.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/toiletries.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Free toiletries
                                     </p>
@@ -242,7 +242,7 @@ $query_acco = new WP_Query($args);
                                             9:00 AM seven days a week. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/shower.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/shower.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Shower
                                     </p>
@@ -254,7 +254,7 @@ $query_acco = new WP_Query($args);
                                             is located next to the swimming pool.
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/air-condition.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/air-condition.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Air Conditioning
                                     </p>
@@ -267,7 +267,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/towel.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/towel.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Towels
                                     </p>
@@ -280,7 +280,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/refrigerator.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/refrigerator.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Refrigerator
                                     </p>
@@ -293,7 +293,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/bathroom.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/bathroom.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Private Bathroom
                                     </p>
@@ -306,7 +306,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/hair.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/hair.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Hair Dryer
                                     </p>
@@ -319,7 +319,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/carpeted.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/carpeted.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Carpeted Room
                                     </p>
@@ -332,7 +332,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/wardrobe.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/wardrobe.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Wardrobe
                                     </p>
@@ -345,7 +345,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/iron.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/iron.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Iron & Iron Board
                                     </p>
@@ -358,7 +358,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="./assets/icons/blanket.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/blanket.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-size: 20px; font-weight: 300; margin: 0">
                                         Electric Blanket
                                     </p>
@@ -400,27 +400,6 @@ $query_acco = new WP_Query($args);
                                 HOW TO BOOK
                             </button>
                         </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row justify-content-between px-6 py-6">
-                <div class="col-12 col-md-3 pb-4">
-                    <h2 class="seymour-title">Gallery</h2>
-                </div>
-                <div class="col-12 col-md-9">
-                    <div class="row no-wrap">
-                        <div class="col-6 col-md-4 pb-4">
-                            <img src="./assets/gallery-1.png" alt="" class="img-fluid" />
-                        </div>
-                        <div class="col-6 col-md-4 pb-4">
-                            <img src="./assets/gallery-2.png" alt="" class="img-fluid" />
-                        </div>
-                        <div class="col-6 col-md-4 pb-4">
-                            <img src="./assets/gallery-3.png" alt="" class="img-fluid" />
-                        </div>
                     </div>
                 </div>
             </div>

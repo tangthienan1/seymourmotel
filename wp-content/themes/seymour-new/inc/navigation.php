@@ -8,11 +8,14 @@
                </div>
                <div class="mynav nav-topic table-cell va-middle clearfix">
                    <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'floated-list clearfix uppercase pull-right', 'menu' => 'primary')); ?>
-
                </div>
                <div class="flex-button">
-                   <div class="tol_no mynav hidden-md hidden-lg un-danger">CALL US +61 3 5792 15000</div>
-                   <div class="tol_no mynav hidden-md hidden-lg danger">Book now</div>
+                   <div style="width:268px" class="tol_no mynav hidden-md hidden-lg un-danger">
+                       <p>CALL US +61 3 5792 15000</p>
+                   </div>
+                   <div class="tol_no mynav hidden-md hidden-lg danger">
+                       <p>Book now</p>
+                   </div>
                </div>
            </div>
        </div>

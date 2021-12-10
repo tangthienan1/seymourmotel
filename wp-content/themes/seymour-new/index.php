@@ -309,7 +309,7 @@ get_header();
         <div data-wow-delay="500ms" class="col-md-5 d-none d-md-block wow fadeInLeft">
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100" alt="" />
         </div>
-        <div class="col-12 col-md-7 col-lg-6">
+        <div class="col-12 col-lg-7 col-xl-6">
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2" data-description="Seymour Motel is an ideal rest stop for travelers as well as a
               wonderful place to stay while exploring the town's true beauty.
               There are three options available to you, depending on your needs
@@ -357,8 +357,9 @@ get_header();
                 ">
               <div class="facility__description-wrapper">
                 <p>
-                  Free parking lots are conveniently located in front of each
-                  unit. Extra spots are available if required.
+                  Each and every room in the Seymour Motel is equipped with a
+                  flat-screen TV, keeping the guests entertained during their
+                  stay. 
                 </p>
               </div>
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/tv.png" style="width: 24px; height: 24px; margin-right: 14px" />
@@ -375,9 +376,8 @@ get_header();
                 ">
               <div class="facility__description-wrapper">
                 <p>
-                  We offer complimentary continental breakfasts as
-                  a self-serve service that starts between 7:00 AM and 9:00 AM
-                  seven days a week. 
+                  Free parking lots are conveniently located in front of each
+                  unit. Extra spots are available if required.
                 </p>
               </div>
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/free-parking.png" style="width: 24px; height: 24px; margin-right: 14px" />
@@ -394,8 +394,8 @@ get_header();
                 ">
               <div class="facility__description-wrapper">
                 <p>
-                  An outdoor BBQ facility is provided to our guests which is
-                  located next to the swimming pool.
+                  All rooms are equipped with proper air conditioning
+                  systems and are in good maintenance.
                 </p>
               </div>
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/air-condition.png" style="width: 24px; height: 24px; margin-right: 14px" />
@@ -413,9 +413,9 @@ get_header();
                 ">
               <div class="facility__description-wrapper">
                 <p>
-                  Each and every room in the Seymour Motel is equipped with a
-                  flat-screen TV, keeping the guests entertained during their
-                  stay. 
+                  We offer complimentary continental breakfasts as
+                  a self-serve service that starts between 7:00 AM and 9:00 AM
+                  seven days a week. 
                 </p>
               </div>
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/breakfast.png" style="width: 24px; height: 24px; margin-right: 14px" />
@@ -432,8 +432,8 @@ get_header();
                 ">
               <div class="facility__description-wrapper">
                 <p>
-                  All rooms are equipped with proper air conditioning
-                  systems and are in good maintenance.
+                  Seymour's perfectly set swimming pool, open all year, has
+                  everything you need to feel refreshed.
                 </p>
               </div>
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/swimming.png" style="width: 24px; height: 24px; margin-right: 14px" />
@@ -450,8 +450,8 @@ get_header();
                 ">
               <div class="facility__description-wrapper">
                 <p>
-                  Seymour's perfectly set swimming pool, open all year, has
-                  everything you need to feel refreshed.
+                  An outdoor BBQ facility is provided to our guests which is
+                  located next to the swimming pool.
                 </p>
               </div>
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/bbq.png" style="width: 24px; height: 24px; margin-right: 14px" />

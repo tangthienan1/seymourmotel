@@ -115,9 +115,11 @@ $query_acco = new WP_Query($args);
                         </a>
                     </div>
                     <div class="col-12 col-md-2">
-                        <button class="btn w-100 btn-lg btn-outline-primary">
-                            HOW TO BOOK
-                        </button>
+                        <a href="/how-to-book">
+                            <button class="btn w-100 btn-lg btn-outline-primary">
+                                HOW TO BOOK
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

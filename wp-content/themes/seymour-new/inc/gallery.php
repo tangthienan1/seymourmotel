@@ -5,6 +5,20 @@
         </div>
         <div class="col-12 col-md-9">
             <div id="gallery" class="splide-gallery">
+                <div class="splide__arrows d-flex justify-content-end">
+                    <div class="text-right pr-4 slide__btn slide__btn-prev">
+                        <p class="mb-0">Previous</p>
+                        <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 3L5 0.113249V5.88675L0 3ZM88 3.5H4.5V2.5H88V3.5Z" />
+                        </svg>
+                    </div>
+                    <div class="text-left slide__btn-next slide__btn">
+                        <p class="mb-0">Next</p>
+                        <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
+                        </svg>
+                    </div>
+                </div>
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">

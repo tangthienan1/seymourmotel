@@ -81,7 +81,9 @@ $query_acco = new WP_Query($args);
 							</a>
 						</div>
 						<div class="tol_no un-danger">
-							<p>HOW TO BOOK</p>
+							<a href="/how-to-book">
+								<p>HOW TO BOOK</p>
+							</a>
 						</div>
 					</div>
 				</div>

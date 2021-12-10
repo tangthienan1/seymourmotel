@@ -62,7 +62,7 @@ $query_acco = new WP_Query($args);
                     Delightful quality accommodation in a tranquil environment at an
                     affordable price
                 </div>
-                <div class="main__intro-right">
+                <div class="main__intro-right wow fadeInRight" data-wow-delay="500ms">
                     Being industry experts in the field of hospitality for many years, we
                     know the value of relaxed accommodation. It helps to start a new day
                     with better energy and peace of mind. This is a vital fact, especially
@@ -72,17 +72,17 @@ $query_acco = new WP_Query($args);
             </div>
         </section>
         <!-- End Intro -->
-        <section class="main__img">
+        <section class="main__img wow fadeInLeft" data-wow-delay="500ms">
             <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcomebanner.png" />
         </section>
         <!-- Mission -->
         <section class="main__mission">
             <div class="main__mission_content">
-                <div class="main__mission_content-title">
+                <div class="main__mission_content-title wow fadeInRight" data-wow-delay="500ms">
                     <h3>Our mission & vission</h3>
                 </div>
                 <div class="main__mission_content-text">
-                    <p style="margin-bottom: 131px;">
+                    <p style="margin-bottom: 131px;" class="wow fadeInRight" data-wow-delay="500ms">
                         Despite the fact that our services are extremely affordable, we never
                         sacrifice quality for the sake of saving money. With that vision in
                         mind, we've received a lot of positive feedback from our guests over
@@ -107,9 +107,11 @@ $query_acco = new WP_Query($args);
                 <h1 class="cta__wrapper-title">Book your stay</h1>
                 <p class="cta__wrapper-description">Find the best suit you</p>
                 <div class="d-flex justify-content-center">
-                    <button class="btn btn-lg btn-primary" style="margin-right: 14px">
-                        BOOK NOW
-                    </button>
+                    <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
+                        <button class="btn btn-lg btn-primary" style="margin-right: 14px">
+                            BOOK NOW
+                        </button>
+                    </a>
                     <button class="btn btn-lg btn-outline-primary">HOW TO BOOK</button>
                 </div>
             </div>
@@ -119,7 +121,7 @@ $query_acco = new WP_Query($args);
         <section class="main__why">
             <h2 style="color: '#C0BCB7'; text-align:center; margin-bottom: 120px; color:#C0BCB7">Why us</h2>
             <div class="main__why_relative">
-                <div class="main__why_wrapper" style="padding-bottom: 160px">
+                <div class="main__why_wrapper wow fadeInRight" data-wow-delay="500ms" style="padding-bottom: 160px">
                     <div style="width: 424px">
                         <h3 style="font-weight: 500" class="pb-2">Location</h3>
                         <p style="font-weight: 200">
@@ -134,7 +136,7 @@ $query_acco = new WP_Query($args);
                     </div>
                     <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcomeimg1.png" />
                 </div>
-                <div class="main__why_wrapper" style="justify-content:end">
+                <div class="main__why_wrapper wow fadeInRight" data-wow-delay="500ms" style="justify-content:end">
                     <div style="width: 424px">
                         <h3 style="font-weight: 500; padding-bottom: 120px" class="pb-2">Your safe</h3>
                         <p style="font-weight: 200">
@@ -153,70 +155,17 @@ $query_acco = new WP_Query($args);
 
         <!-- End Why us -->
         <!-- Gallery -->
-        <section class="main__gallery">
-            <div class="main__gallery-title">
-                <h2>Gallery</h2>
-            </div>
-            <div class="main__gallery-img">
-                <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-1.png" alt="" />
-            </div>
-            <div class="main__gallery-img">
-                <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-2.png" alt="" />
-            </div>
-            <div class="main__gallery-img">
-                <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-3.png" alt="" />
-            </div>
-        </section>
+        <?php get_template_part('inc/gallery'); ?>
         <!-- End Gallery -->
     </main>
 
     <?php get_footer(); ?>
 </div>
-<?php
-$showposts = -1;
-$args = array('orderby' => 'menu_order', 'order' => 'ASC', 'posts_per_page' => $showposts, 'post_status' => 'publish', 'post_type' => 'slider_manager_acc');
-$slider = get_posts($args);
-if (!empty($slider)) : $slides = "[";
-    foreach ($slider as $slide) :
-        $attachments = get_children(array(
-            'post_parent' => $slide->ID,
-            'post_status' => 'inherit',
-            'post_type' => 'attachment',
-            'post_mime_type' => 'image',
-            'order' => 'ASC',
-            'orderby' => 'menu_order ID'
-        ));
-
-        foreach ($attachments as $att_id => $attachment) {
-            $full_img_url = wp_get_attachment_url($attachment->ID);
-
-            $slides .= '{image:"' . $full_img_url . '",';
-            $slides .= 'title: "<p>' . get_post_meta($slide->ID, 'AR_slider_caption', true) . '</p><h1>' . $slide->post_title . '</h1>"},';
-        }
-
-    endforeach;
-    $slides .= "]";
-endif;
 
 
-?>
-<script type="text/javascript">
-    jQuery(function($) {
-        $.supersized({
-            // Functionality
-            slide_interval: 3000, // Length between transitions
-            transition: 1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-            transition_speed: 700, // Speed of transition
-            // Components                           
-            slide_links: 'blank', // Individual links for each slide (Options: false, 'num', 'name', 'blank')
-            slides: <?php echo $slides; ?>
-        });
-    });
-</script>
+</body>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        console.log(`WOW`, WOW);
-        new WOW().init();
         var splide = new Splide(".splide", {
             arrows: false,
             type: "loop",
@@ -230,21 +179,7 @@ endif;
             splide.go(">");
         });
 
-        var splide2 = new Splide(".splide-2", {
-            arrows: false,
-            type: "loop",
-            perPage: 3,
-            pagination: false,
-        });
-        splide2.mount();
-        $(".splide-2 .slide__btn-prev").on("click", () => {
-            splide2.go("<");
-        });
-        $(".splide-2 .slide__btn-next").on("click", () => {
-            splide2.go(">");
-        });
     });
 </script>
-</body>
 
 </html>

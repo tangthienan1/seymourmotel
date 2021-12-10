@@ -1,7 +1,7 @@
 <div class="copyright">
   <div class="copyright__flex">
     <div class="copyright__flex-policy">
-      <a href="/seymour-policy">Privacy Policy</a>
+      <a href="/seymour-policy" style="text-decorator: underline !important">Privacy Policy</a>
       <p class="text -center">&copy;<?php echo date('Y') - 1; ?> Seymour Motel. All Rights Reserved.</p>
     </div>
     <div class="copyright__flex-society">
@@ -35,4 +35,41 @@
 
   ga('create', 'UA-773976-8', 'auto');
   ga('send', 'pageview');
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var galley = document.getElementById("gallery");
+    if (galley) {
+      var viewer = new Viewer(galley, {
+        title: function(image) {
+          return (
+            image.alt + " (" + (this.index + 1) + "/" + this.length + ")"
+          );
+        },
+      });
+    }
+    new WOW().init();
+
+    var splide3 = new Splide(".splide-gallery", {
+      arrows: false,
+      type: "loop",
+      perPage: 3,
+      pagination: true,
+      autoplay: true,
+    });
+    splide3.mount();
+
+  });
+</script>
+<script>
+  let accommodation_node = document.getElementsByClassName('menu-item-has-children')[0]
+  let about_node = document.getElementsByClassName('menu-item-has-children')[1]
+  let poly1 = document.createElement('img')
+  poly1.src = "<?php bloginfo('template_directory'); ?>/icons/poly.png";
+  poly1.className = "nav-poly"
+  let poly2 = document.createElement('img')
+  poly2.src = "<?php bloginfo('template_directory'); ?>/icons/poly.png";
+  poly2.className = "nav-poly"
+  accommodation_node.firstChild.appendChild(poly1)
+  about_node.firstChild.appendChild(poly2)
 </script>

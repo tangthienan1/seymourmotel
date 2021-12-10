@@ -370,7 +370,7 @@ $query_acco = new WP_Query($args);
                 <div class="col-12 col-md-8 col-lg-5">
                     <div class="facilities__adrress-wrapper">
                         <div class="facilities__adrress-inner">
-                            <img class="img-fluid w-100" src="./assets/facilities-banner.png" alt="" />
+                            <img class="img-fluid w-100" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/facilities-banner.png" />
                             <div class="facilities__adrress-content">
                                 <p style="font-weight: 200; width: 200px">
                                     144 Goulburn Valley Hwy, Seymour, VIC 3660
@@ -409,47 +409,6 @@ $query_acco = new WP_Query($args);
     </main>
     <?php get_footer(); ?>
 </div>
-<?php
-$showposts = -1;
-$args = array('orderby' => 'menu_order', 'order' => 'ASC', 'posts_per_page' => $showposts, 'post_status' => 'publish', 'post_type' => 'slider_manager_acc');
-$slider = get_posts($args);
-if (!empty($slider)) : $slides = "[";
-    foreach ($slider as $slide) :
-        $attachments = get_children(array(
-            'post_parent' => $slide->ID,
-            'post_status' => 'inherit',
-            'post_type' => 'attachment',
-            'post_mime_type' => 'image',
-            'order' => 'ASC',
-            'orderby' => 'menu_order ID'
-        ));
-
-        foreach ($attachments as $att_id => $attachment) {
-            $full_img_url = wp_get_attachment_url($attachment->ID);
-
-            $slides .= '{image:"' . $full_img_url . '",';
-            $slides .= 'title: "<p>' . get_post_meta($slide->ID, 'AR_slider_caption', true) . '</p><h1>' . $slide->post_title . '</h1>"},';
-        }
-
-    endforeach;
-    $slides .= "]";
-endif;
-
-
-?>
-<script type="text/javascript">
-    jQuery(function($) {
-        $.supersized({
-            // Functionality
-            slide_interval: 3000, // Length between transitions
-            transition: 1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-            transition_speed: 700, // Speed of transition
-            // Components                           
-            slide_links: 'blank', // Individual links for each slide (Options: false, 'num', 'name', 'blank')
-            slides: <?php echo $slides; ?>
-        });
-    });
-</script>
 </body>
 
 </html>

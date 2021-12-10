@@ -76,14 +76,16 @@ $query_acco = new WP_Query($args);
 					</div>
 					<div class="main__banner_info-button flex-button">
 						<div class="tol_no danger">
-							<p>BOOK NOW</p>
+							<a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
+								<p>BOOK NOW</p>
+							</a>
 						</div>
 						<div class="tol_no un-danger">
 							<p>HOW TO BOOK</p>
 						</div>
 					</div>
 				</div>
-				<div class="main__banner_img">
+				<div class="wow fadeInRight main__banner_img" data-wow-delay="500ms">
 					<?php $back_image = (get_field('banner_image')) ? get_field('banner_image') : get_bloginfo('template_directory') . "/images/static-bg.jpg"; ?>
 					<img src="<?php echo $back_image; ?>" style="width:100%; height:100%">
 				</div>
@@ -94,20 +96,20 @@ $query_acco = new WP_Query($args);
 		<section class="main__highlight">
 			<h2>Room HighLight</h2>
 			<div class="main__highlight_container">
-				<div class="main__highlight_container-highlight">
+				<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 					<h3>Highlight</h3>
 					<p>People always don’t travel in groups – some travel alone for various reasons.</p>
 				</div>
-				<div class="main__highlight_container-img1">
+				<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight1.png" alt="">
 				</div>
-				<div class="main__highlight_container-img2">
+				<div class="main__highlight_container-img2 wow fadeInRight" data-wow-delay="500ms">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight2.png" alt="">
 				</div>
-				<div class="main__highlight_container-img3">
+				<div class="main__highlight_container-img3 wow fadeInLeft" data-wow-delay="500ms">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight3.png" alt="">
 				</div>
-				<div class="main__highlight_container-highlight">
+				<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 					<h3>Who should choose this</h3>
 					<p>For family traveller, all rooms have one queen size and two single beds as standard configuration.</p>
 				</div>
@@ -116,7 +118,8 @@ $query_acco = new WP_Query($args);
 		</section>
 
 		<section class="main__facilities">
-			<div class="main__facilities-info">
+			<div class="main__facilities-info wow fadeInRight" data-wow-delay="500ms">
+
 				<h3>Facilities</h3>
 				<p>These rooms also have all the basic facilities in addition to the safety and comfort.</p>
 				<div class="main__facilities-benefit">
@@ -221,7 +224,8 @@ $query_acco = new WP_Query($args);
 					</ul>
 				</div>
 			</div>
-			<div class="main__facilities-img">
+			<div class="main__facilities-img wow fadeInRight" data-wow-delay="500ms">
+
 				<?php if (get_field("cover_image")) : $image = get_field('cover_image');
 					$size1400 = wp_get_attachment_image_src($image['id'], 'Seymour-Image-Thumb'); ?>
 					<img src="<?php echo $size1400[0]; ?>" alt="<?php echo $image['alt']; ?>" title="<?php echo $image['title']; ?>" class="img-responsive" />
@@ -230,7 +234,16 @@ $query_acco = new WP_Query($args);
 		</section>
 		<!-- More Options -->
 		<section>
+
 			<div class="px-6">
+				<h2 style="color: #c0bcb7;
+							font-weight: 500;
+							font-size: 48px;
+							line-height: 52px;
+							text-align: center;
+							padding-bottom: 120px;
+							">
+					More Options</h2>
 
 				<div class="row justify-content-end">
 					<div class="col-12 col-md-6 wow fadeInRight">
@@ -308,20 +321,7 @@ $query_acco = new WP_Query($args);
 				</div>
 			</div>
 		</section>
-		<section class="main__gallery">
-			<div class="main__gallery-title">
-				<h2>Gallery</h2>
-			</div>
-			<div class="main__gallery-img">
-				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-1.png" alt="" />
-			</div>
-			<div class="main__gallery-img">
-				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-2.png" alt="" />
-			</div>
-			<div class="main__gallery-img">
-				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-3.png" alt="" />
-			</div>
-		</section>
+		<?php get_template_part('inc/gallery'); ?>
 	</main>
 	<?php get_footer(); ?>
 </div>
@@ -366,10 +366,10 @@ endif;
 		});
 	});
 </script>
+
+</body>
 <script>
 	document.addEventListener("DOMContentLoaded", function() {
-		console.log(`WOW`, WOW);
-		new WOW().init();
 		var splide = new Splide(".splide", {
 			arrows: false,
 			type: "loop",
@@ -383,21 +383,7 @@ endif;
 			splide.go(">");
 		});
 
-		var splide2 = new Splide(".splide-2", {
-			arrows: false,
-			type: "loop",
-			perPage: 3,
-			pagination: false,
-		});
-		splide2.mount();
-		$(".splide-2 .slide__btn-prev").on("click", () => {
-			splide2.go("<");
-		});
-		$(".splide-2 .slide__btn-next").on("click", () => {
-			splide2.go(">");
-		});
 	});
 </script>
-</body>
 
 </html>

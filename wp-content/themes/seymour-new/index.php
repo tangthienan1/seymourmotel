@@ -2,16 +2,6 @@
 
 get_header();
 
-$showposts = -1;
-$args = array('orderby' => 'menu_order', 'order' => 'ASC', 'posts_per_page' => $showposts, 'post_status' => 'publish', 'post_type' => 'slider_manager');
-$slider = get_posts($args);
-if (!empty($slider)) : $slides = "[";
-  foreach ($slider as $slide) :
-    $slides .= '{image:"' . wp_get_attachment_url(get_post_thumbnail_id($slide->ID)) . '",';
-    $slides .= 'title: "<p>' . get_post_meta($slide->ID, 'AR_slider_caption', true) . '</p><h1>' . $slide->post_title . '</h1>"},';
-  endforeach;
-  $slides .= "]";
-endif
 ?>
 <div id="pushIt">
   <main role="main">
@@ -19,7 +9,9 @@ endif
 
     <div class="home__sticky-address">
       <p style="font-weight: 200; width: 200px">
-        144 Goulburn Valley Hwy, Seymour, VIC 3660
+        <a href="/location" style="color: inherit">
+          144 Goulburn Valley Hwy, Seymour, VIC 3660
+        </a>
       </p>
     </div>
 
@@ -36,7 +28,12 @@ endif
           <h1 class="rozha-font">Seymour Motel</h1>
         </div>
         <div class="col-12 col-md-8 col-lg-6">
-          <p style="font-size: 20px; text-align: right; margin-top: -10px">
+          <p style="
+                font-size: 20px;
+                text-align: right;
+                margin-top: -35px;
+                padding-right: 50px;
+              ">
             Affordable, all-inclusive packages available in Victoria
           </p>
         </div>
@@ -188,10 +185,12 @@ endif
               <div class="room__type-title">
                 <h2>Single Room</h2>
                 <div class="room__type-discover">
-                  <div class="d-flex align-items-center btn__arrow">
-                    <p style="color: #b52804" class="mb-0 mr-2">DETAIL</p>
-                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-                  </div>
+                  <a href="/single-room">
+                    <div class="d-flex align-items-center btn__arrow">
+                      <p style="color: #b52804" class="mb-0 mr-2">DETAIL</p>
+                      <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+                    </div>
+                  </a>
                 </div>
               </div>
               <div class="room__type-price d-none d-md-block">
@@ -216,13 +215,15 @@ endif
                     $110 / night
                   </p>
                 </div>
-                <div class="d-flex align-items-center">
-                  <p style="color: #b52804" class="mb-0 mr-2">DETAIL</p>
-                  <img style="width: 80px; height: 4px" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-                </div>
+                <a href="/twin-room">
+                  <div class="d-flex align-items-center">
+                    <p style="color: #b52804" class="mb-0 mr-2">DETAIL</p>
+                    <img style="width: 80px; height: 4px" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+                  </div>
+                </a>
               </div>
               <div class="room__type-title">
-                <h2>Single Room</h2>
+                <h2>Twin Room</h2>
                 <div class="room__type-discover">
                   <div class="d-flex align-items-center btn__arrow">
                     <p class="mb-0 mr-2">DETAIL</p>
@@ -234,7 +235,7 @@ endif
                 <p style="font-weight: 200; font-size: 16px" class="mb-0">
                   Start from
                 </p>
-                <p style="font-weight: 300; font-size: 20px">$110 / night</p>
+                <p style="font-weight: 300; font-size: 20px">$120 / night</p>
               </div>
             </div>
           </div>
@@ -286,9 +287,11 @@ endif
         <p class="cta__wrapper-description">Find the best suit you</p>
         <div class="row justify-content-center">
           <div class="col-12 col-md-2">
-            <button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
-              BOOK NOW
-            </button>
+            <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
+              <button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
+                BOOK NOW
+              </button>
+            </a>
           </div>
           <div class="col-12 col-md-2">
             <a href="/how-to-book">
@@ -641,48 +644,16 @@ endif
       </div>
     </section>
 
-    <section>
-      <div class="row justify-content-between px-6 py-6">
-        <div class="col-12 col-md-3 pb-4">
-          <h2 class="seymour-title">Gallery</h2>
-        </div>
-        <div class="col-12 col-md-9">
-          <div class="row no-wrap">
-            <div class="col-6 col-md-4 pb-4">
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-1.png" alt="" class="img-fluid" />
-            </div>
-            <div class="col-6 col-md-4 pb-4">
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-2.png" alt="" class="img-fluid" />
-            </div>
-            <div class="col-6 col-md-4 pb-4">
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-3.png" alt="" class="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <?php get_template_part('inc/gallery'); ?>
 
     <!-- END WELCOME -->
   </main>
   <?php get_footer(); ?>
 </div>
-<script type="text/javascript">
-  jQuery(function($) {
-    $.supersized({
-      // Functionality
-      slide_interval: 3000, // Length between transitions
-      transition: 1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-      transition_speed: 700, // Speed of transition
-      // Components                           
-      slide_links: 'blank', // Individual links for each slide (Options: false, 'num', 'name', 'blank')
-      slides: <?php echo $slides; ?>
-    });
-  });
-</script>
+
+</body>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    console.log(`WOW`, WOW);
-    new WOW().init();
     var splide = new Splide(".splide", {
       arrows: false,
       type: "loop",
@@ -703,14 +674,35 @@ endif
       pagination: false,
     });
     splide2.mount();
-    $(".splide-2 .slide__btn-prev").on("click", () => {
-      splide2.go("<");
-    });
-    $(".splide-2 .slide__btn-next").on("click", () => {
-      splide2.go(">");
-    });
+
+    var facilitiesList = $(
+      ".home__facilities-wrapper .home__facilities-item"
+    );
+    var popup = $(".home__facilities-popup").first();
+    for (let index = 0; index < facilitiesList.length; index++) {
+      const item = $(facilitiesList[index]);
+      const description = item
+        .find(".facility__description-wrapper p")
+        .text()
+        .trim();
+      const isLeft = index % 2 === 0;
+
+      item.hover(
+        function(e) {
+          popup
+            .text(description)
+            .toggleClass("enabled")
+            .toggleClass(isLeft ? "popup-right" : "popup-left");
+        },
+        function(e) {
+          popup
+            .text(description)
+            .toggleClass("enabled")
+            .toggleClass(isLeft ? "popup-right" : "popup-left");
+        }
+      );
+    }
   });
 </script>
-</body>
 
 </html>

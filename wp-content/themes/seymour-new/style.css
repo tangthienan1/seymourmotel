@@ -384,7 +384,7 @@ a:hover {
 }
 
 .btn__arrow p {
-  font-weight: 600;
+  font-weight: 400;
   color: #b52804;
   cursor: pointer;
   margin-right: 14px;
@@ -450,6 +450,7 @@ main > section {
 
 .local__item-wrapper p {
   visibility: hidden;
+  padding-right: 1.5rem;
 }
 
 .home__sticky-address {
@@ -717,11 +718,13 @@ main > section {
 
 .nav-topic {
   padding-top: 52px;
+  width: 440px;
 }
 
 .flex-button {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .flex-button .un-danger {
@@ -964,9 +967,12 @@ main > section {
   -o-transition: width 0.5s ease-out;
   transition: width 0.5s ease-out;
 }
-.header .mynav ul {
+.header .mynav ul:first-child {
   float: right;
   margin: 0 -12px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .header .mynav ul li {
   padding: 0 10px;
@@ -981,20 +987,20 @@ main > section {
   -o-transition: all 0.35s ease-out;
   transition: all 0.35s ease-out;
   white-space: nowrap;
-  font-size: 13px;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 20px;
 }
 .header .mynav ul li ul {
   opacity: 0;
   float: none;
   visibility: hidden;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #2e404f;
   margin: 0;
-  border-top: 25px solid rgba(255, 0, 0, 0);
+  background-color: white;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  padding: 0 20px;
+  margin-left: -20px;
 }
 .header .mynav ul li ul span.carret {
   border-right: 9px solid transparent;
@@ -1012,20 +1018,17 @@ main > section {
   padding: 0;
 }
 .header .mynav ul li ul li a {
-  color: #ffffff;
-  padding: 10px;
-  border-top: 1px solid #c3bf49;
-  font-size: 12px;
+  color: #222222;
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 24px;
 }
 .header .mynav ul li ul li ul {
   border-top: 0;
   left: 100%;
   top: 0;
 }
-.header .mynav ul li:hover > a,
-.header .mynav ul li.active > a {
-  color: #c3bf49;
-}
+
 .header .mynav ul li.bn a {
   display: inline;
   padding: 12px;
@@ -1771,9 +1774,14 @@ main > section {
 .copyright__flex-address {
   width: 200px;
 }
-
+.copyright__flex-address:hover {
+  text-decoration: underline;
+}
 .copyright__flex-policy a {
   color: #222222;
+}
+.copyright__flex-policy a:hover {
+  text-decoration: underline;
 }
 .socials {
   top: 20%;
@@ -2280,3 +2288,33 @@ main > section {
 }
 /* End Welcome */
 /*# sourceMappingURL=style.css.map */
+
+/* Nav */
+.logo__wrapper {
+  background-color: #ffe600;
+  text-align: center;
+}
+
+.logo__wrapper .logo {
+  width: 200px;
+  height: 48px;
+}
+
+.logo__wrapper .title {
+  color: black;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+.logo__wrapper .subtitle {
+  color: #a79865;
+}
+
+.navbar-nav .nav-item a {
+  font-weight: 300;
+  color: black;
+  font-size: 20px;
+  font-family: "Public Sans";
+  line-height: 24px;
+}
+
+/* End Nav */

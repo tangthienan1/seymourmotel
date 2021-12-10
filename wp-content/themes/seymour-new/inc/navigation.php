@@ -7,14 +7,16 @@
                    </a>
                </div>
                <div class="mynav nav-topic table-cell va-middle clearfix">
-                   <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'floated-list clearfix uppercase pull-right', 'menu' => 'primary')); ?>
+                   <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'floated-list clearfix pull-right', 'menu' => 'primary')); ?>
                </div>
                <div class="flex-button">
                    <div style="width:268px" class="tol_no mynav hidden-md hidden-lg un-danger">
-                       <p>CALL US +61 3 5792 15000</p>
+                       <p>CALL US +61 3 5792 1500</p>
                    </div>
                    <div class="tol_no mynav hidden-md hidden-lg danger">
-                       <p>Book now</p>
+                       <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
+                           <p>Book now</p>
+                       </a>
                    </div>
                </div>
            </div>

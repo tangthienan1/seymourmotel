@@ -13,9 +13,14 @@ $query_acco = new WP_Query($args);
 <div id="pushIt">
 	<main role="main">
 		<!-- WELCOME -->
+
 		<section>
-			<section class="row justify-content-between pb-5 pl-6">
-				<div class="col-12 col-md-8 col-lg-4 align-self-end">
+			<section class="local__header row justify-content-between pb-5 pl-6">
+				<div class="
+              col-12 col-md-8 col-lg-4
+              text-center text-md-left
+              align-self-end
+            ">
 					<h1 class="rozha-font">Local Attractions</h1>
 					<p>
 						Seymour Motel is located in a prime location alongside the Hume
@@ -25,7 +30,7 @@ $query_acco = new WP_Query($args);
 						city along the Hume Highway.
 					</p>
 				</div>
-				<div class="col-12 col-md-8 col-lg-7">
+				<div class="d-none d-md-block col-12 col-md-8 col-lg-7">
 					<img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-banner.png" alt="" />
 				</div>
 			</section>
@@ -79,14 +84,14 @@ $query_acco = new WP_Query($args);
 				<h1 class="cta__wrapper-title">Book your stay</h1>
 				<p class="cta__wrapper-description">Find the best suit you</p>
 				<div class="row justify-content-center">
-					<div class="col-12 col-md-2">
+					<div class="col-8 col-md-3 col-xl-2 pb-2">
 						<a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
 							<button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
 								BOOK NOW
 							</button>
 						</a>
 					</div>
-					<div class="col-12 col-md-2">
+					<div class="col-8 col-md-3 col-xl-2">
 						<a href="/how-to-book">
 							<button class="btn w-100 btn-lg btn-outline-primary">
 								HOW TO BOOK
@@ -96,6 +101,7 @@ $query_acco = new WP_Query($args);
 				</div>
 			</div>
 		</section>
+
 		<?php get_template_part('inc/gallery'); ?>
 
 		<!-- END WELCOME -->

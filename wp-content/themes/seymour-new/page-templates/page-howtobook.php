@@ -15,7 +15,7 @@ $query_acco = new WP_Query($args);
         <!-- WELCOME -->
 
         <section>
-            <div class="mx-auto text-center py-5" style="width: 680px">
+            <div class="mx-auto text-center py-5">
                 <h1 class="rozha-font">How to book?</h1>
             </div>
         </section>
@@ -67,12 +67,12 @@ $query_acco = new WP_Query($args);
 
         <section class="px-6">
             <div class="row">
-                <div class="col-6 pr-2">
+                <div class="col-12 col-md-6 pr-2 pb-4">
                     <h2 style="color: #c0bcb7">
                         Here are some common questions about Seymour
                     </h2>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="card my-2">
                         <div class="card-header collapsed" href="#collapseOne" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseOne">
                             <span class="title">Can I cancel my booking?</span>
@@ -179,19 +179,19 @@ $query_acco = new WP_Query($args);
         </section>
 
         <section>
-            <div class="row pr-6">
-                <div class="col-5 px-0">
+            <div class="row">
+                <div class="d-none d-md-block col-5 px-0">
                     <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/contact.png" class="img-fluid" alt="" />
                 </div>
-                <div class="col-1"></div>
-                <div class="col-5">
+                <div class="col-0 col-md-1"></div>
+                <div class="help__form-wrapper col-12 col-md-5">
                     <div class="
                 d-flex
                 justify-content-between
                 flex-column
                 howtobook__help-wrapper
               " style="height: 100%">
-                        <div class="">
+                        <div class="pb-5 pb-md-0">
                             <h2 style="color: #c0bcb7">Still need help?</h2>
                         </div>
                         <div class="d-flex flex-column">
@@ -199,8 +199,8 @@ $query_acco = new WP_Query($args);
                             <input placeholder="Let us know your email" class="seymour-input" type="text" />
                             <input placeholder="What is your question?" class="seymour-input" type="text" />
                         </div>
-                        <div>
-                            <button class="btn btn-lg btn-primary" style="margin-right: 14px">
+                        <div class="text-center text-md-left px-5 px-md-0 pt-4">
+                            <button class="btn btn-lg btn-primary w-100 w-md-auto">
                                 SEND
                             </button>
                         </div>

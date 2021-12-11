@@ -38,10 +38,10 @@ $query_acco = new WP_Query($args);
 
         <section>
             <div style="background-color: #e9e8e5" class="px-6 py-6 justify-content-between row">
-                <div class="col-3">
+                <div class="col-12 col-md-3">
                     <h2 style="color: #c0bcb7">Private Policy</h2>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6 pl-5 pl-md-0">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
                         mauris quam pretium id rutrum scelerisque dictum velit dignissim.
@@ -107,14 +107,14 @@ $query_acco = new WP_Query($args);
                 <h1 class="cta__wrapper-title">Book your stay</h1>
                 <p class="cta__wrapper-description">Find the best suit you</p>
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-2">
+                    <div class="col-8 col-md-3 col-xl-2 pb-2">
                         <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
                             <button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
                                 BOOK NOW
                             </button>
                         </a>
                     </div>
-                    <div class="col-12 col-md-2">
+                    <div class="col-8 col-md-3 col-xl-2">
                         <a href="/how-to-book">
                             <button class="btn w-100 btn-lg btn-outline-primary">
                                 HOW TO BOOK

@@ -50,14 +50,45 @@
     }
     new WOW().init();
 
+
     var splide3 = new Splide(".splide-gallery", {
       arrows: false,
       type: "loop",
-      perPage: 3,
-      pagination: true,
+      pagination: false,
       autoplay: true,
+      grid: {
+        rows: 2,
+        cols: 2,
+        gap: {
+          row: "1rem",
+          col: "1rem",
+        },
+      },
+      breakpoints: {
+        375: {
+          grid: {
+            rows: 2,
+            cols: 2,
+            gap: {
+              row: "1rem",
+              col: "1rem",
+            },
+          },
+        },
+        1440: {
+          grid: false,
+          perPage: 3,
+        },
+      },
     });
-    splide3.mount();
+    splide3.mount(window.splide.Extensions);
+    $(".splide-gallery .slide__btn-prev").on("click", () => {
+      splide3.go("<");
+    });
+    $(".splide-gallery .slide__btn-next").on("click", () => {
+      splide3.go(">");
+    });
+
 
   });
 </script>

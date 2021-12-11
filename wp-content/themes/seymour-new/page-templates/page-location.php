@@ -16,12 +16,20 @@ $query_acco = new WP_Query($args);
 
         <section>
             <section class="row justify-content-between pb-5 pr-6">
-                <div class="col-5">
+                <div class="d-none d-md-block col-md-5 col-12 wow fadeInLeft" data-wow-delay="500ms">
                     <img style="height: 725px" class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/location1.png" alt="" />
                 </div>
-                <div class="col-5 text-center d-flex flex-column justify-content-between" style="position: relative">
+                <div class="
+              col-md-5 col-12
+              text-center
+              d-flex
+              flex-column
+              wow
+              fadeInRight
+              justify-content-between
+            " data-wow-delay="500ms" style="position: relative">
                     <h1 class="rozha-font py-6">Location</h1>
-                    <div style="
+                    <div class="d-none d-md-block" style="
                 position: absolute;
                 width: 310px;
                 height: 370px;
@@ -30,7 +38,7 @@ $query_acco = new WP_Query($args);
               ">
                         <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/location3.png" alt="" />
                     </div>
-                    <div style="width: 424px; height: 260px">
+                    <div class="d-none d-md-block" style="width: 424px; height: 260px">
                         <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/location2.png" alt="" />
                     </div>
                 </div>
@@ -38,12 +46,19 @@ $query_acco = new WP_Query($args);
         </section>
 
         <section>
-            <div class="location__nav-wrapper mx-auto d-flex justify-content-center">
+            <div class="
+            location__nav-wrapper
+            mx-auto
+            d-flex
+            justify-content-between justify-content-md-center
+            px-6
+          ">
                 <h3 class="location__nav-item active">Location</h3>
-                <h3 class="location__nav-item px-5">Car/Taxi</h3>
+                <h3 class="location__nav-item px-0 px-md-5">Car/Taxi</h3>
                 <h3 class="location__nav-item">Public Transaction</h3>
             </div>
             <div class="location__map-wrapper px-6">
+                <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/map.png" alt="" />
                 <div class="location__map-popup location__map-location active">
                     <h3 class="mb-3">Seymour motel</h3>
                     <div class="d-flex" style="padding-bottom: 32px">
@@ -229,7 +244,6 @@ $query_acco = new WP_Query($args);
                         </div>
                     </div>
                 </div>
-                <img style="height: 800px" class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/map.png" alt="" />
             </div>
         </section>
 
@@ -238,14 +252,14 @@ $query_acco = new WP_Query($args);
                 <h1 class="cta__wrapper-title">Book your stay</h1>
                 <p class="cta__wrapper-description">Find the best suit you</p>
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-2">
+                    <div class="col-8 col-md-3 col-xl-2 pb-2">
                         <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
                             <button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
                                 BOOK NOW
                             </button>
                         </a>
                     </div>
-                    <div class="col-12 col-md-2">
+                    <div class="col-8 col-md-3 col-xl-2">
                         <a href="/how-to-book">
                             <button class="btn w-100 btn-lg btn-outline-primary">
                                 HOW TO BOOK

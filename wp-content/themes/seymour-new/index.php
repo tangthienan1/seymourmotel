@@ -16,7 +16,7 @@ get_header();
     </div>
 
     <section class="home__banner">
-      <section class="row justify-content-center pb-5">
+      <section class="row justify-content-center pb-5 mx-0">
         <div class="mx-auto text-center pt-5 pb-2 col-12 col-lg-8 col-xl-8">
           <h1 class="rozha-font">Seymour Motel</h1>
           <p class="home__subtitle">
@@ -61,7 +61,7 @@ get_header();
     </section>
 
     <section>
-      <div class="row justify-content-between px-6">
+      <div class="row justify-content-between px-6 mx-0">
         <div class="col-12 col-md-7 mb-5">
           <div style="padding: 54px 0">
             <div>
@@ -93,6 +93,7 @@ get_header();
               ml-auto ml-md-none
               wow
               fadeInRight
+              px-0
             ">
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcome1.png" class="img-fluid" />
           <div class="text-center home__welcome-right-second">
@@ -307,7 +308,7 @@ get_header();
     <section>
       <div class="row justify-content-between pl-6 pr-6">
         <div data-wow-delay="500ms" class="col-md-5 d-none d-md-block wow fadeInLeft">
-          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100" alt="" />
+          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100 w-100" alt="" />
         </div>
         <div class="col-12 col-lg-7 col-xl-6">
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2" data-description="Seymour Motel is an ideal rest stop for travelers as well as a

@@ -361,8 +361,6 @@ $query_acco = new WP_Query($args);
             </div>
         </section>
 
-        <?php get_template_part('inc/gallery'); ?>
-
         <!-- END WELCOME -->
     </main>
     <?php get_footer(); ?>

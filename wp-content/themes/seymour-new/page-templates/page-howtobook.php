@@ -85,7 +85,7 @@ $query_acco = new WP_Query($args);
                         <div class="collapse collapse_content" id="collapseOne">
                             <div class="d-flex card-body">
                                 <div class="pr-2">
-                                    <img style="width: 80px; height: 4px" src="./assets/arrow.png" />
+                                    <img style="width: 80px; height: 4px" src="https://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                                 </div>
                                 <div>
                                     <p>
@@ -111,7 +111,7 @@ $query_acco = new WP_Query($args);
                         <div class="collapse collapse_content" id="collapseTwo">
                             <div class="d-flex card-body">
                                 <div class="pr-2">
-                                    <img style="width: 80px; height: 4px" src="./assets/arrow.png" />
+                                    <img style="width: 80px; height: 4px" src="https://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                                 </div>
                                 <div>
                                     <p>
@@ -136,7 +136,7 @@ $query_acco = new WP_Query($args);
                         <div class="collapse collapse_content" id="collapseThree">
                             <div class="d-flex card-body">
                                 <div class="pr-2">
-                                    <img style="width: 80px; height: 4px" src="./assets/arrow.png" />
+                                    <img style="width: 80px; height: 4px" src="https://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                                 </div>
                                 <div>
                                     <p>
@@ -161,7 +161,7 @@ $query_acco = new WP_Query($args);
                         <div class="collapse collapse_content" id="collapseFour">
                             <div class="d-flex card-body">
                                 <div class="pr-2">
-                                    <img style="width: 80px; height: 4px" src="./assets/arrow.png" />
+                                    <img style="width: 80px; height: 4px" src="https://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                                 </div>
                                 <div>
                                     <p>

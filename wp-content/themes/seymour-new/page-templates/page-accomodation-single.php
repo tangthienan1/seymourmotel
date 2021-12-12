@@ -95,7 +95,7 @@ $query_acco = new WP_Query($args);
 		</section>
 
 		<section class="main__highlight">
-			<h2>Room HighLight</h2>
+			<h2>Room Highlight</h2>
 			<div class="main__highlight_container">
 				<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 					<h3>Highlight</h3>

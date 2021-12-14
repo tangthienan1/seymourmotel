@@ -93,7 +93,7 @@ get_header();
               ml-auto ml-md-none
               wow
               fadeInRight
-              px-0
+              text-center
             ">
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcome1.png" class="img-fluid" />
           <div class="text-center home__welcome-right-second">

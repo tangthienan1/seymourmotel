@@ -17,6 +17,7 @@ endif
 	<main class="main">
 		<?php get_template_part('inc/slider') ?>
 		<div class="section welcome">
+			<i class="fab fa-facebook"></i>
 			<div class="container">
 				<?php if (is_active_sidebar('welcome')) : ?>
 
@@ -46,7 +47,7 @@ endif
 			<div class="container">
 				<div class="s-heading">
 					<h2>
-						<i class="fa fa-check" aria-hidden="true"></i>&nbsp;What Our Guests Say About Seymour Motel
+						<i class="fab fa-facebook"></i><i class="fa fa-check" aria-hidden="true"></i>&nbsp;What Our Guests Say About Seymour Motel
 					</h2>
 				</div>
 				<div class="vspace10px"></div>

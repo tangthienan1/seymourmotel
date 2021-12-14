@@ -1,13 +1,13 @@
 <div class="copyright">
   <div class="copyright__flex">
     <div class="copyright__flex-policy">
-      <a href="/seymour-policy" style="text-decorator: underline !important">Privacy Policy</a>
+      <a href="/seymour-policy" style="text-decoration: underline !important">Privacy Policy</a>
       <p class="text -center">&copy;<?php echo date('Y') - 1; ?> Seymour Motel. All Rights Reserved.</p>
     </div>
     <div class="copyright__flex-society">
       <div class="text-center">
-        <img class="mr-1" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/instagram.png" />
-        <img class="" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/facebook.png" />
+        <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/instagram.svg" />
+        <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/facebook.svg" />
       </div>
     </div>
     <div class="copyright__flex-address">144 Goulburn Valley Hwy, Seymour, VIC 3660</div>

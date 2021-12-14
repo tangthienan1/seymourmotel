@@ -115,7 +115,7 @@ Version: 1.0
 .mynav .current-menu-item .sub-menu a:hover {
   text-decoration: underline;
 }
-.flex-button .un-danger p:last-child {
+.header .flex-button .un-danger p:last-child {
   display: none;
 }
 .menu-item-has-children a:first-child:hover {
@@ -256,7 +256,7 @@ address a {
     height: 90px;
   }
   .nav-padding {
-    padding: 0 56px;
+    padding: 0 60px;
   }
   .nav-topic {
     padding: 33px 0;
@@ -272,19 +272,22 @@ address a {
   .header .logo a img {
     width: 150px;
   }
-  .flex-button .un-danger {
+  .header .flex-button .un-danger {
     width: 132px !important;
   }
-  .flex-button .danger {
+  .header .flex-button .danger {
     width: 210px !important;
   }
-  .flex-button .un-danger p:last-child {
+  .header .flex-button .un-danger p:last-child {
     display: inline-block;
   }
-  .flex-button .un-danger p:first-child {
+  .header .flex-button .un-danger p:first-child {
     display: none;
   }
-  .tol_no {
+  .header .tol_no {
     margin: 17px 0;
+  }
+  .tol_no {
+    margin: 60px 0;
   }
 }

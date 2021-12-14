@@ -118,6 +118,9 @@ h2 {
 h3 {
   font-size: 36px;
 }
+h4 {
+  font-size: 36px;
+}
 
 .subtitle {
   font-size: 20px;
@@ -186,6 +189,12 @@ a:hover {
 }
 .pdd-120 {
   padding: 120px 0;
+}
+.p-title {
+  padding: 120px 0 88px;
+}
+.p-wrapper {
+  padding: 0 60px;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   h2 {
@@ -297,6 +306,7 @@ a:hover {
 }
 
 .room__type-right .room__type-price {
+  text-align: right;
   left: 0;
   top: 0;
 }
@@ -395,8 +405,8 @@ a:hover {
 }
 
 .btn__arrow img {
-  width: 90px;
-  height: 4px;
+  width: 90px !important;
+  height: 4px !important;
 }
 
 .btn__arrow:hover p {
@@ -405,7 +415,7 @@ a:hover {
 }
 
 .btn__arrow:hover img {
-  width: 40px;
+  width: 40px !important;
 }
 
 .slide__btn {
@@ -598,6 +608,20 @@ main > section {
 }
 
 /* LOCATION */
+.main__location_intro {
+  padding-top: 120px;
+}
+.main__location_intro .vertical-img {
+  position: absolute;
+  width: 310px;
+  height: 370px;
+  bottom: 83px;
+  right: 0;
+}
+.main__location_intro .horizontal-img {
+  width: 424px;
+  height: 260px;
+}
 .location__nav-wrapper {
   margin-bottom: 120px;
 }
@@ -764,11 +788,23 @@ main > section {
 
 /* IPAD */
 @media (max-width: 1439px) {
+  main {
+    padding-top: 90px;
+  }
+  .p-title {
+    padding: 80px 0;
+  }
   h1 {
     font-size: 72px;
   }
   h2 {
     font-size: 36px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 24px;
   }
   main > section:not(:first-child) {
     padding-bottom: 160px;
@@ -800,7 +836,14 @@ main > section {
     top: 70%;
     transform: translate(-200px, 0);
   }
-
+  .main__more_title {
+    color: #c0bcb7;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    padding-bottom: 120px;
+  }
   .room__type-wrapper > img {
     height: 274px;
   }
@@ -840,6 +883,182 @@ main > section {
     height: 230px;
     margin-bottom: 14px;
   }
+  /* Accommodation */
+  .slider__title {
+    width: 366px;
+    height: 85px;
+  }
+  .slider__title h2 {
+    font-size: 48px;
+  }
+  .main-container {
+    padding-bottom: 190px;
+  }
+  .main__banner_wrapper {
+    height: 628px !important;
+  }
+  .main__banner_info {
+    bottom: 0;
+    width: 600px !important;
+    height: 477px !important;
+    padding: 64px 156px 224px 78px !important;
+  }
+  .main__banner_img {
+    top: 0;
+    width: 444px !important;
+    height: 460px !important;
+  }
+  .main__highlight h2 {
+    font-size: 36px !important;
+    line-height: 48px !important;
+  }
+  .main__highlight_container {
+    height: 703px !important;
+  }
+  .main__highlight .main__highlight_container-highlight {
+    width: 366px !important;
+  }
+  .main__highlight_container div:last-child {
+    width: 262px !important;
+  }
+  .main__highlight_container-img1 img {
+    width: 368px;
+    height: 232px;
+  }
+  .main__highlight_container-img2 img {
+    width: 444px;
+    height: 274px;
+    top: 152px;
+    left: 156px;
+  }
+  .main__highlight_container-img3 img {
+    width: 288px;
+    height: 367px;
+    right: 158px !important;
+  }
+  .main__highlight_container-img2 {
+    top: 152px !important;
+    left: 156px !important;
+  }
+  .main__highlight_container-img3 {
+    right: 158px !important;
+  }
+  .main__highlight .main__highlight_container div:last-child {
+    top: 502px !important;
+    left: 156px !important;
+  }
+  .main__facilities .main__facilities-img img {
+    width: 344px;
+    height: 700px;
+    object-fit: none;
+  }
+  .main__facilities-info p {
+    width: 366px;
+  }
+  .main__more_title {
+    padding-bottom: 96px !important;
+  }
+  .room__type-wrapper {
+    margin-bottom: 120px !important;
+  }
+  /* End Accommodation */
+  /* Welcome */
+  .main__img {
+    padding: 120px 60px 110px !important;
+  }
+  .main__img img {
+    width: 834px !important;
+    height: 360px !important;
+  }
+
+  .main__intro {
+    margin-top: 80px;
+    height: 524px !important;
+    padding-bottom: 0 !important;
+  }
+  .main__intro-left {
+    font-size: 36px;
+    line-height: 48px;
+    width: 600px;
+    height: 144px;
+  }
+  .main__intro-right {
+    width: 366px !important;
+    height: 140px !important;
+  }
+  .main__mission {
+    padding: 0 134px 160px !important;
+  }
+  .main__mission_content {
+    width: 756px !important;
+    height: 482px !important;
+    gap: 102px !important;
+  }
+  .main__mission_content-text {
+    width: 366px !important;
+  }
+  .main__mission-quote {
+    width: 366px !important;
+    height: 90px !important;
+  }
+  .main__mission-quote h3 {
+    width: 288px !important;
+  }
+  .main__mission-quote img {
+    width: 131px !important;
+    height: 90px !important;
+  }
+  /* End Welcome */
+  /* CTA */
+  .cta__wrapper {
+    padding: 88px 0;
+  }
+  /* End CTA */
+  /* Why us */
+  .main__why_wrapper img {
+    width: 302px;
+    height: 410px;
+  }
+  .main__why_wrapper-location {
+    width: 288px !important;
+  }
+  /* End Why us */
+  /* Location */
+  .location__nav-wrapper {
+    padding-top: 80px;
+  }
+  .location__map-wrapper {
+    padding: 0 60px;
+  }
+  .main__location_intro {
+    padding-top: 80px !important;
+    padding-right: 60px !important;
+  }
+
+  .main__location_intro div:first-child img {
+    height: 510px !important;
+  }
+
+  .main__location_intro div:last-child {
+    text-align: left !important;
+  }
+  .main__location_intro div:last-child img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .main__location_intro div:last-child div:first-child {
+    height: 210px !important;
+    width: 250px !important;
+  }
+  .main__location_intro .vertical-img {
+    width: 210px !important;
+    height: 250px !important;
+  }
+  .main__location_intro .horizontal-img {
+    width: 288px !important;
+    height: 176px !important;
+  }
+  /* End Location */
 }
 
 /* MOBILE */
@@ -1026,8 +1245,11 @@ main > section {
 }
 
 .flex-button .un-danger {
-  color: #b52804;
+  color: #b52804 !important;
   transition: 0.3s;
+}
+.flex-button .un-danger a {
+  color: #b52804 !important;
 }
 .un-danger:hover {
   background-color: #edded9;
@@ -1971,6 +2193,11 @@ main > section {
 .copyright__flex-policy a:hover {
   text-decoration: underline;
 }
+.copyright__flex-society img:hover {
+  filter: invert(11%) sepia(0%) saturate(4%) hue-rotate(254deg) brightness(98%)
+    contrast(0%);
+  transition: 0.3s;
+}
 .socials {
   top: 20%;
   right: auto;
@@ -2269,6 +2496,7 @@ main > section {
   font-size: 48px;
   line-height: 52px;
   text-align: center;
+  margin-bottom: 150px;
 }
 .main__highlight .main__highlight_container-highlight {
   display: flex;
@@ -2277,7 +2505,6 @@ main > section {
   width: 424px;
 }
 .main__highlight_container {
-  margin-top: 150px;
   position: relative;
   width: 100%;
   height: 990px;
@@ -2442,11 +2669,15 @@ main > section {
   padding: 120px 0 110px 0;
   text-align: right;
 }
+.main__img img {
+  width: 1268px;
+  height: 420px;
+}
 /* End welcome img */
 
 /* Welcome Mission */
 .main__mission {
-  padding: 0 172px 331px;
+  padding: 0 172px 200px;
 }
 .main__mission .main__mission_content {
   display: inline-flex;
@@ -2456,25 +2687,64 @@ main > section {
   font-size: 36px;
   line-height: 40px;
 }
-.main__mission .main__mission_content .main__mission_content-text {
+.main__mission_content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   width: 536px;
-  height: 180px;
+  height: 433px;
   font-weight: 200;
   font-size: 16px;
   line-height: 20px;
 }
+.main__mission-quote {
+  position: relative;
 
+  width: 512px;
+  height: 122px;
+}
+.main__mission-quote img {
+  position: absolute;
+  right: 0;
+
+  width: 173px;
+  height: 119px;
+}
+.main__mission-quote h3 {
+  position: absolute;
+  width: 424px;
+  bottom: 0;
+  z-index: 2;
+}
 /* End Welcome Mission */
 
-/* Welcome */
+/* Why us */
 .main__why {
   padding: 0 60px 200px;
+}
+.main__why h2 {
+  color: #c0bcb7;
+  text-align: center;
+  margin-bottom: 120px;
 }
 .main__why_wrapper {
   display: flex;
   gap: 72px;
 }
-/* End Welcome */
+.main__why_wrapper:first-child {
+  padding-bottom: 160px;
+}
+.main__why_wrapper-location {
+  width: 424px;
+}
+.main__why_wrapper-location h3 {
+  font-weight: 500px;
+}
+.main__why_wrapper-location p:first-child {
+  font-weight: 200px;
+}
+/* End Why us */
 /*# sourceMappingURL=style.css.map */
 
 /* Nav */

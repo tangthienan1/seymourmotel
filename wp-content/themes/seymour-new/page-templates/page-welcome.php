@@ -13,11 +13,11 @@ $query_acco = new WP_Query($args);
 <div id="pushIt">
     <main class="main">
         <section class="main-container">
-            <div class="mx-auto text-center py-5" style="width: 952px">
+            <div class="mx-auto text-center p-title">
                 <h1 class="rozha-font">Welcome to Seymour</h1>
             </div>
             <!-- Slider -->
-            <div class="splide px-6">
+            <div class="splide p-wrapper">
                 <div class="splide__arrows d-flex justify-content-center">
                     <div class="text-right pr-4 slide__btn slide__btn-prev">
                         <p class="mb-0">Previous</p>
@@ -79,10 +79,10 @@ $query_acco = new WP_Query($args);
         <section class="main__mission">
             <div class="main__mission_content">
                 <div class="main__mission_content-title wow fadeInRight" data-wow-delay="500ms">
-                    <h3>Our mission & vission</h3>
+                    <h4>Our mission & vission</h4>
                 </div>
                 <div class="main__mission_content-text">
-                    <p style="margin-bottom: 131px;" class="wow fadeInRight" data-wow-delay="500ms">
+                    <p class="wow fadeInRight" data-wow-delay="500ms">
                         Despite the fact that our services are extremely affordable, we never
                         sacrifice quality for the sake of saving money. With that vision in
                         mind, we've received a lot of positive feedback from our guests over
@@ -93,9 +93,9 @@ $query_acco = new WP_Query($args);
                         us to be one of the best country Victoria lodging providers, which
                         fuels our desire to improve.
                     </p>
-                    <div class="main__mission-quote" style="width:512px;height:122px;position:relative">
-                        <img style="width:173px; height:119px; position:absolute; right:0" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/qoute.png" alt="" />
-                        <h3 style="position:absolute; bottom:0; z-index:2">“Better accommodation for better price”</h3>
+                    <div class="main__mission-quote">
+                        <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/qoute.png" alt="" />
+                        <h3>“Better accommodation for better price”</h3>
                     </div>
                 </div>
             </div>
@@ -123,12 +123,12 @@ $query_acco = new WP_Query($args);
         <!-- 		END CTA -->
         <!-- Why us -->
         <section class="main__why">
-            <h2 style="color: '#C0BCB7'; text-align:center; margin-bottom: 120px; color:#C0BCB7">Why us</h2>
+            <h2>Why us</h2>
             <div class="main__why_relative">
-                <div class="main__why_wrapper wow fadeInRight" data-wow-delay="500ms" style="padding-bottom: 160px">
-                    <div style="width: 424px">
-                        <h3 style="font-weight: 500" class="pb-2">Location</h3>
-                        <p style="font-weight: 200">
+                <div class="main__why_wrapper wow fadeInRight" data-wow-delay="500ms">
+                    <div class="main__why_wrapper-location">
+                        <h3 class="pb-2">Location</h3>
+                        <p>
                             Seymour is located next to the Hume Highway and is approximately an hour away from Melbourn
                         </p>
                         <a href="/location">
@@ -141,9 +141,9 @@ $query_acco = new WP_Query($args);
                     <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcomeimg1.png" />
                 </div>
                 <div class="main__why_wrapper wow fadeInRight" data-wow-delay="500ms" style="justify-content:end">
-                    <div style="width: 424px">
-                        <h3 style="font-weight: 500; padding-bottom: 120px" class="pb-2">Your safe</h3>
-                        <p style="font-weight: 200">
+                    <div class="main__why_wrapper-location">
+                        <h3 class="pb-2">Your safe</h3>
+                        <p>
                             Seymour is located next to the Hume Highway and is approximately an hour away from Melbourn </p>
                         <a href="/location">
                             <div class="d-flex align-items-center btn__arrow">

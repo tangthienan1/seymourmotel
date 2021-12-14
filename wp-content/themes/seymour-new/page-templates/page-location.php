@@ -15,8 +15,8 @@ $query_acco = new WP_Query($args);
         <!-- WELCOME -->
 
         <section>
-            <section class="row justify-content-between pb-5 pr-6">
-                <div class="d-none d-md-block col-md-5 col-12 wow fadeInLeft" data-wow-delay="500ms">
+            <section class="main__location_intro row justify-content-between pr-6">
+                <div class="left_img d-none d-md-block col-md-5 col-12 wow fadeInLeft" data-wow-delay="500ms">
                     <img style="height: 725px" class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/location1.png" alt="" />
                 </div>
                 <div class="
@@ -29,16 +29,10 @@ $query_acco = new WP_Query($args);
               justify-content-between
             " data-wow-delay="500ms" style="position: relative">
                     <h1 class="rozha-font py-6">Location</h1>
-                    <div class="d-none d-md-block" style="
-                position: absolute;
-                width: 310px;
-                height: 370px;
-                bottom: 83px;
-                right: 0;
-              ">
+                    <div class="vertical-img d-none d-md-block">
                         <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/location3.png" alt="" />
                     </div>
-                    <div class="d-none d-md-block" style="width: 424px; height: 260px">
+                    <div class="horizontal-img d-none d-md-block">
                         <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/location2.png" alt="" />
                     </div>
                 </div>

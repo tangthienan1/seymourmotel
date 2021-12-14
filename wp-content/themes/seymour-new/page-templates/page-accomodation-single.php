@@ -13,11 +13,11 @@ $query_acco = new WP_Query($args);
 <div id="pushIt">
 	<main class="main">
 		<section class="main-container">
-			<div class="mx-auto text-center py-5" style="width: 680px">
+			<div class="mx-auto text-center p-title" style="width: 680px">
 				<h1 class="rozha-font">Accommodation</h1>
 			</div>
 			<!-- arrow controls -->
-			<div class="splide px-6">
+			<div class="splide p-wrapper">
 				<div class="splide__arrows d-flex justify-content-center">
 					<div class="text-right pr-4 slide__btn slide__btn-prev">
 						<p class="mb-0">Previous</p>
@@ -72,7 +72,8 @@ $query_acco = new WP_Query($args);
 							Free Breakfast
 						</span>
 						<span>
-							<img src="<?php bloginfo('template_directory'); ?>/icons/tick.png"> Free Parking
+							<img src="<?php bloginfo('template_directory'); ?>/icons/tick.png">
+							Free Parking
 						</span>
 					</div>
 					<div class="main__banner_info-button flex-button">
@@ -237,13 +238,7 @@ $query_acco = new WP_Query($args);
 		<section>
 
 			<div class="px-6">
-				<h2 style="color: #c0bcb7;
-							font-weight: 500;
-							font-size: 48px;
-							line-height: 52px;
-							text-align: center;
-							padding-bottom: 120px;
-							">
+				<h2 class="main__more_title">
 					More Options</h2>
 
 				<div class="row justify-content-end">

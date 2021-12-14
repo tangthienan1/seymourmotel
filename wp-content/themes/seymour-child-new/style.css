@@ -7,6 +7,105 @@ Template: seymour-new
 Version: 1.0
 */
 @import url("../seymour-new/style.css");
+.header {
+  height: 120px;
+  background-color: #fff;
+  width: 100%;
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  -webkit-transition: padding 0.5s ease-out;
+  -o-transition: padding 0.5s ease-out;
+  transition: padding 0.5s ease-out;
+}
+
+.header .h-top {
+  padding: 10px 0;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.header .h-top span {
+  color: #040404;
+  opacity: 0.85;
+}
+
+.header .mynav ul:first-child {
+  float: right;
+  margin: 0 -12px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.header .mynav ul li {
+  padding: 0 10px;
+  position: relative;
+}
+.header .mynav ul li a {
+  color: #222222;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+  white-space: nowrap;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.header .mynav ul li ul {
+  opacity: 0;
+  float: none;
+  visibility: hidden;
+  margin: 0;
+  background-color: white;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 0 20px;
+  margin-left: -20px;
+}
+.header .mynav ul li ul span.carret {
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #c3bf49;
+  border-left: 9px solid transparent;
+  top: 0;
+  left: 20%;
+  -webkit-transform: translate(-50%, -100%);
+  -ms-transform: translate(-50%, -100%);
+  -o-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
+}
+.header .mynav ul li ul li {
+  float: none;
+  padding: 0;
+}
+.header .mynav ul li ul li a {
+  color: #222222;
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.header .mynav ul li ul li ul {
+  border-top: 0;
+  left: 100%;
+  top: 0;
+}
+
+.header .mynav ul li.bn a {
+  display: inline;
+  padding: 12px;
+  border: 1px solid #c3bf49;
+  color: #ffffff;
+}
+.header .mynav ul li.bn:hover a {
+  color: #c3bf49;
+  border: 1px solid #ffffff;
+}
+.header .mynav ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s;
+}
 .mynav .current-menu-item a {
   text-decoration: underline;
 }
@@ -16,6 +115,9 @@ Version: 1.0
 .mynav .current-menu-item .sub-menu a:hover {
   text-decoration: underline;
 }
+.flex-button .un-danger p:last-child {
+  display: none;
+}
 .menu-item-has-children a:first-child:hover {
   /* border-bottom: 1px solid #434343; */
   text-decoration: underline;
@@ -24,6 +126,11 @@ Version: 1.0
   /* border-bottom: 1px solid #434343; */
   transform: rotate(180deg);
   margin-left: 4px;
+  margin-right: -4px;
+}
+.nav-topic {
+  padding: 48px 0;
+  width: 440px;
 }
 .nav-padding {
   padding: 0 60px;
@@ -96,8 +203,24 @@ address a {
   text-decoration: underline;
 }
 
+.logo {
+  width: 280px;
+  height: 120px;
+  background-color: #ffe600;
+  text-align: center;
+}
+.logo__text h1 {
+  font-family: "Rozha One" !important;
+}
+.header .logo a {
+  display: block;
+  padding: 42px;
+}
 .header .logo a img {
-  width: 200px !important;
+  width: 200px;
+  -webkit-transition: width 0.5s ease-out;
+  -o-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
 }
 .tol_no {
   margin: 3em 0;
@@ -106,23 +229,18 @@ address a {
   border: 1px solid #b52804;
   text-align: center;
   height: 56px;
-  min-width: 200px;
+  border-radius: 2px;
 }
 .tol_no p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
-  padding: 16px 0;
-  font-weight: 600;
+  padding: 16px 24px;
+  font-weight: 500;
+  transition: 0.3s;
 }
 .tol_no h3 {
   margin: 0px;
   color: #c3bf49;
-}
-@media (min-width: 480px) and (max-width: 768px) {
-  .tol_no {
-    position: relative;
-    text-align: left;
-  }
 }
 
 #message {
@@ -131,4 +249,42 @@ address a {
 
 .carousel-inner .item p {
   color: #fafafa;
+}
+/* IPAD */
+@media (max-width: 1439px) {
+  .header {
+    height: 90px;
+  }
+  .nav-padding {
+    padding: 0 56px;
+  }
+  .nav-topic {
+    padding: 33px 0;
+    width: 440px;
+  }
+  .logo {
+    width: 210px;
+    height: 90px;
+  }
+  .header .logo a {
+    padding: 27px 30px;
+  }
+  .header .logo a img {
+    width: 150px;
+  }
+  .flex-button .un-danger {
+    width: 132px !important;
+  }
+  .flex-button .danger {
+    width: 210px !important;
+  }
+  .flex-button .un-danger p:last-child {
+    display: inline-block;
+  }
+  .flex-button .un-danger p:first-child {
+    display: none;
+  }
+  .tol_no {
+    margin: 17px 0;
+  }
 }

@@ -80,8 +80,8 @@ get_header();
           </div>
         </div>
         <div class="col-4 d-md-none">
-          <div class="d-sm-none btn__arrow align-items-center mb-4 p-0">
-            <p class="mb-0">DISCOVER</p>
+          <div class="d-md-flex d-none btn__arrow align-items-center mb-4" style="transform: translate(25%, 0)">
+            <p style="object-fit: contain" class="mb-0">DISCOVER</p>
             <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
           </div>
         </div>

@@ -12,6 +12,30 @@
     </div>
     <div class="copyright__flex-address">144 Goulburn Valley Hwy, Seymour, VIC 3660</div>
   </div>
+  <div class="modal fade" id="book-modal-wrapper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="book__popup-wraper modal-body">
+          <p>
+            Remember! It’s <span style="color: #b52804">cheaper</span> to
+            book direct <br />
+            than anywhere else online!
+          </p>
+          <p style="opacity: 0.7" class="mt-3">
+            If you find a cheaper rate call us direct on +61 3 5792 1500
+            <br />
+            and we’ll beat the price!
+          </p>
+          <a href="tel:+61357921500" class="btn btn-primary btn-lg w-100 mt-4">
+            DIRECT BOOKING +61 3 5792 1500
+          </a>
+          <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
+            <p class="book__popup-btn-online mt-2">BOOK ONLINE ANYWAY</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="social clear clearfix">
     <div class="div-center">
       <?php dynamic_sidebar('social-links'); ?>

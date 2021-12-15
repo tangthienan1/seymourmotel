@@ -41,40 +41,80 @@ $query_acco = new WP_Query($args);
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-1.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Snowfields</h3>
+					<p>
+						Goulburn River is famous for many other interesting activities for
+						those who love adventurous outdoor activities such as fishing or
+						boating,
+					</p>
 				</div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-2.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Galleries & Exhibition</h3>
+					<p>
+						Goulburn River is famous for many other interesting activities for
+						those who love adventurous outdoor activities such as fishing or
+						boating,
+					</p>
 				</div>
 			</div>
 			<div class="row justify-content-start">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-3.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">History & Heritage</h3>
+					<p>
+						Goulburn River is famous for many other interesting activities for
+						those who love adventurous outdoor activities such as fishing or
+						boating,
+					</p>
 				</div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-4.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Fishing</h3>
+					<p>
+						Goulburn River is famous for many other interesting activities for
+						those who love adventurous outdoor activities such as fishing or
+						boating,
+					</p>
 				</div>
 			</div>
 			<div class="row justify-content-start">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-5.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">River Activities</h3>
+					<p>
+						Goulburn River is famous for many other interesting activities for
+						those who love adventurous outdoor activities such as fishing or
+						boating,
+					</p>
 				</div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-6.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Great Outdoors</h3>
+					<p>
+						Goulburn River is famous for many other interesting activities for
+						those who love adventurous outdoor activities such as fishing or
+						boating,
+					</p>
 				</div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-7.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Sport & Leisure</h3>
+					<p>
+						Goulburn River is famous for many other interesting activities for
+						those who love adventurous outdoor activities such as fishing or
+						boating,
+					</p>
 				</div>
 			</div>
 			<div class="row justify-content-start">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-8.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Activity Trails</h3>
+					<p>
+						Goulburn River is famous for many other interesting activities for
+						those who love adventurous outdoor activities such as fishing or
+						boating,
+					</p>
 				</div>
 			</div>
 		</section>
@@ -85,11 +125,9 @@ $query_acco = new WP_Query($args);
 				<p class="cta__wrapper-description">Find the best suit you</p>
 				<div class="row justify-content-center">
 					<div class="col-8 col-md-3 col-xl-2 pb-2">
-						<a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
-							<button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
-								BOOK NOW
-							</button>
-						</a>
+						<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#book-modal-wrapper">
+							BOOK NOW
+						</button>
 					</div>
 					<div class="col-8 col-md-3 col-xl-2">
 						<a href="/how-to-book">

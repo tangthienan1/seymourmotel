@@ -522,6 +522,29 @@ main > section {
   padding-bottom: 160px;
 }
 
+.local__gallery-wrapper .row > div p {
+  visibility: hidden;
+}
+
+.local__gallery-wrapper .row > div:hover p {
+  visibility: visible;
+}
+
+.book__popup-wraper {
+  text-align: center;
+  padding: 64px 112px;
+}
+
+.book__popup-wraper .book__popup-btn-online {
+  color: #b52804;
+  opacity: 0.7;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 16px;
+  text-underline-offset: 0.3rem;
+}
+
 /* FACILITIES */
 
 .facilities__adrress-wrapper {
@@ -815,6 +838,10 @@ main > section {
     padding-bottom: 80px;
   }
 
+  .room__type-wrapper .room__type-discover {
+    display: block;
+  }
+
   .home__welcome-right .home__welcome-right-second .btn__arrow {
     flex-direction: column;
     transform: translate(25%, 0);
@@ -882,6 +909,11 @@ main > section {
     width: 100%;
     height: 230px;
     margin-bottom: 14px;
+  }
+
+  /* LOCAL ACCTRACTIONS */
+  .book__popup-wraper {
+    padding: 48px 56px;
   }
   /* Accommodation */
   .slider__title {
@@ -1206,6 +1238,9 @@ main > section {
   .local__gallery-wrapper h3 {
     font-size: 20px;
     font-weight: 300;
+  }
+  .book__popup-wraper {
+    padding: 48px 24px;
   }
 }
 

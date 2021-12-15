@@ -108,11 +108,9 @@ $query_acco = new WP_Query($args);
                 <p class="cta__wrapper-description">Find the best suit you</p>
                 <div class="row justify-content-center">
                     <div class="col-8 col-md-3 col-xl-2 pb-2">
-                        <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
-                            <button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
-                                BOOK NOW
-                            </button>
-                        </a>
+                        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#book-modal-wrapper">
+                            BOOK NOW
+                        </button>
                     </div>
                     <div class="col-8 col-md-3 col-xl-2">
                         <a href="/how-to-book">

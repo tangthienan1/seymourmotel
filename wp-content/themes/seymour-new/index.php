@@ -88,7 +88,7 @@ get_header();
 
         <div data-wow-delay="500ms" class="
               home__welcome-right
-              col-8 col-md-4
+              col-8 col-md-5
               text-right
               ml-auto ml-md-none
               wow
@@ -150,7 +150,7 @@ get_header();
     <section>
       <div class="px-6">
         <div class="row" style="margin-bottom: 160px">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-7">
             <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2">
               Explore rooms & suites
             </h2>
@@ -287,13 +287,13 @@ get_header();
         <h1 class="cta__wrapper-title">Book your stay</h1>
         <p class="cta__wrapper-description">Find the best suit you</p>
         <div class="row justify-content-center">
-          <div class="col-8 col-md-3 col-xl-2 pb-2">
-            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#book-modal-wrapper">
+          <div class="col-8 col-md-4 col-xl-2 pb-2">
+            <button data-toggle="modal" data-target="#book-modal-wrapper" class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
               BOOK NOW
             </button>
           </div>
-          <div class="col-8 col-md-3 col-xl-2">
-            <a href="/how-to-book">
+          <div class="col-8 col-md-4 col-xl-2">
+            <a href="./how-to-book.html">
               <button class="btn w-100 btn-lg btn-outline-primary">
                 HOW TO BOOK
               </button>
@@ -722,7 +722,7 @@ get_header();
       perPage: 3,
       pagination: false,
       breakpoints: {
-        375: {
+        425: {
           perPage: 1,
         },
         1024: {

@@ -89,7 +89,7 @@
         },
       },
       breakpoints: {
-        375: {
+        425: {
           grid: {
             rows: 2,
             cols: 2,
@@ -99,7 +99,7 @@
             },
           },
         },
-        1440: {
+        2560: {
           grid: false,
           perPage: 3,
         },

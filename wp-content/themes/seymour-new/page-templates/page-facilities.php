@@ -15,7 +15,7 @@ $query_acco = new WP_Query($args);
         <!-- WELCOME -->
 
         <section>
-            <section class="row justify-content-between pb-5 px-6">
+            <section class="row justify-content-between pb-5 px-6  mx-0">
                 <div class="
               col-12 col-md-8 col-lg-6
               text-center text-md-left
@@ -323,7 +323,7 @@ $query_acco = new WP_Query($args);
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-md-block col-12 col-md-8 col-lg-5">
+                <div class="d-none d-md-block col-12 col-md-4 col-lg-5">
                     <div class="facilities__adrress-wrapper">
                         <div class="facilities__adrress-inner">
                             <img class="img-fluid w-100" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/facilities-banner.png" alt="" />
@@ -342,13 +342,13 @@ $query_acco = new WP_Query($args);
             <div class="text-center cta__wrapper py-6">
                 <h1 class="cta__wrapper-title">Book your stay</h1>
                 <p class="cta__wrapper-description">Find the best suit you</p>
-                <div class="row justify-content-center">
-                    <div class="col-8 col-md-3 col-xl-2 pb-2">
+                <div class="row justify-content-center  mx-0">
+                    <div class="col-8 col-md-6 col-xl-3 pb-2">
                         <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#book-modal-wrapper">
                             BOOK NOW
                         </button>
                     </div>
-                    <div class="col-8 col-md-3 col-xl-2">
+                    <div class="col-8 col-md-6 col-xl-3">
                         <a href="/how-to-book">
                             <button class="btn w-100 btn-lg btn-outline-primary">
                                 HOW TO BOOK

@@ -1102,6 +1102,16 @@ main > section {
     height: 176px !important;
   }
   /* End Location */
+
+  /* FACILITIES */
+
+  .facilities__adrress-wrapper
+    .facilities__adrress-inner
+    .facilities__adrress-content {
+    padding: 20px 0 20px 0px;
+  }
+
+  /* END FACILITIES */
 }
 
 /* MOBILE */

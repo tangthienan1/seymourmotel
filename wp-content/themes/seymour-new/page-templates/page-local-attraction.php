@@ -17,9 +17,10 @@ $query_acco = new WP_Query($args);
 		<section>
 			<section class="local__header row justify-content-between pb-5 pl-6 mx-0">
 				<div class="
-              col-12 col-md-8 col-lg-4
+				col-12 col-md-6 col-lg-4
               text-center text-md-left
               align-self-end
+              pl-0
             ">
 					<h1 class="rozha-font">Local Attractions</h1>
 					<p>
@@ -30,7 +31,7 @@ $query_acco = new WP_Query($args);
 						city along the Hume Highway.
 					</p>
 				</div>
-				<div class="d-none d-md-block col-12 col-md-8 col-lg-7">
+				<div class="d-none col-12 d-md-block col-md-6 col-lg-7 pr-0">
 					<img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-banner.png" alt="" />
 				</div>
 			</section>

@@ -852,7 +852,6 @@ main > section {
   }
 
   .home__welcome-right .home__welcome-right-second .btn__arrow {
-    flex-direction: column;
     transform: translate(25%, 0);
   }
 

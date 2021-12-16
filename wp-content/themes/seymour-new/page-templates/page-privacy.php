@@ -14,7 +14,7 @@ $query_acco = new WP_Query($args);
     <main role="main">
         <!-- WELCOME -->
 
-        <section class="row justify-content-center">
+        <section class="row justify-content-center mx-0">
             <div class="
             mx-auto
             text-center
@@ -23,7 +23,7 @@ $query_acco = new WP_Query($args);
             container-sm
             col-12 col-md-8 col-lg-8
           ">
-                <h1 class="rozha-font">Seymour Privacy</h1>
+                <h1 class="rozha-font">Seymour Policy</h1>
             </div>
             <div class="col-12 col-md-8 col-lg-6">
                 <p class="px-4" style="font-size: 20px; text-align: center">
@@ -37,7 +37,7 @@ $query_acco = new WP_Query($args);
         </section>
 
         <section>
-            <div style="background-color: #e9e8e5" class="px-6 py-6 justify-content-between row">
+            <div style="background-color: #e9e8e5" class="px-6 py-6 justify-content-between row  mx-0">
                 <div class="col-12 col-md-3">
                     <h2 style="color: #c0bcb7">Private Policy</h2>
                 </div>
@@ -106,14 +106,14 @@ $query_acco = new WP_Query($args);
             <div class="text-center cta__wrapper py-6">
                 <h1 class="cta__wrapper-title">Book your stay</h1>
                 <p class="cta__wrapper-description">Find the best suit you</p>
-                <div class="row justify-content-center">
-                    <div class="col-8 col-md-3 col-xl-2 pb-2">
-                        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#book-modal-wrapper">
+                <div class="row justify-content-center mx-0">
+                    <div class="col-8 col-md-6 col-xl-3 pb-2">
+                        <button class="btn w-100 btn-lg btn-primary" data-toggle="modal" data-target="#book-modal-wrapper" style="margin-right: 14px">
                             BOOK NOW
                         </button>
                     </div>
-                    <div class="col-8 col-md-3 col-xl-2">
-                        <a href="/how-to-book">
+                    <div class="col-8 col-md-6 col-xl-3">
+                        <a href="./how-to-book.html">
                             <button class="btn w-100 btn-lg btn-outline-primary">
                                 HOW TO BOOK
                             </button>

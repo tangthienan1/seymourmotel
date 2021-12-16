@@ -15,7 +15,7 @@ $query_acco = new WP_Query($args);
 		<!-- WELCOME -->
 
 		<section>
-			<section class="local__header row justify-content-between pb-5 pl-6">
+			<section class="local__header row justify-content-between pb-5 pl-6 mx-0">
 				<div class="
               col-12 col-md-8 col-lg-4
               text-center text-md-left
@@ -37,7 +37,7 @@ $query_acco = new WP_Query($args);
 		</section>
 
 		<section class="local__gallery-wrapper px-6">
-			<div class="row justify-content-end">
+			<div class="row mx-0 justify-content-end">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-1.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Snowfields</h3>
@@ -57,7 +57,7 @@ $query_acco = new WP_Query($args);
 					</p>
 				</div>
 			</div>
-			<div class="row justify-content-start">
+			<div class="row mx-0 justify-content-start">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-3.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">History & Heritage</h3>
@@ -77,7 +77,7 @@ $query_acco = new WP_Query($args);
 					</p>
 				</div>
 			</div>
-			<div class="row justify-content-start">
+			<div class="row mx-0 justify-content-start">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-5.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">River Activities</h3>
@@ -106,7 +106,7 @@ $query_acco = new WP_Query($args);
 					</p>
 				</div>
 			</div>
-			<div class="row justify-content-start">
+			<div class="row mx-0 justify-content-start">
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-8.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Activity Trails</h3>
@@ -123,7 +123,7 @@ $query_acco = new WP_Query($args);
 			<div class="text-center cta__wrapper py-6">
 				<h1 class="cta__wrapper-title">Book your stay</h1>
 				<p class="cta__wrapper-description">Find the best suit you</p>
-				<div class="row justify-content-center">
+				<div class="row justify-content-center mx-0">
 					<div class="col-8 col-md-6 col-xl-2 pb-2">
 						<button data-toggle="modal" data-target="#book-modal-wrapper" class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
 							BOOK NOW

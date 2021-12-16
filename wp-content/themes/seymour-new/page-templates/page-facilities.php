@@ -342,7 +342,7 @@ $query_acco = new WP_Query($args);
             <div class="text-center cta__wrapper py-6">
                 <h1 class="cta__wrapper-title">Book your stay</h1>
                 <p class="cta__wrapper-description">Find the best suit you</p>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center mx-0">
                     <div class="col-8 col-md-6 col-xl-2 pb-2">
                         <button data-toggle="modal" data-target="#book-modal-wrapper" class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
                             BOOK NOW

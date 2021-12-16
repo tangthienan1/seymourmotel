@@ -21,58 +21,58 @@ $query_acco = new WP_Query($args);
         </section>
 
         <section class="step__wrapper px-6">
-            <div class="row">
+            <div class="row mx-0">
                 <div class="col-12 col-md-5 col text-center text-md-left">
                     <h3>Step 1. Check the schedule</h3>
-                    <p>
+                    <p class="mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie
                         laoreet aliquam morbi ipsum eu suspendisse ornare. Ac imperdiet
                         suspendisse ut nibh commodo proin amet.
                     </p>
                 </div>
                 <div class="col-12 col-md-1"></div>
-                <div class="col-12 col-md-6">
-                    <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/step1.png" alt="" />
+                <div class="col-12 col-md-6 px-0">
+                    <img class="img-fluid w-100" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/step1.png" alt="" />
                 </div>
             </div>
-            <div class="row">
+            <div class="row mx-0">
                 <div class="col-12 col-md-5 col text-center text-md-left">
                     <h3>Step 2. Choose room</h3>
-                    <p>
+                    <p class="mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie
                         laoreet aliquam morbi ipsum eu suspendisse ornare. Ac imperdiet
                         suspendisse ut nibh commodo proin amet.
                     </p>
                 </div>
                 <div class="col-12 col-md-1"></div>
-                <div class="col-12 col-md-6">
-                    <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/step2.png" alt="" />
+                <div class="col-12 col-md-6 px-0">
+                    <img class="img-fluid w-100" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/step2.png" alt="" />
                 </div>
             </div>
-            <div class="row">
+            <div class="row mx-0">
                 <div class="col-12 col-md-5 col text-center text-md-left">
                     <h3>Step 3. Check out with safe secured payment</h3>
-                    <p>
+                    <p class="mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie
                         laoreet aliquam morbi ipsum eu suspendisse ornare. Ac imperdiet
                         suspendisse ut nibh commodo proin amet.
                     </p>
                 </div>
                 <div class="col-12 col-md-1"></div>
-                <div class="col-12 col-md-6">
-                    <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/step3.png" alt="" />
+                <div class="col-12 col-md-6 px-0">
+                    <img class="img-fluid w-100" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/step3.png" alt="" />
                 </div>
             </div>
         </section>
 
         <section class="px-6">
-            <div class="row">
-                <div class="col-12 col-md-6 pr-2 pb-4">
+            <div class="row mx-0">
+                <div class="col-12 col-md-5 pr-2 pb-4">
                     <h2 style="color: #c0bcb7">
                         Here are some common questions about Seymour
                     </h2>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-7 pr-0">
                     <div class="card my-2">
                         <div class="card-header collapsed" href="#collapseOne" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseOne">
                             <span class="title">Can I cancel my booking?</span>
@@ -179,9 +179,9 @@ $query_acco = new WP_Query($args);
         </section>
 
         <section>
-            <div class="row">
+            <div class="row mx-0">
                 <div class="d-none d-md-block col-5 px-0">
-                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/contact.png" class="img-fluid" alt="" />
+                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/contact.png" class="img-fluid w-100 h-100" alt="" />
                 </div>
                 <div class="col-0 col-md-1"></div>
                 <div class="help__form-wrapper col-12 col-md-5">
@@ -191,15 +191,15 @@ $query_acco = new WP_Query($args);
                 flex-column
                 howtobook__help-wrapper
               " style="height: 100%">
-                        <div class="pb-5 pb-md-0">
+                        <div class="pb-5">
                             <h2 style="color: #c0bcb7">Still need help?</h2>
                         </div>
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column pb-5">
                             <input placeholder="Name" class="seymour-input" type="text" />
                             <input placeholder="Let us know your email" class="seymour-input" type="text" />
                             <input placeholder="What is your question?" class="seymour-input" type="text" />
                         </div>
-                        <div class="text-center text-md-left px-5 px-md-0 pt-4">
+                        <div class="text-center text-md-left px-5 px-md-0" style="max-width: 350px">
                             <button class="btn btn-lg btn-primary w-100 w-md-auto">
                                 SEND
                             </button>

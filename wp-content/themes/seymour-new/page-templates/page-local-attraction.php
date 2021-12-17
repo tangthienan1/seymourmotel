@@ -125,13 +125,13 @@ $query_acco = new WP_Query($args);
 				<h1 class="cta__wrapper-title">Book your stay</h1>
 				<p class="cta__wrapper-description">Find the best suit you</p>
 				<div class="row justify-content-center mx-0">
-					<div class="col-8 col-md-6 col-xl-2 pb-2">
+					<div class="col-8 col-md-5 col-xl-2 pb-2">
 						<button data-toggle="modal" data-target="#book-modal-wrapper" class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
 							BOOK NOW
 						</button>
 					</div>
-					<div class="col-8 col-md-6 col-xl-2">
-						<a href="./how-to-book.html">
+					<div class="col-8 col-md-5 col-xl-2">
+						<a href="/how-to-book">
 							<button class="btn w-100 btn-lg btn-outline-primary">
 								HOW TO BOOK
 							</button>

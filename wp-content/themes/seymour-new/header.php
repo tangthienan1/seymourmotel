@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1. maximum-scale=1">
 
     <!-- custom css -->
-    <?php wp_head(); ?>
+    <!-- <?php wp_head(); ?> -->
     <link rel="shortcut icon" href="http://seymourmotel.com/wp-content/uploads/2016/05/favicon-96x96.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>?t=<?php echo time() ?>" />
     <link rel="stylesheet" type="text/css" href="https://useross.com/433.css" />

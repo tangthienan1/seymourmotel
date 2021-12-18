@@ -5,12 +5,6 @@
                    <a href="<?php echo home_url('/'); ?>">
                        <img src="<?php bloginfo('template_directory'); ?>/icons/seymour-motel-logo-new.png" alt="Seymour Motel - Seymour Accommodation - Best Seymour Motel">
                    </a>
-                   <!-- <a href="<?php echo home_url('/'); ?>">
-                       <div class="logo__text">
-                           <h1>Seymour</h1>
-                           <h3>MOTEL</h3>
-                       </div>
-                   </a> -->
                </div>
 
                <div class="mynav nav-topic table-cell va-middle clearfix">
@@ -18,7 +12,7 @@
                </div>
                <div class="flex-button">
                    <div style="width:268px" class="tol_no mynav hidden-md hidden-lg un-danger">
-                       <p>CALL US +61 3 5792 1500</p>
+                       <p>BOOK DIRECT +61 3 5792 1500</p>
                        <p>CALL US</p>
                    </div>
                    <div class="tol_no mynav hidden-md hidden-lg danger">

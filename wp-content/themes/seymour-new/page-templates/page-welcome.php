@@ -59,8 +59,10 @@ $query_acco = new WP_Query($args);
         <section class="main__intro">
             <div class="main__intro_relative">
                 <div class="main__intro-left">
-                    Delightful quality accommodation in a tranquil environment at an
-                    affordable price
+                    <h2>
+                        Delightful quality accommodation in a tranquil environment at an
+                        affordable price
+                    </h2>
                 </div>
                 <div class="main__intro-right wow fadeInRight" data-wow-delay="500ms">
                     Being industry experts in the field of hospitality for many years, we

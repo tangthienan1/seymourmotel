@@ -102,7 +102,9 @@ h5 > a,
 h6 > a {
   color: inherit;
 }
-
+svg {
+  width: 1em !important;
+}
 label {
   font-weight: normal;
 }
@@ -203,7 +205,12 @@ a:hover {
     font-size: 36px;
     line-height: 48px;
   }
-
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 15px !important;
+  }
   .px-6 {
     padding-left: 56px;
     padding-right: 56px;
@@ -220,6 +227,37 @@ a:hover {
 
   .pl-6 {
     padding-left: 56px;
+  }
+  .slider__title h2 {
+    font-size: 36px !important;
+  }
+  /* Accommodation */
+  .main__banner_info {
+    font-size: 14px !important;
+  }
+  .main__banner_info-button {
+    margin-top: 1em;
+  }
+  .main__banner_info-button .tol_no {
+    height: 45px;
+  }
+  .main__banner_info-button .tol_no p {
+    padding: 0 0.3em;
+    line-height: 45px;
+  }
+  /* Welcome */
+  .main__intro-left h2 {
+    font-size: 28px !important;
+  }
+  .main__mission_content-title h4 {
+    font-size: 22px !important;
+  }
+  .main__location_intro .py-6 {
+    padding-top: 0px;
+  }
+  /* Location */
+  .location__map-popup {
+    padding: 20px !important;
   }
 }
 
@@ -378,17 +416,16 @@ a:hover {
 }
 .slider__title {
   text-align: center;
-  width: 520px;
-  height: 109px;
+  width: 35vw;
+  height: 7.6vw;
   background-color: white;
   position: absolute;
-  left: 120px;
-  bottom: 0px;
+  left: 7.7vw;
+  bottom: -2.2vw;
   z-index: 1;
 }
 .slider__title h2 {
   font-size: 64px;
-  line-height: 109px;
 }
 .btn__arrow {
   padding: 0.5rem 0;
@@ -925,37 +962,32 @@ main > section {
   .book__popup-wraper {
     padding: 48px 56px;
   }
-  /* Accommodation */
-  .slider__title {
-    width: 366px;
-    height: 85px;
-  }
-  .slider__title h2 {
-    font-size: 48px;
-  }
   .main-container {
     padding-bottom: 190px;
   }
   .main__banner_wrapper {
-    height: 628px !important;
+    height: 62vw !important;
   }
   .main__banner_info {
     bottom: 0;
-    width: 600px !important;
-    height: 477px !important;
-    padding: 64px 156px 224px 78px !important;
+    width: 55vw !important;
+    height: 53vw !important;
+    padding: 5vw 17vw 19vw 5vw !important;
+  }
+  .main__banner_info-button .tol_no {
+    margin: 0 !important;
   }
   .main__banner_img {
     top: 0;
-    width: 444px !important;
-    height: 460px !important;
+    width: 40vw !important;
+    height: 42vw !important;
   }
   .main__highlight h2 {
     font-size: 36px !important;
     line-height: 48px !important;
   }
   .main__highlight_container {
-    height: 703px !important;
+    height: 68.5vw !important;
   }
   .main__highlight .main__highlight_container-highlight {
     width: 366px !important;
@@ -964,34 +996,31 @@ main > section {
     width: 262px !important;
   }
   .main__highlight_container-img1 img {
-    width: 368px;
-    height: 232px;
+    width: 36vw;
+    height: 23vw;
   }
   .main__highlight_container-img2 img {
-    width: 444px;
-    height: 274px;
-    top: 152px;
-    left: 156px;
+    width: 43.5vw;
+    height: 27vw;
   }
   .main__highlight_container-img3 img {
-    width: 288px;
-    height: 367px;
-    right: 158px !important;
+    width: 28vw;
+    height: 36vw;
   }
   .main__highlight_container-img2 {
-    top: 152px !important;
-    left: 156px !important;
+    top: 15vw !important;
+    left: 20vw !important;
   }
   .main__highlight_container-img3 {
-    right: 158px !important;
+    right: 3.5vw !important;
   }
   .main__highlight .main__highlight_container div:last-child {
-    top: 502px !important;
-    left: 156px !important;
+    top: 49vw !important;
+    left: 20vw !important;
   }
   .main__facilities .main__facilities-img img {
-    width: 344px;
-    height: 700px;
+    width: 33.5vw;
+    height: 100%;
     object-fit: none;
   }
   .main__facilities-info p {
@@ -1009,32 +1038,31 @@ main > section {
     padding: 120px 60px 110px !important;
   }
   .main__img img {
-    width: 834px !important;
-    height: 360px !important;
+    width: 81.5vw !important;
+    height: 35vw !important;
   }
 
   .main__intro {
     margin-top: 80px;
-    height: 524px !important;
+    height: 40vw !important;
     padding-bottom: 0 !important;
   }
   .main__intro-left {
     font-size: 36px;
     line-height: 48px;
-    width: 600px;
-    height: 144px;
+    width: 58.5vw !important;
   }
   .main__intro-right {
     width: 366px !important;
     height: 140px !important;
   }
   .main__mission {
-    padding: 0 134px 160px !important;
+    padding: 0 13vw 15.5vw !important;
   }
   .main__mission_content {
-    width: 756px !important;
-    height: 482px !important;
-    gap: 102px !important;
+    width: 74vw !important;
+    height: 57vw !important;
+    gap: 10vw !important;
   }
   .main__mission_content-text {
     width: 366px !important;
@@ -1058,11 +1086,11 @@ main > section {
   /* End CTA */
   /* Why us */
   .main__why_wrapper img {
-    width: 302px;
-    height: 410px;
+    width: 29.5vw;
+    height: 40vw;
   }
   .main__why_wrapper-location {
-    width: 288px !important;
+    width: 28vw !important;
   }
   /* End Why us */
   /* Location */
@@ -1078,7 +1106,7 @@ main > section {
   }
 
   .main__location_intro div:first-child img {
-    height: 510px !important;
+    height: 50vw !important;
   }
 
   .main__location_intro div:last-child {
@@ -1088,18 +1116,16 @@ main > section {
     max-width: 100%;
     max-height: 100%;
   }
-  .main__location_intro div:last-child div:first-child {
-    height: 210px !important;
-    width: 250px !important;
-  }
+
   .main__location_intro .vertical-img {
-    width: 210px !important;
-    height: 250px !important;
+    width: 20.5vw !important;
+    height: 24.5vw !important;
   }
   .main__location_intro .horizontal-img {
-    width: 288px !important;
-    height: 176px !important;
+    width: 28vw !important;
+    height: 17vw !important;
   }
+
   /* End Location */
 
   .local__item-wrapper p {
@@ -2525,9 +2551,14 @@ main > section {
   font-size: 16px;
   line-height: 20px;
 }
-.main__banner_info .main__banner_info-benefit > span {
-  margin-right: 44px;
+.main__banner_info-benefit {
+  display: flex;
+  justify-content: space-between;
 }
+.main__banner_info-benefit img {
+  width: 1em;
+}
+
 .main__banner_info .main__banner_info-price {
   color: #b52804;
   line-height: 32px;
@@ -2622,6 +2653,8 @@ main > section {
 .main__facilities .main__facilities-img {
   position: absolute;
   right: 0;
+  height: 100%;
+  padding-bottom: 160px;
 }
 
 .main__more {
@@ -2706,13 +2739,12 @@ main > section {
 .main__intro .main__intro-left {
   position: absolute;
   width: 784px;
-  height: 156px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 52px;
-  color: #c0bcb7;
+
   top: 0;
   left: 0;
+}
+.main__intro .main__intro-left h2 {
+  color: #c0bcb7;
 }
 .main__intro .main__intro-right {
   position: absolute;

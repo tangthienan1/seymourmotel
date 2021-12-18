@@ -1152,13 +1152,6 @@ main > section {
     font-size: 36px;
   }
 
-  .home__main-wrapper p,
-  .home__main-wrapper h1,
-  .home__main-wrapper h2,
-  .home__main-wrapper h3 {
-    font-weight: 700 !important;
-  }
-
   .room__type-wrapper .room__type-discover {
     display: none;
   }
@@ -1207,7 +1200,6 @@ main > section {
     font-size: 16px;
     padding-right: 0rem;
     text-align: center;
-    font-weight: 700;
     padding: 0 4rem;
     padding-top: 1rem;
   }

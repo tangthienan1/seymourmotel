@@ -12,7 +12,7 @@ $query_acco = new WP_Query($args);
 ?>
 <div id="pushIt">
     <main role="main">
-        <!-- WELCOME -->
+        <!-- Location -->
 
         <section>
             <section class="main__location_intro row justify-content-between pr-6">

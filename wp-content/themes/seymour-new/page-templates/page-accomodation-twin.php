@@ -33,7 +33,7 @@ $query_acco = new WP_Query($args);
 					</div>
 				</div>
 
-				<div class="splide__track home__banner-wrapper">
+				<div class="splide__track home__banner-wrapper" style="padding-bottom: 1.5vw;">
 					<div class="slider__title">
 						<h2 class="rozha-font"><?php echo ucwords(get_the_title()); ?></h2>
 					</div>

@@ -25,9 +25,7 @@ $query_acco = new WP_Query($args);
                 <div class="col-12 col-md-5 col text-center text-md-left">
                     <h3>Step 1. Check the schedule</h3>
                     <p class="mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie
-                        laoreet aliquam morbi ipsum eu suspendisse ornare. Ac imperdiet
-                        suspendisse ut nibh commodo proin amet.
+                        You will see a live time schedule for our motel when you visit the booking site. Simply select your arrival date to see if your reservation is available.
                     </p>
                 </div>
                 <div class="col-12 col-md-1"></div>
@@ -39,9 +37,7 @@ $query_acco = new WP_Query($args);
                 <div class="col-12 col-md-5 col text-center text-md-left">
                     <h3>Step 2. Choose room</h3>
                     <p class="mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie
-                        laoreet aliquam morbi ipsum eu suspendisse ornare. Ac imperdiet
-                        suspendisse ut nibh commodo proin amet.
+                        After that, please select a room that best meets your needs and click "Book Now" to begin the simple booking process.
                     </p>
                 </div>
                 <div class="col-12 col-md-1"></div>
@@ -53,9 +49,7 @@ $query_acco = new WP_Query($args);
                 <div class="col-12 col-md-5 col text-center text-md-left">
                     <h3>Step 3. Check out with safe secured payment</h3>
                     <p class="mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie
-                        laoreet aliquam morbi ipsum eu suspendisse ornare. Ac imperdiet
-                        suspendisse ut nibh commodo proin amet.
+                        As is customary, the payment process will be simple, quick, and secure, according to RapidSSL's assurance. Before making a payment, please double-check all of the information.
                     </p>
                 </div>
                 <div class="col-12 col-md-1"></div>

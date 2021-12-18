@@ -1033,6 +1033,10 @@ main > section {
   .room__type-wrapper {
     margin-bottom: 120px !important;
   }
+
+  .local__gallery-wrapper .row > div p {
+    visibility: visible;
+  }
   /* End Accommodation */
   /* Welcome */
   .main__img {
@@ -1098,9 +1102,7 @@ main > section {
   .location__nav-wrapper {
     padding-top: 80px;
   }
-  .location__map-wrapper {
-    padding: 0 60px;
-  }
+
   .main__location_intro {
     padding-top: 80px !important;
     padding-right: 60px !important;

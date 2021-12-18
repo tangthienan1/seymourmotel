@@ -1123,12 +1123,16 @@ main > section {
 
   /* End Location */
 
+  .local__item-wrapper p {
+    visibility: visible;
+  }
+
   /* FACILITIES */
 
   .facilities__adrress-wrapper
     .facilities__adrress-inner
     .facilities__adrress-content {
-    padding: 20px 0 20px 0px;
+    padding: 20px 0 20px 74px;
   }
 
   /* END FACILITIES */

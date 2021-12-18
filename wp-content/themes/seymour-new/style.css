@@ -232,12 +232,18 @@ a:hover {
     font-size: 36px !important;
   }
   /* Accommodation */
+  .main__banner_info {
+    font-size: 14px !important;
+  }
   .main__banner_info-button {
     margin-top: 1em;
   }
+  .main__banner_info-button .tol_no {
+    height: 45px;
+  }
   .main__banner_info-button .tol_no p {
-    font-size: 1em;
-    padding: 1em 0.3em;
+    padding: 0 0.3em;
+    line-height: 45px;
   }
   /* Welcome */
   .main__intro-left h2 {
@@ -963,7 +969,6 @@ main > section {
     height: 62vw !important;
   }
   .main__banner_info {
-    font-size: 14px !important;
     bottom: 0;
     width: 55vw !important;
     height: 53vw !important;

@@ -102,9 +102,6 @@ h5 > a,
 h6 > a {
   color: inherit;
 }
-svg {
-  width: 1em !important;
-}
 label {
   font-weight: normal;
 }
@@ -555,7 +552,7 @@ main > section {
 
 /* LOCAL ACCTRATIONS */
 
-.local__gallery-wrapper .row:not(:last-child) {
+.local__gallery-wrapper .row div:not(:last-child) {
   padding-bottom: 160px;
 }
 
@@ -873,6 +870,10 @@ main > section {
   }
   main > section:not(:first-child) {
     padding-bottom: 160px;
+  }
+
+  .room__type-wrapper:hover .room__type-discover {
+    display: none;
   }
 
   /* FOR HEADER */
@@ -1287,6 +1288,13 @@ main > section {
   }
   .book__popup-wraper {
     padding: 48px 24px;
+  }
+
+  .local__gallery-wrapper .row > div p {
+    display: none;
+  }
+  .local__gallery-wrapper .row div:not(:last-child) {
+    padding-bottom: 40px;
   }
 }
 

@@ -684,7 +684,7 @@ get_header();
       perPage: 3,
       pagination: false,
       breakpoints: {
-        375: {
+        425: {
           perPage: 1,
           autoWidth: true,
         },

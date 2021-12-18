@@ -274,7 +274,7 @@ get_header();
                 <p style="font-weight: 200; font-size: 16px" class="mb-0">
                   Start from
                 </p>
-                <p style="font-weight: 300; font-size: 20px">$110 / night</p>
+                <p style="font-weight: 300; font-size: 20px">$160 / night</p>
               </div>
             </div>
           </div>
@@ -304,11 +304,11 @@ get_header();
     </section>
 
     <section>
-      <div class="row justify-content-between pl-6 pr-6">
-        <div data-wow-delay="500ms" class="col-md-5 d-none d-md-block wow fadeInLeft">
+      <div class="row justify-content-between pr-6">
+        <div data-wow-delay="500ms" class="col-md-5 d-none d-md-block wow fadeInLeft px-0">
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100 w-100" alt="" />
         </div>
-        <div class="col-12 col-lg-7 col-xl-6">
+        <div class="col-12 col-md-7 col-lg-6">
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2" data-description="Seymour Motel is an ideal rest stop for travelers as well as a
               wonderful place to stay while exploring the town's true beauty.
               There are three options available to you, depending on your needs
@@ -316,10 +316,7 @@ get_header();
             Facility
           </h2>
           <p style="font-weight: 200">
-            Seymour Motel is an ideal rest stop for travelers as well as a
-            wonderful place to stay while exploring the town's true beauty.
-            There are three options available to you, depending on your needs
-            and purposes.
+            Knowing the sensitiveness of the needs of the travelers, we always wish to keep our guests happy by providing various facilities. In fact, these facilities help them to be relaxed and enjoy a wonderful time during their stay. We mainly believe in the fact of making them a “home away from home” no matter how long they stay with us.
           </p>
           <a href="/facilities">
             <div class="d-flex align-items-center mt-4 btn__arrow">
@@ -482,7 +479,7 @@ get_header();
     </section>
 
     <section>
-      <div class="row px-6 py-6 justify-content-between align-items-start">
+      <div class="row px-6 py-6 justify-content-between align-items-start" style="padding-bottom: 64px">
         <div class="col-12 col-md-5">
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2">
             Local Attraction

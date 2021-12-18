@@ -116,9 +116,7 @@ get_header();
               Cozy Space
             </h3>
             <p class="convention__wrapper-subtitle">
-              Seymour Motel is an ideal rest stop for travelers as well as a
-              wonderful place to stay while exploring the town's true beauty.
-              There are three options available.
+              Away from the hustle and bustle of cities and towns, relax and enjoy the country air, unwind your stresses in the cozy place. Because of the comfort this location provides, you will not even feel like you're far from your home.
             </p>
           </div>
           <div class="col-12 col-md-4 text-center convention__wrapper">
@@ -127,9 +125,7 @@ get_header();
               Local Attraction
             </h3>
             <p class="convention__wrapper-subtitle">
-              Seymour Motel is an ideal rest stop for travelers as well as a
-              wonderful place to stay while exploring the town's true beauty.
-              There are three options.
+              Seymour is a beautiful town located on the banks of the wonderful Goulburn River. You can reach this charming town within an hours’ drive from Melbourne city along the Hume Highway.
             </p>
           </div>
           <div class="col-12 col-md-4 text-center convention__wrapper">
@@ -138,9 +134,7 @@ get_header();
               Chill vibe
             </h3>
             <p class="convention__wrapper-subtitle">
-              Seymour Motel is an ideal rest stop for travelers as well as a
-              wonderful place to stay while exploring the town's true beauty.
-              There are three options.
+              Our team has mastered the skills in understanding the exact needs of guests, who arrive after a tiresome journey. Thanks to our serene surrounding spread on a large block of land, we guarantee our guests the most tranquil Seymour spaces.
             </p>
           </div>
         </div>
@@ -155,12 +149,8 @@ get_header();
               Explore rooms & suites
             </h2>
             <p style="font-weight: 200">
-              Seymour is located next to the Hume Highway and is approximately
-              an hour away from Melbourne. Seymour Motel was the town's first
-              and remains one of the best in the area, offering perfectly
-              reasonable rates. The motel has expansive large blocks of land,
-              densely forested with magnificent gum trees and tranquil,
-              authentic Australian gardens.
+              Seymour Motel is an ideal rest stop for travelers as well as a wonderful place to stay while exploring the town's true beauty. There are three options available to you, depending on your needs and purposes for visiting Seymour.
+              Our single, twin and family rooms all feature excellent amenities.
             </p>
           </div>
         </div>
@@ -616,9 +606,7 @@ get_header();
                 <div>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/quote.png" alt="" />
                   <p class="py-5" style="font-size: 20px; font-weight: 300">
-                    Our family stayed at the Seymour Motel during the time we
-                    visited Melbourne. Clean rooms, great services, and who
-                    can say no to an outdoor pool!
+                    The bed was one of the more comfortable motel beds I have ever found. Something you don't generally find in any motel. Just great. Thank you. We would recommend.
                   </p>
                   <p style="color: #c0bcb7">- Ashley -</p>
                 </div>
@@ -627,9 +615,7 @@ get_header();
                 <div>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/quote.png" alt="" />
                   <p class="py-5" style="font-size: 20px; font-weight: 300">
-                    Our family stayed at the Seymour Motel during the time we
-                    visited Melbourne. Clean rooms, great services, and who
-                    can say no to an outdoor pool!
+                    Great overnight we wish we had more time to see some of the history and sights Just have to give it more time next time.
                   </p>
                   <p style="color: #c0bcb7">- Ashley -</p>
                 </div>
@@ -638,9 +624,7 @@ get_header();
                 <div>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/quote.png" alt="" />
                   <p class="py-5" style="font-size: 20px; font-weight: 300">
-                    Our family stayed at the Seymour Motel during the time we
-                    visited Melbourne. Clean rooms, great services, and who
-                    can say no to an outdoor pool!
+                    The air conditioner was new and quiet, the bed was super comfy, the room was clean, the staff were friendly and helpful, the breakfast was fine. There was good water...
                   </p>
                   <p style="color: #c0bcb7">- Ashley -</p>
                 </div>

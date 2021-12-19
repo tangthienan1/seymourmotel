@@ -206,15 +206,16 @@ address a {
 .logo {
   width: 280px;
   height: 120px;
-  background-color: #ffe600;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .logo__text h1 {
   font-family: "Rozha One" !important;
 }
 .header .logo a {
   display: block;
-  padding: 42px;
 }
 .header .logo a img {
   width: 200px;

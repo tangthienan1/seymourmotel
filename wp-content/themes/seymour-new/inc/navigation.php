@@ -54,7 +54,7 @@
             </a>
             <p class="nav__title">Other</p>
             <a href="/how-to-book">
-                <p class="nav__item">How to book</p>
+                <h4 class="nav__item">How to book</h4>
             </a>
             <a href="/about">
                 <h4 class="nav__item">Welcome</h4>
@@ -62,9 +62,13 @@
             <a href="/facilities">
                 <h4 class="nav__item">Facilities</h4>
             </a>
+            <a href="/local-attraction">
+                <h4 class="nav__item">Area</h4>
+            </a>
             <a href="/location">
                 <h4 class="nav__item">Location</h4>
             </a>
+
             <a href="tel:+61 3 5792 1500">
                 <button class="btn btn-md btn-outline-primary w-90 py-2 px-4">
                     BOOK DIRECT +61 3 5792 1500

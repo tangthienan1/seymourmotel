@@ -13,7 +13,7 @@ $query_acco = new WP_Query($args);
 <div id="pushIt">
 	<main class="main">
 		<section class="main-container">
-			<div class="mx-auto text-center p-title" style="width: 680px">
+			<div class="mx-auto text-center p-title">
 				<h1 class="rozha-font">Accommodation</h1>
 			</div>
 			<!-- arrow controls -->

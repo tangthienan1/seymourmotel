@@ -3369,10 +3369,11 @@ address a {
     display: none !important;
   }
   .header {
-    height: 56px !important;
+    width: 100vw !important;
+    height: 15vw !important;
   }
   .logo {
-    width: 131px !important;
+    width: 40vw !important;
   }
   .header .logo a img {
     width: 100px !important;
@@ -3426,7 +3427,7 @@ address a {
     display: flex !important;
     justify-content: center;
     align-items: center;
-    width: 20px;
+    width: 5vw;
     height: 100%;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
@@ -3434,10 +3435,10 @@ address a {
   }
   .menu-btn__burger {
     width: 100%;
-    height: 2px;
+    height: 0.5vw;
     background: #222222;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    border-radius: 1;
+    box-shadow: 0 0.5vw 1vw rgba(255, 101, 47, 0.2);
     transition: all 0.5s ease-in-out;
   }
   .menu-btn__burger::before,
@@ -3445,29 +3446,29 @@ address a {
     content: "";
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 0.5vw;
     background: #222222;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    box-shadow: 0 0.5vw 1vw rgba(255, 101, 47, 0.2);
     transition: all 0.5s ease-in-out;
   }
   .menu-btn__burger::before {
-    transform: translateY(-6px);
+    transform: translateY(-1.5vw);
   }
   .menu-btn__burger::after {
-    transform: translateY(6px);
+    transform: translateY(1.5vw);
   }
   /* ANIMATION */
   .menu-btn.open .menu-btn__burger {
-    transform: translateX(-50px);
+    transform: translateX(-13vw);
     background: transparent;
     box-shadow: none;
   }
   .menu-btn.open .menu-btn__burger::before {
-    transform: rotate(45deg) translate(35px, -35px);
+    transform: rotate(45deg) translate(9vw, -9vw);
   }
   .menu-btn.open .menu-btn__burger::after {
-    transform: rotate(-45deg) translate(35px, 35px);
+    transform: rotate(-45deg) translate(9vw, 9vw);
   }
 }
 /* End seymour-child */

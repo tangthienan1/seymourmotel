@@ -195,6 +195,10 @@ a:hover {
 .p-wrapper {
   padding: 0 60px;
 }
+.my-6 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 .main__banner_info-button.flex-button .danger p {
   color: #fff;
 }
@@ -836,7 +840,7 @@ main > section {
 }
 
 .home__main-wrapper .row {
-  margin: 0;
+  padding: 120px 60px;
 }
 
 .home__localslider-wrapper .splide__slide {

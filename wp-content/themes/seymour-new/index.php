@@ -296,7 +296,7 @@ get_header();
     <section>
       <div class="row justify-content-between pr-6">
         <div data-wow-delay="500ms" class="col-md-5 d-none d-md-block wow fadeInLeft px-0">
-          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100 w-100" alt="" />
+          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100 w-100" alt="" style="object-fit: cover;" />
         </div>
         <div class="col-12 col-md-7 col-lg-6">
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2" data-description="Seymour Motel is an ideal rest stop for travelers as well as a
@@ -605,7 +605,7 @@ get_header();
               <li class="splide__slide">
                 <div>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
-                  <p class="pb-5" style="font-size: 20px; font-weight: 300">
+                  <p class="py-5" style="font-size: 20px; font-weight: 300">
                     The bed was one of the more comfortable motel beds I have ever found. Something you don't generally find in any motel. Just great. Thank you. We would recommend.
                   </p>
                   <p style="color: #c0bcb7">- Hazel Ron M -</p>
@@ -614,7 +614,7 @@ get_header();
               <li class="splide__slide">
                 <div>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
-                  <p class="pb-5" style="font-size: 20px; font-weight: 300">
+                  <p class="py-5" style="font-size: 20px; font-weight: 300">
                     Great overnight we wish we had more time to see some of the history and sights Just have to give it more time next time.
                   </p>
                   <p style="color: #c0bcb7">- Barry -</p>
@@ -623,7 +623,7 @@ get_header();
               <li class="splide__slide">
                 <div>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
-                  <p class="pb-5" style="font-size: 20px; font-weight: 300">
+                  <p class="py-5" style="font-size: 20px; font-weight: 300">
                     The air conditioner was new and quiet, the bed was super comfy, the room was clean, the staff were friendly and helpful, the breakfast was fine. There was good water...
                   </p>
                   <p style="color: #c0bcb7">- Joanna -</p>

@@ -316,7 +316,7 @@ $query_acco = new WP_Query($args);
                                             during their stay. 
                                         </p>
                                     </div>
-                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/blanket-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/electric-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-weight: 300; margin: 0">Electric Blanket</p>
                                 </div>
                             </div>

@@ -179,7 +179,7 @@ $query_acco = new WP_Query($args);
 							Seating Area
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/blanket-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/electric-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Electric Blanket
 						</li>
 						<li>
@@ -190,52 +190,42 @@ $query_acco = new WP_Query($args);
 					<ul>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/towel-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Towels
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/hair-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Hair Dryer
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/iron-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Iron & Iron board
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/shower-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Shower
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/refrigerator-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Refrigerator
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/electric-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/kettle.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Electric Kettle
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/kitchenware-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Kitchenware
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/garden-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Garden & Pool View
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/carpeted-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Carpeted Room
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/linen-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Linen
 						</li>
 

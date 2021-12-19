@@ -178,7 +178,7 @@ $query_acco = new WP_Query($args);
 							Seating Area
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/blanket-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/electric-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Electric Blanket
 						</li>
 						<li>
@@ -189,17 +189,14 @@ $query_acco = new WP_Query($args);
 					<ul>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/towel-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Towels
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/hair-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Hair Dryer
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/iron-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Iron & Iron board
 						</li>
 						<li>
@@ -209,12 +206,10 @@ $query_acco = new WP_Query($args);
 						</li>
 						<li>
 							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/refrigerator-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
 							Refrigerator
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/electric-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
-
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/kettle.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Electric Kettle
 						</li>
 						<li>

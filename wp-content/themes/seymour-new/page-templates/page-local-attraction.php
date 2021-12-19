@@ -41,7 +41,7 @@ $query_acco = new WP_Query($args);
 			<div class="row mx-0 justify-content-start">
 				<div class="d-none d-lg-block col-lg-4"></div>
 				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-1.png" alt="" class="img-fluid" />
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/Snow.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Snowfields</h3>
 					<p>
 						Regardless of the time of year, getting into a snowfield is a thrilling occasion for both families and individuals. Victoria is well-known among snow enthusiasts for its gorgeous vistas and natural surroundings.
@@ -91,7 +91,7 @@ $query_acco = new WP_Query($args);
 					</p>
 				</div>
 				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-5.png" alt="" class="img-fluid" />
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/Trails.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Activity Trails</h3>
 					<p>
 						Whether you're getting set to hike, bike, trail run, or explore other outdoor sports, a quiet spot like Seymour town is the finest choice for your trials. Come over and enjoy the fresh air for yourself.

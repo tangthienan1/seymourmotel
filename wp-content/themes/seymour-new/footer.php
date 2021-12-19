@@ -1,67 +1,54 @@
-<div class="copyright">
-  <div class="copyright__flex">
-    <div class="copyright__flex-policy">
-      <a href="/seymour-policy" style="text-decoration: underline !important">Privacy Policy</a>
-      <p class="text -center">&copy;<?php echo date('Y') - 1; ?> Seymour Motel. All Rights Reserved.</p>
+<footer class="footer px-6" style="min-height: 112px">
+  <div class="row align-items-center mx-0" style="padding: 24px 0px; border-top: 1px solid #c0bcb7">
+    <div class="
+            text-center
+            col-12
+            d-block d-md-none
+            pb-5
+            copyright__flex-society
+          ">
+      <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/instagram.svg" />
+      <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/facebook.svg" />
     </div>
-    <div class="copyright__flex-society">
-      <div class="text-center">
-        <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/instagram.svg" />
-        <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/facebook.svg" />
-      </div>
+    <div class="d-none d-md-block col-6 col-md-5">
+      <a href="/seymour-policy">
+        <p style="text-decoration: underline; color: #222222">
+          Privacy policy
+        </p>
+      </a>
+      <p style="color: #c0bcb7">
+        ©2020 Seymour Motel. All Rights Reserved.
+      </p>
     </div>
-    <div class="copyright__flex-address">144 Goulburn Valley Hwy, Seymour, VIC 3660</div>
-  </div>
-  <div class="modal fade" id="book-modal-wrapper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
-        <div class="book__popup-wraper modal-body">
-          <p>
-            Remember! It’s <span style="color: #b52804">cheaper</span> to
-            book direct <br />
-            than anywhere else online!
-          </p>
-          <p style="opacity: 0.7" class="mt-3">
-            If you find a cheaper rate call us direct on +61 3 5792 1500
-            <br />
-            and we’ll beat the price!
-          </p>
-          <a href="tel:+61357921500" class="btn btn-primary btn-lg w-100 mt-4">
-            DIRECT BOOKING +61 3 5792 1500
-          </a>
-          <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
-            <p class="book__popup-btn-online mt-2">BOOK ONLINE ANYWAY</p>
-          </a>
-        </div>
-      </div>
+    <div class="text-center col-3 d-none d-md-block copyright__flex-society">
+      <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/instagram.svg" />
+      <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/facebook.svg" />
     </div>
-  </div>
-  <div class="social clear clearfix">
-    <div class="div-center">
-      <?php dynamic_sidebar('social-links'); ?>
+    <div class="col-7 col-md-4 px-0">
+      <p style="color: #c0bcb7; text-align: left">
+        144 Goulburn Valley Hwy, Seymour, VIC 3660
+      </p>
     </div>
-  </div>
-</div>
-<div class="copyright__mobile">
-  <div class="copyright__flex">
-    <div class="copyright__flex-policy">
-      <a href="/seymour-policy" style="text-decoration: underline !important">Privacy Policy</a>
-      <p class="text -center">&copy;<?php echo date('Y') - 1; ?> Seymour Motel. All Rights Reserved.</p>
-    </div>
-    <div class="copyright__flex-society">
-      <div class="text-center">
-        <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/instagram.svg" />
-        <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/facebook.svg" />
-      </div>
-    </div>
-    <div class="copyright__flex-address">144 Goulburn Valley Hwy, Seymour, VIC 3660</div>
-  </div>
-  <div class="social clear clearfix">
-    <div class="div-center">
-      <?php dynamic_sidebar('social-links'); ?>
+    <div class="d-block d-md-none col-5 text-right px-0">
+      <a href="tel:+61 3 5792 1500 ">
+        <p style="text-decoration: underline; color: #222222">
+          Call +61 3 5792 1500
+        </p>
+      </a>
+      <a href="/privacy">
+        <p style="text-decoration: underline; color: #222222">
+          Privacy Policy
+        </p>
+      </a>
     </div>
   </div>
-</div>
+  <div class="text-center d-block d-md-none" style="color: #c0bcb7">
+    <p style="padding: 24px 0px; border-top: 1px solid #c0bcb7">
+      ©2020 Seymour Motel. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
 <?php wp_footer(); ?>
 
 <script>

@@ -657,7 +657,7 @@ get_header();
 
     <section>
       <div style="background-color: #e9e6e5">
-        <div class="p-120-60 row text-center text-sm-left justify-content-between">
+        <div class="p-120-60 row text-center text-sm-left justify-content-between flex-column flex-md-row">
           <div class="col-6 pb-5 px-0">
             <h1 style="font-family: 'Rozha One' !important">Stay in touch</h1>
           </div>

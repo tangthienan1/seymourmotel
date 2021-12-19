@@ -1281,7 +1281,6 @@ main > section {
   }
   .room__type-wrapper .room__type-title h2 {
     font-size: 32px;
-    font-weight: 700;
   }
 
   .convention__wrapper {
@@ -3527,9 +3526,7 @@ address a {
   .main__facilities-img {
     display: none;
   }
-  .room__type-wrapper {
-    margin-bottom: 0 !important;
-  }
+
   .container-fluid .mytable .logo {
     -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 2;

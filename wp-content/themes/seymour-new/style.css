@@ -232,11 +232,20 @@ a:hover {
     font-size: 36px !important;
   }
   /* Accommodation */
+  .flex-button {
+    width: 50vw;
+  }
   .main__banner_info {
     font-size: 14px !important;
   }
   .main__banner_info-button {
     margin-top: 1em;
+  }
+  .main__banner_info-button .flex-button .danger {
+    width: 40%;
+  }
+  .main__banner_info-button .flex-button .un-danger {
+    width: 40%;
   }
   .main__banner_info-button .tol_no {
     height: 45px;
@@ -258,6 +267,13 @@ a:hover {
   /* Location */
   .location__map-popup {
     padding: 20px !important;
+  }
+  /* nav */
+  .menu-item-873 {
+    display: none;
+  }
+  .menu-item-978 {
+    display: none;
   }
 }
 
@@ -1345,7 +1361,6 @@ main > section {
 }
 .flex-button .danger {
   background-color: #b52804;
-  width: 40%;
   transition: 0.3s;
 }
 .danger:hover {

@@ -128,3 +128,19 @@
   accommodation_node.firstChild.appendChild(poly1)
   about_node.firstChild.appendChild(poly2)
 </script>
+<script>
+  const menuBtn = document.querySelector('.menu-btn');
+  const subMenuBtn = document.getElementsByClassName('.sub-menu');
+  let menuOpen = false;
+  menuBtn.addEventListener('click', () => {
+    if (!menuOpen) {
+      menuBtn.classList.add('open');
+      subMenuBtn.classList.add('subOpen')
+      menuOpen = true;
+    } else {
+      menuBtn.classList.remove('open');
+      subMenuBtn.classList.remove('subOpen')
+      menuOpen = false;
+    }
+  });
+</script>

@@ -889,6 +889,27 @@ main > section {
   align-items: center;
 }
 
+.nav__mobile-wrapper {
+  padding-top: 136px;
+}
+
+.nav__mobile-wrapper p {
+  padding-bottom: 24px;
+}
+
+.nav__mobile-wrapper .nav__title {
+  color: #c0bcb7;
+  opacity: 70%;
+}
+.nav__mobile-wrapper .nav__item {
+  color: #222222;
+  font-size: 20px;
+}
+
+.nav__mobile-wrapper .nav__item:hover {
+  text-decoration: underline;
+}
+
 /* IPAD */
 @media (max-width: 1439px) {
   main {

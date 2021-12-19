@@ -78,7 +78,7 @@ $query_acco = new WP_Query($args);
 						</span>
 					</div>
 					<div class="main__banner_info-button flex-button">
-						<div class="tol_no danger">
+						<div data-toggle="modal" data-target="#book-modal-wrapper" class="btn w-100 btn-lg btn-primary" class="tol_no danger">
 							<a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
 								<p>BOOK NOW</p>
 							</a>

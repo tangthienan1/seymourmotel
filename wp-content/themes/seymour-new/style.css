@@ -3298,6 +3298,8 @@ address a {
     visibility: visible;
     display: flex !important;
     justify-content: space-between;
+    opacity: 0.7;
+    background-color: #fff;
   }
   .subMenu ul {
     height: 10vw;

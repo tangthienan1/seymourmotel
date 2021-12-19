@@ -78,13 +78,13 @@ $query_acco = new WP_Query($args);
 						</span>
 					</div>
 					<div class="main__banner_info-button flex-button">
-						<div data-toggle="modal" data-target="#book-modal-wrapper" class="btn w-100 btn-lg btn-primary" class="tol_no danger">
-							<a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
-								<p>BOOK NOW</p>
-							</a>
+						<div data-toggle="modal" data-target="#book-modal-wrapper" class="tol_no danger" class="tol_no danger">
+							<p>BOOK NOW</p>
 						</div>
 						<div class="tol_no un-danger">
-							<p>HOW TO BOOK</p>
+							<a href="/how-to-book">
+								<p>HOW TO BOOK</p>
+							</a>
 						</div>
 					</div>
 				</div>

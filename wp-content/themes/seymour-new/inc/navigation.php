@@ -13,14 +13,12 @@
                    <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'floated-list clearfix pull-right', 'menu' => 'primary')); ?>
                </div>
                <div class="flex-button">
-                   <div style="width:268px" class="tol_no mynav hidden-md hidden-lg un-danger">
+                   <div class="tol_no mynav hidden-md hidden-lg un-danger">
                        <p>BOOK DIRECT +61 3 5792 1500</p>
                        <p>CALL US</p>
                    </div>
-                   <div class="tol_no mynav hidden-md hidden-lg danger">
-                       <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
-                           <p>BOOK NOW</p>
-                       </a>
+                   <div data-toggle="modal" data-target="#book-modal-wrapper" class="tol_no mynav hidden-md hidden-lg danger">
+                       <p>BOOK NOW</p>
                    </div>
                </div>
                <div class="phone">

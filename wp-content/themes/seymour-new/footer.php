@@ -139,7 +139,6 @@
   const subMenuBtn = document.querySelector('.subMenu');
   const menuBtn = document.querySelector('.menu-btn');
   const mobileNav = document.querySelector('.navMobile');
-  console.log('asdf', subMenuBtn)
   let menuOpen = false;
   menuBtn.addEventListener('click', () => {
     if (!menuOpen) {
@@ -154,4 +153,18 @@
       menuOpen = false;
     }
   });
+</script>
+<script>
+  const bookNowSticky = document.querySelector('.accommodation__sticky-bookNow');
+  var lastScrollTop = 0;
+
+  window.addEventListener("scroll", function() {
+    var st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > lastScrollTop) {
+      bookNowSticky.classList.add('dp-none');
+    } else {
+      bookNowSticky.classList.remove('dp-none');
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
+  }, false);
 </script>

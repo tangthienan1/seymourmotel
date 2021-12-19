@@ -165,13 +165,15 @@ get_header();
                     Start from
                   </p>
                   <p style="font-weight: 300; font-size: 20px">
-                    $160 / night
+                    $110 / night
                   </p>
                 </div>
-                <div class="align-items-center btn__arrow">
-                  <p class="mb-0 mr-2">DETAIL</p>
-                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-                </div>
+                <a href="/single-room">
+                  <div class="align-items-center btn__arrow">
+                    <p class="mb-0 mr-2">DETAIL</p>
+                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+                  </div>
+                </a>
               </div>
               <div class="room__type-title">
                 <h2>Single Room</h2>
@@ -206,7 +208,7 @@ get_header();
                     $120 / night
                   </p>
                 </div>
-                <a href="/twin-room">
+                <a href="/twin-room-2">
                   <div class="align-items-center btn__arrow">
                     <p class="mb-0 mr-2">DETAIL</p>
                     <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
@@ -216,10 +218,12 @@ get_header();
               <div class="room__type-title">
                 <h2>Twin Room</h2>
                 <div class="room__type-discover">
-                  <div class="d-flex align-items-center btn__arrow">
-                    <p class="mb-0 mr-2">DETAIL</p>
-                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-                  </div>
+                  <a href="/twin-room-2">
+                    <div class="d-flex align-items-center btn__arrow">
+                      <p class="mb-0 mr-2">DETAIL</p>
+                      <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+                    </div>
+                  </a>
                 </div>
               </div>
               <div class="room__type-price d-none d-md-block">
@@ -246,18 +250,22 @@ get_header();
                     $160 / night
                   </p>
                 </div>
-                <div class="align-items-center btn__arrow">
-                  <p class="mb-0 mr-2">DETAIL</p>
-                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-                </div>
+                <a href="/family-room">
+                  <div class="align-items-center btn__arrow">
+                    <p class="mb-0 mr-2">DETAIL</p>
+                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+                  </div>
+                </a>
               </div>
               <div class="room__type-title">
                 <h2>Family Room</h2>
                 <div class="room__type-discover">
-                  <div class="d-flex align-items-center btn__arrow">
-                    <p class="mb-0 mr-2">DETAIL</p>
-                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-                  </div>
+                  <a href="/family-room">
+                    <div class="d-flex align-items-center btn__arrow">
+                      <p class="mb-0 mr-2">DETAIL</p>
+                      <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+                    </div>
+                  </a>
                 </div>
               </div>
               <div class="room__type-price d-none d-md-block">

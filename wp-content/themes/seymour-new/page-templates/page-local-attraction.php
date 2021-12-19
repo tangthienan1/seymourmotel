@@ -70,7 +70,7 @@ $query_acco = new WP_Query($args);
 				</div>
 				<div class="d-none d-lg-block col-lg-4"></div>
 				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-5.png" alt="" class="img-fluid" />
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">River Activities</h3>
 					<p>
 						Goulburn River is famous for many other interesting activities for those who love adventurous outdoor activities such as fishing or boating,

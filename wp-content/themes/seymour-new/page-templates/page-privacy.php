@@ -25,15 +25,6 @@ $query_acco = new WP_Query($args);
           ">
                 <h1 class="rozha-font">Seymour Policy</h1>
             </div>
-            <div class="col-12 col-md-8 col-lg-6">
-                <p class="px-4" style="font-size: 20px; text-align: center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam mauris
-                    quam pretium id rutrum scelerisque dictum velit dignissim. Libero
-                    molestie ut malesuada nulla malesuada tincidunt. Porttitor quis
-                    tellus nisi dui. Mauris elit netus semper mus elit odio metus, ut
-                    ipsum. Vestibulum enim sed porttitor pellentesque commodo augue.
-                </p>
-            </div>
         </section>
 
 

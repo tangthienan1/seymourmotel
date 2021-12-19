@@ -933,6 +933,10 @@ main > section {
   text-decoration: underline;
 }
 
+.book__popup-wraper.modal-body > p:first-child {
+  font-size: 24px;
+}
+
 /* IPAD */
 @media (max-width: 1439px) {
   main {

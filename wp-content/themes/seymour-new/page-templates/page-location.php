@@ -14,7 +14,10 @@ $query_acco = new WP_Query($args);
     <main role="main">
         <!-- Location -->
 
-        <section>
+        <section class="location__title">
+            <div class="mx-auto text-center">
+                <h1 class="rozha-font">Location</h1>
+            </div>
             <section class="main__location_intro row justify-content-between pr-6">
                 <div class="left_img d-none d-md-block col-md-5 col-12 wow fadeInLeft" data-wow-delay="500ms">
                     <img style="height: 725px" class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/location1.png" alt="" />

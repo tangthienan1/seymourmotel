@@ -282,7 +282,7 @@ get_header();
               BOOK NOW
             </button>
           </div>
-          <div class="col-8 col-md-5 col-xl-2">
+          <div class="col-8 col-md-5 col-xl-3">
             <a href="/how-to-book">
               <button class="btn w-100 btn-lg btn-outline-primary">
                 HOW TO BOOK
@@ -604,29 +604,29 @@ get_header();
             <ul class="splide__list">
               <li class="splide__slide">
                 <div>
-                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/quote.png" alt="" />
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
                   <p class="py-5" style="font-size: 20px; font-weight: 300">
                     The bed was one of the more comfortable motel beds I have ever found. Something you don't generally find in any motel. Just great. Thank you. We would recommend.
                   </p>
-                  <p style="color: #c0bcb7">- Ashley -</p>
+                  <p style="color: #c0bcb7">- Hazel Ron M -</p>
                 </div>
               </li>
               <li class="splide__slide">
                 <div>
-                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/quote.png" alt="" />
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
                   <p class="py-5" style="font-size: 20px; font-weight: 300">
                     Great overnight we wish we had more time to see some of the history and sights Just have to give it more time next time.
                   </p>
-                  <p style="color: #c0bcb7">- Ashley -</p>
+                  <p style="color: #c0bcb7">- Barry -</p>
                 </div>
               </li>
               <li class="splide__slide">
                 <div>
-                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/quote.png" alt="" />
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
                   <p class="py-5" style="font-size: 20px; font-weight: 300">
                     The air conditioner was new and quiet, the bed was super comfy, the room was clean, the staff were friendly and helpful, the breakfast was fine. There was good water...
                   </p>
-                  <p style="color: #c0bcb7">- Ashley -</p>
+                  <p style="color: #c0bcb7">- Joanna -</p>
                 </div>
               </li>
             </ul>
@@ -637,7 +637,7 @@ get_header();
 
     <section>
       <div style="background-color: #e9e6e5">
-        <div class="row text-center text-sm-left">
+        <div class="p-120-60 row text-center text-sm-left">
           <div class="col pb-5">
             <h1 style="font-family: 'Rozha One' !important">Stay in touch</h1>
           </div>

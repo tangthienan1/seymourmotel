@@ -60,7 +60,7 @@ $query_acco = new WP_Query($args);
 			<div class="main__banner_wrapper">
 				<div class="main__banner_info">
 					<div>Start from</div>
-					<div class="main__banner_info-price">$110 / night</div>
+					<div class="main__banner_info-price">$160 / night</div>
 					<div class="main__banner_info-text">These rooms have been designed specifically to meet the needs of individuals.
 						They are extremely comfortable, allowing you to begin a new "next day"
 						with a positive mindset. The gentle touch of nature in a calm and quiet environment

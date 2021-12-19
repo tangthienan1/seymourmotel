@@ -1,5 +1,5 @@
 <footer class="footer px-6" style="min-height: 112px">
-  <div class="row align-items-center mx-0" style="padding: 24px 0px; border-top: 1px solid #c0bcb7">
+  <div class="row align-items-center mx-0 justify-content-between" style="padding: 24px 0px; border-top: 1px solid #c0bcb7">
     <div class="
             text-center
             col-12
@@ -24,8 +24,8 @@
       <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/instagram.svg" />
       <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/facebook.svg" />
     </div>
-    <div class="col-7 col-md-4 px-0">
-      <p style="color: #c0bcb7; text-align: left">
+    <div class="col-7 col-md-4 px-0 d-flex justify-content-end">
+      <p style="color: #c0bcb7; width: 50%; text-align: left">
         144 Goulburn Valley Hwy, Seymour, VIC 3660
       </p>
     </div>

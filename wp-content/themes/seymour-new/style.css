@@ -138,7 +138,9 @@ p {
 a:hover {
   text-decoration: none;
 }
-
+.p-120-60 {
+  padding: 120px 60px;
+}
 .subtitle {
   font-style: normal;
   font-weight: 300;
@@ -199,8 +201,11 @@ a:hover {
   margin-top: 60px;
   margin-bottom: 60px;
 }
-.main__banner_info-button.flex-button .danger p {
+.danger p {
   color: #fff;
+}
+.location__mobileTitle {
+  display: none;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   h2 {
@@ -258,6 +263,9 @@ a:hover {
     padding: 0 0.3em;
     line-height: 45px;
   }
+  .main__banner_info-benefit {
+    gap: 30px !important;
+  }
   /* Welcome */
   .main__intro-left h2 {
     font-size: 28px !important;
@@ -271,13 +279,6 @@ a:hover {
   /* Location */
   .location__map-popup {
     padding: 20px !important;
-  }
-  /* nav */
-  .menu-item-873 {
-    display: none;
-  }
-  .menu-item-978 {
-    display: none;
   }
 }
 
@@ -435,13 +436,15 @@ a:hover {
   bottom: 0;
 }
 .slider__title {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 35vw;
   height: 7.6vw;
   background-color: white;
   position: absolute;
   left: 7.7vw;
-  bottom: -2.2vw;
+  bottom: -1vw;
   z-index: 1;
 }
 .slider__title h2 {
@@ -840,7 +843,7 @@ main > section {
 }
 
 .home__main-wrapper .row {
-  padding: 120px 60px;
+  margin: 0;
 }
 
 .home__localslider-wrapper .splide__slide {
@@ -854,13 +857,20 @@ main > section {
   margin-bottom: 14px;
   object-fit: cover;
 }
-
+/* .splide__track.home__localslider-wrapper ul li {
+  height: 312px;
+} */
 .splide-gallery .splide__slide {
   padding: 0 14px;
 }
 
 .splide__slide img {
   width: 100%;
+}
+
+.splide-testominal .splide__track .splide__list .splide__slide img {
+  width: 3.5vw;
+  color: #c0bcb7;
 }
 
 .splide-testominal {
@@ -2602,7 +2612,7 @@ main > section {
 }
 .main__banner_info-benefit {
   display: flex;
-  justify-content: space-between;
+  gap: 45px;
 }
 .main__banner_info-benefit img {
   width: 1em;
@@ -3249,6 +3259,13 @@ address a {
   }
   .header .mynav ul li {
     padding: 0;
+  }
+  .header .menu-menu-2-container li:nth-child(2),
+  .header .menu-menu-2-container li:last-child {
+    display: none;
+  }
+  .header .sub-menu li {
+    display: block !important;
   }
   .nav-topic {
     padding: 20px 0;

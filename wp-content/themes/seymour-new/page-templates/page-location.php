@@ -15,7 +15,7 @@ $query_acco = new WP_Query($args);
         <!-- Location -->
 
         <section class="location__title">
-            <div class="mx-auto text-center">
+            <div class="location__mobileTitle mx-auto text-center">
                 <h1 class="rozha-font">Location</h1>
             </div>
             <section class="main__location_intro row justify-content-between pr-6">

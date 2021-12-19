@@ -253,8 +253,8 @@ address a {
 .menu-btn {
   display: none;
 }
-.sub-menu {
-  display: none;
+.subMenu {
+  visibility: hidden;
 }
 /* IPAD */
 @media (max-width: 1439px) {
@@ -376,19 +376,19 @@ address a {
   .menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
   }
-  .subOpen {
+  .subMenu.subOpen {
+    visibility: visible;
     display: flex !important;
     justify-content: space-between;
-    transition: all 0.5s ease-in-out;
   }
-  .sub-menu ul {
+  .subMenu ul {
     height: 10vw;
     width: 40vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .sub-menu ul li a {
+  .subMenu ul li a {
     color: #222222;
   }
   .sub-menu-description {

@@ -129,17 +129,18 @@
   about_node.firstChild.appendChild(poly2)
 </script>
 <script>
+  const subMenuBtn = document.querySelector('.subMenu');
   const menuBtn = document.querySelector('.menu-btn');
-  const subMenuBtn = document.getElementsByClassName('.sub-menu');
+  console.log('asdf', subMenuBtn)
   let menuOpen = false;
   menuBtn.addEventListener('click', () => {
     if (!menuOpen) {
+      subMenuBtn.classList.add('subOpen');
       menuBtn.classList.add('open');
-      subMenuBtn.classList.add('subOpen')
       menuOpen = true;
     } else {
+      subMenuBtn.classList.remove('subOpen');
       menuBtn.classList.remove('open');
-      subMenuBtn.classList.remove('subOpen')
       menuOpen = false;
     }
   });

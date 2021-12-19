@@ -24,13 +24,16 @@
                    </div>
                </div>
            </div>
-           <div class="sub-menu">
-               <ul>
-                   <li><a href="/how-to-book">How to book?</a></li>
-                   <li><a href="/welcome">Welcome</a></li>
-                   <li><a href="/facilities">Facilities</a></li>
-                   <li><a href="/area">Area</a></li>
-               </ul>
+           <div class="subMenu">
+               <div>
+                   <ul>
+                       <li><a href="/how-to-book">How to book?</a></li>
+                       <li><a href="/welcome">Welcome</a></li>
+                       <li><a href="/facilities">Facilities</a></li>
+                       <li><a href="/area">Area</a></li>
+                   </ul>
+
+               </div>
                <div class="sub-menu-description">
                    <div class="arrow"></div>
                    <p>Book direct to have the best price

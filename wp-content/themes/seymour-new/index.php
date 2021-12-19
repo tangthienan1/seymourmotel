@@ -293,20 +293,26 @@ get_header();
       </div>
     </section>
 
+
     <section>
       <div class="row justify-content-between pr-6">
         <div data-wow-delay="500ms" class="col-md-5 d-none d-md-block wow fadeInLeft px-0">
-          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100 w-100" alt="" style="object-fit: cover;" />
+          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100 w-100" alt="" style="object-fit: cover" />
         </div>
         <div class="col-12 col-md-7 col-lg-6">
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2" data-description="Seymour Motel is an ideal rest stop for travelers as well as a
-              wonderful place to stay while exploring the town's true beauty.
-              There are three options available to you, depending on your needs
-              and purposes.">
+                wonderful place to stay while exploring the town's true beauty.
+                There are three options available to you, depending on your needs
+                and purposes.">
             Facility
           </h2>
           <p style="font-weight: 200">
-            Knowing the sensitiveness of the needs of the travelers, we always wish to keep our guests happy by providing various facilities. In fact, these facilities help them to be relaxed and enjoy a wonderful time during their stay. We mainly believe in the fact of making them a “home away from home” no matter how long they stay with us.
+            Knowing the sensitiveness of the needs of the travelers, we always
+            wish to keep our guests happy by providing various facilities. In
+            fact, these facilities help them to be relaxed and enjoy a
+            wonderful time during their stay. We mainly believe in the fact of
+            making them a “home away from home” no matter how long they stay
+            with us.
           </p>
           <a href="/facilities">
             <div class="d-flex align-items-center mt-4 btn__arrow">
@@ -331,7 +337,7 @@ get_header();
                   your Wi-Fi password at the reception. 
                 </p>
               </div>
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/wifi.png" style="width: 24px; height: 24px; margin-right: 14px" />
+              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/wifi-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
               <p style="font-size: 20px; font-weight: 300; margin: 0">Wifi</p>
             </div>
             <div class="
@@ -348,7 +354,7 @@ get_header();
                   stay. 
                 </p>
               </div>
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/tv.png" style="width: 24px; height: 24px; margin-right: 14px" />
+              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/tv-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
               <p style="font-size: 20px; font-weight: 300; margin: 0">
                 Flat Screen TV
               </p>
@@ -366,7 +372,7 @@ get_header();
                   unit. Extra spots are available if required.
                 </p>
               </div>
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/free-parking.png" style="width: 24px; height: 24px; margin-right: 14px" />
+              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/free-parking-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
               <p style="font-size: 20px; font-weight: 300; margin: 0">
                 Free Parking
               </p>
@@ -384,7 +390,7 @@ get_header();
                   systems and are in good maintenance.
                 </p>
               </div>
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/air-condition.png" style="width: 24px; height: 24px; margin-right: 14px" />
+              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/air-condition-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
               <p style="font-size: 20px; font-weight: 300; margin: 0">
                 Air Conditioning
               </p>
@@ -404,7 +410,7 @@ get_header();
                   seven days a week. 
                 </p>
               </div>
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/breakfast.png" style="width: 24px; height: 24px; margin-right: 14px" />
+              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/breakfast-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
               <p style="font-size: 20px; font-weight: 300; margin: 0">
                 Free Breakfast
               </p>
@@ -422,7 +428,7 @@ get_header();
                   everything you need to feel refreshed.
                 </p>
               </div>
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/swimming.png" style="width: 24px; height: 24px; margin-right: 14px" />
+              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/swimming-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
               <p style="font-size: 20px; font-weight: 300; margin: 0">
                 Swimming Pool
               </p>
@@ -440,7 +446,7 @@ get_header();
                   located next to the swimming pool.
                 </p>
               </div>
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/bbq.png" style="width: 24px; height: 24px; margin-right: 14px" />
+              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/bbq-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
               <p style="font-size: 20px; font-weight: 300; margin: 0">
                 Free BBQ Facility
               </p>
@@ -458,7 +464,7 @@ get_header();
                   ensuring complete sanitation.
                 </p>
               </div>
-              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/bathroom.png" style="width: 24px; height: 24px; margin-right: 14px" />
+              <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/bathroom-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
               <p style="font-size: 20px; font-weight: 300; margin: 0">
                 Private Bathroom
               </p>

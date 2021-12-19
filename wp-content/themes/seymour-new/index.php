@@ -474,7 +474,7 @@ get_header();
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2">
             Local Attraction
           </h2>
-          <a href="/local-attraction">
+          <a href="./local-attractions.html">
             <div class="d-flex align-items-center btn__arrow">
               <p class="mb-0 mr-2">SEE MORE</p>
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
@@ -513,7 +513,7 @@ get_header();
             <li class="splide__slide">
               <div class="local__item-wrapper">
                 <div>
-                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19.png" alt="" />
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/wonderfultown.png" alt="" />
                 </div>
                 <h3>Wonderful Town</h3>
                 <p>
@@ -531,10 +531,10 @@ get_header();
                 </div>
                 <h3>Sport & Recreation</h3>
                 <p>
-                  One of the major attractions in Seymour is its farming
-                  exhibition held annually every February providing visitors
-                  the opportunity to enjoy different foods, see extraordinary
-                  livestock breeds and beautiful crafts.
+                  Seymour’s recreation and open spaces provide a vast array of
+                  active, passive, indoor, and outdoor experiences for
+                  residents and visitors like outdoor pools, stadiums, skate
+                  parks, riding, and racing, golfs.
                 </p>
               </div>
             </li>
@@ -554,13 +554,27 @@ get_header();
             <li class="splide__slide">
               <div class="local__item-wrapper">
                 <div>
-                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-30.png" alt="" />
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19.png" alt="" />
                 </div>
-                <h3>Wonderful Town</h3>
+                <h3>River Activites</h3>
                 <p>
                   Goulburn River is famous for many other interesting
                   activities for those who love adventurous outdoor activities
                   such as fishing or boating,
+                </p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="local__item-wrapper">
+                <div>
+                  <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/galleries.png" alt="" />
+                </div>
+                <h3>Galleries & Exhibition</h3>
+                <p>
+                  One of the major attractions in Seymour is its farming
+                  exhibition held annually every February providing visitors
+                  the opportunity to enjoy different foods, see extraordinary
+                  livestock breeds and beautiful crafts.
                 </p>
               </div>
             </li>

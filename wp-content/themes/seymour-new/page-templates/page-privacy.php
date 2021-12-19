@@ -36,23 +36,6 @@ $query_acco = new WP_Query($args);
             </div>
         </section>
 
-        <section>
-            <div style="background-color: #e9e8e5" class="px-6 py-6 justify-content-between row  mx-0">
-                <div class="col-12 col-md-3">
-                    <h2 style="color: #c0bcb7">Private Policy</h2>
-                </div>
-                <div class="col-12 col-md-6 pl-5 pl-md-0">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
-                        mauris quam pretium id rutrum scelerisque dictum velit dignissim.
-                        Libero molestie ut malesuada nulla malesuada tincidunt. Porttitor
-                        quis tellus nisi dui. Mauris elit netus semper mus elit odio
-                        metus, ut ipsum. Vestibulum enim sed porttitor pellentesque
-                        commodo augue. Tortor sed condimentum sollicitudin turpis.
-                    </p>
-                </div>
-            </div>
-        </section>
 
         <section class="px-6">
             <div class="row justify-content-center pb-5">

@@ -143,16 +143,19 @@
 <script>
   const subMenuBtn = document.querySelector('.subMenu');
   const menuBtn = document.querySelector('.menu-btn');
+  const mobileNav = document.querySelector('.navMobile');
   console.log('asdf', subMenuBtn)
   let menuOpen = false;
   menuBtn.addEventListener('click', () => {
     if (!menuOpen) {
       subMenuBtn.classList.add('subOpen');
       menuBtn.classList.add('open');
+      mobileNav.classList.add('mobileSub');
       menuOpen = true;
     } else {
       subMenuBtn.classList.remove('subOpen');
       menuBtn.classList.remove('open');
+      mobileNav.classList.remove('mobileSub');
       menuOpen = false;
     }
   });

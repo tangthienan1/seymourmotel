@@ -207,6 +207,29 @@ a:hover {
 .location__mobileTitle {
   display: none;
 }
+.navMobile {
+  position: absolute;
+  left: -375px;
+  transition: all ease-in-out 0.25s;
+  background-color: #fff;
+  height: 756px;
+  padding: 48px 0 80px 24px;
+}
+.navMobile p {
+  color: #c0bcb7;
+  opacity: 0.7;
+}
+.navMobile h4 {
+  color: #222222;
+  opacity: 0.7;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+.navMobile p,
+.navMobile h4 {
+  padding-bottom: 24px;
+}
 @media (min-width: 768px) and (max-width: 991.98px) {
   h2 {
     font-style: normal;
@@ -1216,7 +1239,14 @@ main > section {
   h2 {
     font-size: 36px;
   }
-
+  .cta__wrapper .d-flex {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  .cta__wrapper .d-flex a {
+    width: 55%;
+  }
   .room__type-wrapper .room__type-discover {
     display: none;
   }
@@ -3523,7 +3553,75 @@ address a {
   .main__facilities-img {
     display: none;
   }
+  /* WelCome*/
+  .main__intro {
+    margin: 0 !important;
+    height: 470px !important;
+    padding: 0 24px !important;
+  }
+  .main__intro .main__intro-left {
+    width: 100% !important;
+  }
+  .main__intro-right {
+    width: 270px !important;
+    height: 200px !important;
+  }
+  .main__img {
+    margin: 0 !important;
+    padding: 40px 24px 80px 24px !important;
+  }
+  .main__img img {
+    width: 327px !important;
+    height: 142px !important;
+  }
+  .main__mission {
+    padding: 0 24px !important;
+    margin-bottom: 120px !important;
+  }
+  .main__mission_content {
+    display: flex !important;
+    flex-direction: column;
+    gap: 40px !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  .main__mission_content-text {
+    width: 100% !important;
+    height: auto;
+    gap: 50px;
+  }
+  .main__mission-quote {
+    width: 100% !important;
+  }
+  .main__why {
+    padding: 0 24px !important;
+    margin-bottom: 120px !important;
+  }
+  .main__why h2 {
+    text-align: left;
+    margin-bottom: 80px;
+  }
+  .main__why_wrapper {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .main__why_wrapper-location {
+    width: 85% !important;
+  }
+  .main__why_wrapper img {
+    width: 270px;
+    height: 367px;
+    margin-left: auto;
+  }
+  .main__why_wrapper:first-child {
+    padding-bottom: 40px;
+  }
 
+  /* End Welcome*/
+
+  .room__type-wrapper {
+    margin-bottom: 0 !important;
+  }
   .container-fluid .mytable .logo {
     -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 2;
@@ -3592,6 +3690,9 @@ address a {
   }
   .menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(9vw, 9vw);
+  }
+  .mobileSub {
+    left: 0;
   }
 }
 /* End seymour-child */

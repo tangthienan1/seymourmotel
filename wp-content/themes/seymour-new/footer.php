@@ -1,4 +1,4 @@
-<footer class="footer px-6" style="min-height: 112px">
+<footer class="footer px-6" style="min-height: 112px; position: relative; background: #fff; z-index: 20">
   <div class="row align-items-center mx-0 justify-content-between" style="padding: 24px 0px; border-top: 1px solid #c0bcb7">
     <div class="
             text-center

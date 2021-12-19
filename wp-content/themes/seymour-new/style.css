@@ -102,9 +102,6 @@ h5 > a,
 h6 > a {
   color: inherit;
 }
-svg {
-  width: 1em !important;
-}
 label {
   font-weight: normal;
 }
@@ -571,7 +568,7 @@ main > section {
 
 /* LOCAL ACCTRATIONS */
 
-.local__gallery-wrapper .row:not(:last-child) {
+.local__gallery-wrapper .row div:not(:last-child) {
   padding-bottom: 160px;
 }
 
@@ -891,6 +888,10 @@ main > section {
     padding-bottom: 160px;
   }
 
+  .room__type-wrapper:hover .room__type-discover {
+    display: none;
+  }
+
   /* FOR HEADER */
   main > section:first-child {
     padding-bottom: 80px;
@@ -1048,6 +1049,10 @@ main > section {
   .room__type-wrapper {
     margin-bottom: 120px !important;
   }
+
+  .local__gallery-wrapper .row > div p {
+    visibility: visible;
+  }
   /* End Accommodation */
   /* Welcome */
   .main__img {
@@ -1113,9 +1118,7 @@ main > section {
   .location__nav-wrapper {
     padding-top: 80px;
   }
-  .location__map-wrapper {
-    padding: 0 60px;
-  }
+
   .main__location_intro {
     padding-top: 80px !important;
     padding-right: 60px !important;
@@ -1168,13 +1171,6 @@ main > section {
     font-size: 36px;
   }
 
-  .home__main-wrapper p,
-  .home__main-wrapper h1,
-  .home__main-wrapper h2,
-  .home__main-wrapper h3 {
-    font-weight: 700 !important;
-  }
-
   .room__type-wrapper .room__type-discover {
     display: none;
   }
@@ -1223,7 +1219,6 @@ main > section {
     font-size: 16px;
     padding-right: 0rem;
     text-align: center;
-    font-weight: 700;
     padding: 0 4rem;
     padding-top: 1rem;
   }
@@ -1311,6 +1306,13 @@ main > section {
   }
   .book__popup-wraper {
     padding: 48px 24px;
+  }
+
+  .local__gallery-wrapper .row > div p {
+    display: none;
+  }
+  .local__gallery-wrapper .row div:not(:last-child) {
+    padding-bottom: 40px;
   }
 }
 

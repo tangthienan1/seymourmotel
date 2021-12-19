@@ -38,83 +38,63 @@ $query_acco = new WP_Query($args);
 		</section>
 
 		<section class="local__gallery-wrapper px-6">
-			<div class="row mx-0 justify-content-end">
+			<div class="row mx-0 justify-content-start">
+				<div class="d-none d-lg-block col-lg-4"></div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-1.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Snowfields</h3>
 					<p>
-						Goulburn River is famous for many other interesting activities for
-						those who love adventurous outdoor activities such as fishing or
-						boating,
+						Regardless of the time of year, getting into a snowfield is a thrilling occasion for both families and individuals. Victoria is well-known among snow enthusiasts for its gorgeous vistas and natural surroundings.
 					</p>
 				</div>
 				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-2.png" alt="" class="img-fluid" />
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/galleries.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Galleries & Exhibition</h3>
 					<p>
-						Goulburn River is famous for many other interesting activities for
-						those who love adventurous outdoor activities such as fishing or
-						boating,
+						One of the major attractions in Seymour is its farming exhibition held annually every February providing visitors the opportunity to enjoy different foods, see extraordinary livestock breeds and beautiful crafts.
 					</p>
 				</div>
-			</div>
-			<div class="row mx-0 justify-content-start">
-				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-3.png" alt="" class="img-fluid" />
+				<div class="col-8 ml-auto col-md-4">
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-6.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">History & Heritage</h3>
 					<p>
-						Goulburn River is famous for many other interesting activities for
-						those who love adventurous outdoor activities such as fishing or
-						boating,
+						Explore our Shire's historic buildings and locations. Learn more about our rich military history, railway heritage, and tourist attractions.
 					</p>
 				</div>
 				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-4.png" alt="" class="img-fluid" />
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/fishing.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Fishing</h3>
 					<p>
-						Goulburn River is famous for many other interesting activities for
-						those who love adventurous outdoor activities such as fishing or
-						boating,
+						Given the amenities provided and the natural surroundings, fishing in Victoria is a fun-filled pastime. The Goulburn River, in particular, has a high density of trout, which is a real treat for anglers.
 					</p>
 				</div>
-			</div>
-			<div class="row mx-0 justify-content-start">
+				<div class="d-none d-lg-block col-lg-4"></div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-5.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">River Activities</h3>
 					<p>
-						Goulburn River is famous for many other interesting activities for
-						those who love adventurous outdoor activities such as fishing or
-						boating,
+						Goulburn River is famous for many other interesting activities for those who love adventurous outdoor activities such as fishing or boating,
 					</p>
 				</div>
-				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-6.png" alt="" class="img-fluid" />
+				<div class="col-8 col-md-4">
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-3.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Great Outdoors</h3>
 					<p>
-						Goulburn River is famous for many other interesting activities for
-						those who love adventurous outdoor activities such as fishing or
-						boating,
+						Towns in the Mitchell Shire were considered a major stop for those that came to the goldfields from the ports and towns of the Melbourne area, consisting of drinking houses and other essential services by then.
 					</p>
 				</div>
 				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-7.png" alt="" class="img-fluid" />
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-4.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Sport & Leisure</h3>
 					<p>
-						Goulburn River is famous for many other interesting activities for
-						those who love adventurous outdoor activities such as fishing or
-						boating,
+						Seymour’s recreation and open spaces provide a vast array of active, passive, indoor, and outdoor experiences for residents and visitors like outdoor pools, stadiums, skate parks, riding, and racing, golfs.
 					</p>
 				</div>
-			</div>
-			<div class="row mx-0 justify-content-start">
 				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-8.png" alt="" class="img-fluid" />
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-5.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Activity Trails</h3>
 					<p>
-						Goulburn River is famous for many other interesting activities for
-						those who love adventurous outdoor activities such as fishing or
-						boating,
+						Whether you're getting set to hike, bike, trail run, or explore other outdoor sports, a quiet spot like Seymour town is the finest choice for your trials. Come over and enjoy the fresh air for yourself.
 					</p>
 				</div>
 			</div>

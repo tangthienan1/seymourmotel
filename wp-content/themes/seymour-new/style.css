@@ -1364,7 +1364,7 @@ main > section {
   }
 
   .local__gallery-wrapper .row div:not(:last-child) {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
   /* ACCOMMODATION */
   .slider__title {

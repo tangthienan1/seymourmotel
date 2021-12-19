@@ -241,14 +241,12 @@ $query_acco = new WP_Query($args);
 		</section>
 		<!-- More Options -->
 		<section>
-
 			<div class="px-6">
 				<h2 class="main__more_title">
 					More Options</h2>
-
-				<div data-wow-delay="500ms" class="row justify-content-start wow fadeInLeft">
-					<div class="col-12 col-md-6">
-						<div class="room__type-wrapper room__type-left">
+				<div class="row justify-content-end">
+					<div data-wow-delay="500ms" class="col-12 col-md-6 wow fadeInRight">
+						<div class="room__type-wrapper room__type-right ml-auto">
 							<img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" />
 							<div class="d-block d-md-none d-flex justify-content-between w-100">
 								<div>
@@ -259,9 +257,9 @@ $query_acco = new WP_Query($args);
 										$110 / night
 									</p>
 								</div>
-								<a href="/single-room">
+								<a href="/twin-room">
 									<div class="align-items-center btn__arrow">
-										<p class="mb-0 mr-2">DETAIL</p>
+										<p class="mb-0 mr-2">DETAILS</p>
 										<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
 									</div>
 								</a>
@@ -269,9 +267,9 @@ $query_acco = new WP_Query($args);
 							<div class="room__type-title">
 								<h2>Single Room</h2>
 								<div class="room__type-discover">
-									<a href="/single-room">
+									<a href="/twin-room">
 										<div class="d-flex align-items-center btn__arrow">
-											<p style="color: #b52804" class="mb-0 mr-2">DETAIL</p>
+											<p class="mb-0 mr-2">DETAILS</p>
 											<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
 										</div>
 									</a>
@@ -281,7 +279,7 @@ $query_acco = new WP_Query($args);
 								<p style="font-weight: 200; font-size: 16px" class="mb-0">
 									Start from
 								</p>
-								<p style="font-weight: 300; font-size: 20px">$110 / night</p>
+								<p style="font-weight: 300; font-size: 20px">$120 / night</p>
 							</div>
 						</div>
 					</div>
@@ -303,7 +301,7 @@ $query_acco = new WP_Query($args);
 								</div>
 								<a href="/family-room">
 									<div class="align-items-center btn__arrow">
-										<p class="mb-0 mr-2">DETAIL</p>
+										<p class="mb-0 mr-2">DETAILS</p>
 										<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
 									</div>
 								</a>
@@ -313,7 +311,7 @@ $query_acco = new WP_Query($args);
 								<div class="room__type-discover">
 									<a href="/family-room">
 										<div class="d-flex align-items-center btn__arrow">
-											<p class="mb-0 mr-2">DETAIL</p>
+											<p class="mb-0 mr-2">DETAILS</p>
 											<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
 										</div>
 									</a>

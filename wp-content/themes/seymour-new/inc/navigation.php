@@ -22,7 +22,9 @@
                 </div>
             </div>
             <div class="phone">
-                <img src="<?php bloginfo('template_directory'); ?>/icons/phone.png">
+                <a href="tel:+61 3 5792 1500">
+                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/phone.png" style="width: 18px">
+                </a>
             </div>
         </div>
         <div class="subMenu">
@@ -41,7 +43,7 @@
                     +61 3 5792 1500 </p>
             </div>
         </div>
-        <div class="navMobile px-6" style="width: 375px">
+        <div class="navMobile px-6" style="width: 100vw">
             <p class="nav__title">Accommodations</p>
             <a href="/single-room">
                 <h4 class="nav__item">Single Room</h4>

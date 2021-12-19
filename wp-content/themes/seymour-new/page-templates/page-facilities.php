@@ -65,7 +65,7 @@ $query_acco = new WP_Query($args);
                                     <p style="font-weight: 300; margin: 0">Microwave</p>
                                 </div>
                                 <div class="d-flex pb-4 col-6 col-xl-4 align-items-center">
-                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/electric-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
+                                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/kettle.png" style="width: 24px; height: 24px; margin-right: 14px" />
                                     <p style="font-weight: 300; margin: 0">Electric Kettle</p>
                                 </div>
                             </div>

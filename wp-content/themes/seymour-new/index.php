@@ -169,7 +169,7 @@ get_header();
               </div>
               <a href="/single-room">
                 <div class="align-items-center btn__arrow">
-                  <p class="mb-0 mr-2">DETAIL</p>
+                  <p class="mb-0 mr-2">DETAILS</p>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                 </div>
               </a>
@@ -179,7 +179,7 @@ get_header();
               <div class="room__type-discover">
                 <a href="/single-room">
                   <div class="d-flex align-items-center btn__arrow">
-                    <p style="color: #b52804" class="mb-0 mr-2">DETAIL</p>
+                    <p style="color: #b52804" class="mb-0 mr-2">DETAILS</p>
                     <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                   </div>
                 </a>
@@ -209,7 +209,7 @@ get_header();
               </div>
               <a href="/twin-room">
                 <div class="align-items-center btn__arrow">
-                  <p class="mb-0 mr-2">DETAIL</p>
+                  <p class="mb-0 mr-2">DETAILS</p>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                 </div>
               </a>
@@ -219,7 +219,7 @@ get_header();
               <div class="room__type-discover">
                 <a href="/twin-room">
                   <div class="d-flex align-items-center btn__arrow">
-                    <p class="mb-0 mr-2">DETAIL</p>
+                    <p class="mb-0 mr-2">DETAILS</p>
                     <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                   </div>
                 </a>
@@ -251,7 +251,7 @@ get_header();
               </div>
               <a href="/family-room">
                 <div class="align-items-center btn__arrow">
-                  <p class="mb-0 mr-2">DETAIL</p>
+                  <p class="mb-0 mr-2">DETAILS</p>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                 </div>
               </a>
@@ -261,7 +261,7 @@ get_header();
               <div class="room__type-discover">
                 <a href="/family-room">
                   <div class="d-flex align-items-center btn__arrow">
-                    <p class="mb-0 mr-2">DETAIL</p>
+                    <p class="mb-0 mr-2">DETAILS</p>
                     <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                   </div>
                 </a>
@@ -323,7 +323,7 @@ get_header();
         </p>
         <a href="/facilities">
           <div class="d-flex align-items-center mt-4 btn__arrow">
-            <p class="mb-0 mr-2">MORE DETAIL</p>
+            <p class="mb-0 mr-2">MORE DETAILS</p>
             <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
           </div>
         </a>
@@ -593,16 +593,17 @@ get_header();
           </li>
         </ul>
       </div>
+      <a href="./local-attractions">
+        <div class="ml-3 mt-3 d-flex d-md-none align-items-center btn__arrow">
+          <p class="mb-0 mr-2">SEE MORE</p>
+          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+        </div>
+      </a>
     </div>
-    <a href="./local-attractions.html">
-      <div class="ml-3 mt-3 d-flex d-md-none align-items-center btn__arrow">
-        <p class="mb-0 mr-2">SEE MORE</p>
-        <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-      </div>
-    </a>
+
   </section>
 
-  <section>
+  <section class="home__comment">
     <div class="d-flex justify-content-between px-6 py-6">
       <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2">
         Happy customer

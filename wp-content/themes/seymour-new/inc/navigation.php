@@ -23,6 +23,9 @@
                        </a>
                    </div>
                </div>
+               <div class="phone">
+                   <img src="<?php bloginfo('template_directory'); ?>/icons/phone.png">
+               </div>
            </div>
            <div class="subMenu">
                <div>

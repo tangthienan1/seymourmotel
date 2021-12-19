@@ -311,13 +311,10 @@ address a {
     font-size: 15px;
   }
   a {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   .header .flex-button .tol_no {
     height: 45px;
-  }
-  .header .mynav ul li a {
-    font-size: 15px;
   }
   .header .mynav ul li {
     padding: 0;

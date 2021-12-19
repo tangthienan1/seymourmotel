@@ -39,17 +39,9 @@ $query_acco = new WP_Query($args);
 					</div>
 					<ul class="splide__list">
 						<li class="splide__slide">
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/banner1.png" alt="" class="img-fluid" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/singleroom-thumpnail.png" alt="" class="img-fluid" />
 						</li>
-						<li class="splide__slide">
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/banner2.png" alt="" class="img-fluid" />
-						</li>
-						<li class="splide__slide">
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/banner3.png" alt="" class="img-fluid" />
-						</li>
-						<li class="splide__slide">
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/banner4.png" alt="" class="img-fluid" />
-						</li>
+
 					</ul>
 				</div>
 			</div>
@@ -100,7 +92,7 @@ $query_acco = new WP_Query($args);
 			<div class="main__highlight_container">
 				<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 					<h3>Highlight</h3>
-					<p>People always don’t travel in groups – some travel alone for various reasons.</p>
+					<p>For people don’t travel in groups – some travel alone for various reasons, this one is the best suit you.</p>
 				</div>
 				<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/accommodation1.png" alt="">
@@ -151,98 +143,98 @@ $query_acco = new WP_Query($args);
 				<div class="main__facilities-benefit">
 					<ul>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/wifi.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/wifi-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Wifi
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/tv.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/tv-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Flat Screen TV
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/microwave.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/microwave-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Microwave
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/air-condition.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/air-condition-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Air Conditioning
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/wardrobe.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/wardrobe-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Wardrobe
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/toaster.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/toaster-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Toaster
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/tea.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/tea-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Tea & Coffee
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/bathroom.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/bathroom-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Private Bathroom
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/safe-area.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/safe-area-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Seating Area
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/blanket.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/blanket-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Electric Blanket
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/toiletries.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/toiletries-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 							Free toiletries
 						</li>
 					</ul>
 					<ul>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/towel.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/towel-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Towels
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/hair.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/hair-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Hair Dryer
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/iron.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/iron-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Iron & Iron board
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/shower.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/shower-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Shower
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/refrigerator.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/refrigerator-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Refrigerator
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/electric.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/electric-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Electric Kettle
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/kitchenware.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/kitchenware-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Kitchenware
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/garden.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/garden-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Garden & Pool View
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/carpeted.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/carpeted-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Carpeted Room
 						</li>
 						<li>
-							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/linen.png" style="width: 24px; height: 24px; margin-right: 14px" />
+							<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/linen-1.png" style="width: 24px; height: 24px; margin-right: 14px" />
 
 							Linen
 						</li>
@@ -266,7 +258,7 @@ $query_acco = new WP_Query($args);
 					More Options</h2>
 
 				<div class="row justify-content-end">
-					<div class="col-12 col-md-6 wow fadeInRight">
+					<div data-wow-delay="500ms" class="col-12 col-md-6 wow fadeInRight">
 						<div class="room__type-wrapper room__type-right ml-auto">
 							<img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-2.png" />
 							<div class="d-block d-md-none d-flex justify-content-between w-100">
@@ -278,18 +270,22 @@ $query_acco = new WP_Query($args);
 										$120 / night
 									</p>
 								</div>
-								<div class="d-flex align-items-center">
-									<p style="color: #b52804" class="mb-0 mr-2">DETAIL</p>
-									<img style="width: 80px; height: 4px" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-								</div>
+								<a href="/twin-room">
+									<div class="align-items-center btn__arrow">
+										<p class="mb-0 mr-2">DETAIL</p>
+										<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+									</div>
+								</a>
 							</div>
 							<div class="room__type-title">
 								<h2>Twin Room</h2>
 								<div class="room__type-discover">
-									<div class="d-flex align-items-center btn__arrow">
-										<p class="mb-0 mr-2">DETAIL</p>
-										<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-									</div>
+									<a href="/twin-room">
+										<div class="d-flex align-items-center btn__arrow">
+											<p class="mb-0 mr-2">DETAIL</p>
+											<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="room__type-price d-none d-md-block">
@@ -304,7 +300,7 @@ $query_acco = new WP_Query($args);
 
 				<div class="row justify-content-start">
 					<div class="col-md-1 d-none d-md-block"></div>
-					<div class="col-12 col-md-6 wow fadeInLeft">
+					<div data-wow-delay="500ms" class="col-12 col-md-6 wow fadeInLeft">
 						<div class="room__type-wrapper room__type-left">
 							<img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-3.png" />
 							<div class="d-block d-md-none d-flex justify-content-between w-100">
@@ -316,18 +312,22 @@ $query_acco = new WP_Query($args);
 										$160 / night
 									</p>
 								</div>
-								<div class="d-flex align-items-center">
-									<p class="mb-0 mr-2">DETAIL</p>
-									<img style="width: 80px; height: 4px" src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-								</div>
+								<a href="/family-room">
+									<div class="align-items-center btn__arrow">
+										<p class="mb-0 mr-2">DETAIL</p>
+										<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+									</div>
+								</a>
 							</div>
 							<div class="room__type-title">
 								<h2>Family Room</h2>
 								<div class="room__type-discover">
-									<div class="d-flex align-items-center btn__arrow">
-										<p class="mb-0 mr-2">DETAIL</p>
-										<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
-									</div>
+									<a href="/family-room">
+										<div class="d-flex align-items-center btn__arrow">
+											<p class="mb-0 mr-2">DETAIL</p>
+											<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="room__type-price d-none d-md-block">

@@ -25,7 +25,7 @@
       <img class="mr-1" src="<?php bloginfo('template_directory'); ?>/icons/facebook.svg" />
     </div>
     <div class="col-7 col-md-4 px-0">
-      <p style="color: #c0bcb7; text-align: left">
+      <p style="color: #c0bcb7; text-align: right">
         144 Goulburn Valley Hwy, Seymour, VIC 3660
       </p>
     </div>

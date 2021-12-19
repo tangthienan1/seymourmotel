@@ -46,7 +46,7 @@
             <a href="/single-room">
                 <h4 class="nav__item">Single Room</h4>
             </a>
-            <a href="/twin-room-2">
+            <a href="/twin-room">
                 <h4 class="nav__item">Twin Room</h4>
             </a>
             <a href="/family-room">

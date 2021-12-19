@@ -83,10 +83,7 @@ $query_acco = new WP_Query($args);
                                 </div>
                                 <div>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Molestie laoreet aliquam morbi ipsum eu suspendisse
-                                        ornare. Ac imperdiet suspendisse ut nibh commodo proin
-                                        amet.
+                                        A guest may be able to cancel their reservation by clicking on a link in their confirmation email or by calling us. In rare situations, you may be allowed to initiate a cancellation request if a guest requests it or if there are problems with guest payments.
                                     </p>
                                 </div>
                             </div>
@@ -109,10 +106,7 @@ $query_acco = new WP_Query($args);
                                 </div>
                                 <div>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Molestie laoreet aliquam morbi ipsum eu suspendisse
-                                        ornare. Ac imperdiet suspendisse ut nibh commodo proin
-                                        amet.
+                                        Seymour securely processes payment information. No card information is transmitted or stored. All transactions take place over secure connections protected by the most recent industry-standard security procedures.
                                     </p>
                                 </div>
                             </div>
@@ -120,7 +114,7 @@ $query_acco = new WP_Query($args);
                     </div>
                     <div class="card my-2">
                         <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true">
-                            <span class="title">Is my payment safe? How?</span>
+                            <span class="title">How do I get to Seymour Motel?</span>
                             <span class="accicon">
                                 <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path opacity="0.7" d="M4.62204 5.56356C4.82142 5.7938 5.17858 5.7938 5.37796 5.56356L9.47967 0.827327C9.7601 0.503505 9.53008 0 9.1017 0H0.898298C0.469922 0 0.239896 0.503505 0.520334 0.827327L4.62204 5.56356Z" fill="#222222" />
@@ -134,10 +128,7 @@ $query_acco = new WP_Query($args);
                                 </div>
                                 <div>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Molestie laoreet aliquam morbi ipsum eu suspendisse
-                                        ornare. Ac imperdiet suspendisse ut nibh commodo proin
-                                        amet.
+                                        For guests who wish to drive their own car, the Seymour Motel has an on-site car park for maximum convenience. Free parking for guests. If you're looking for an easy way to get around Seymour with private transportation, the motel can arrange taxi service.
                                     </p>
                                 </div>
                             </div>
@@ -145,7 +136,7 @@ $query_acco = new WP_Query($args);
                     </div>
                     <div class="card my-2">
                         <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true">
-                            <span class="title">Is my payment safe? How?</span>
+                            <span class="title">We will probably not arrive until after 9pm is that a problem?</span>
                             <span class="accicon">
                                 <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path opacity="0.7" d="M4.62204 5.56356C4.82142 5.7938 5.17858 5.7938 5.37796 5.56356L9.47967 0.827327C9.7601 0.503505 9.53008 0 9.1017 0H0.898298C0.469922 0 0.239896 0.503505 0.520334 0.827327L4.62204 5.56356Z" fill="#222222" />
@@ -159,10 +150,7 @@ $query_acco = new WP_Query($args);
                                 </div>
                                 <div>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Molestie laoreet aliquam morbi ipsum eu suspendisse
-                                        ornare. Ac imperdiet suspendisse ut nibh commodo proin
-                                        amet.
+                                        Hi, Please note our standard check in time is from 2 PM to 9 PM. For late check in request, contact us at +61 3 5792 1500
                                     </p>
                                 </div>
                             </div>

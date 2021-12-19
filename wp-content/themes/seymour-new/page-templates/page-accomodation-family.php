@@ -117,6 +117,30 @@ $query_acco = new WP_Query($args);
 				</div>
 
 			</div>
+			<div class="main__highlight_container_mob">
+				<div class="main__highlight_container">
+					<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
+						<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight1.png" alt="">
+					</div>
+					<div class="main__highlight_container-img2 wow fadeInRight" data-wow-delay="500ms">
+						<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight2.png" alt="">
+					</div>
+					<div class="main__highlight_container-img3 wow fadeInLeft" data-wow-delay="500ms">
+						<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight3.png" alt="">
+					</div>
+				</div>
+				<div class="main__highlight_content">
+					<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
+						<h3>Highlight</h3>
+						<p>People always don’t travel in groups – some travel alone for various reasons.</p>
+					</div>
+					<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
+						<h3>Who should choose this</h3>
+						<p>For family traveller, all rooms have one queen size and two single beds as standard configuration.</p>
+					</div>
+
+				</div>
+			</div>
 		</section>
 
 		<section class="main__facilities">

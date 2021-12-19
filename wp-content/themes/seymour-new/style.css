@@ -1359,9 +1359,7 @@ main > section {
     padding: 0 !important;
     margin: 0 !important;
   }
-  .main__banner {
-    padding: 0 24px 120px;
-  }
+
   /* END ACCOMMODATION */
 
   /* Footer */
@@ -2993,6 +2991,7 @@ Version: 1.0
   position: relative;
 }
 .header .mynav ul li a {
+  opacity: 70%;
   color: #222222;
   font-family: "Public Sans", sans-serif;
   font-weight: 300;
@@ -3306,6 +3305,7 @@ address a {
     /* border: 3px solid #fff; */
   }
   .menu-btn__burger {
+    opacity: 70%;
     width: 50%;
     height: 2px;
     background: #222222;
@@ -3376,6 +3376,10 @@ address a {
 }
 /* MOBILE */
 @media (max-width: 767px) {
+  main > section:not(:first-child) {
+    padding: 0;
+    margin-bottom: 160px;
+  }
   .footer-mob {
     display: block;
   }
@@ -3410,12 +3414,100 @@ address a {
   .mynav {
     display: none;
   }
+  .main__highlight_container {
+    display: none;
+  }
   .nav-padding {
     padding: 0 24px !important;
     height: 100%;
   }
+  .main__banner {
+    height: 200vw;
+    padding: 0 24px 120px;
+  }
+  .main__banner_wrapper {
+    position: static;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__banner_info {
+    position: static;
+    background-color: #fff;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .main__banner_info-button.flex-button {
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .main__banner_info-button.flex-button div {
+    width: 213px !important;
+  }
+  .main__banner_img {
+    position: static;
+    width: 325px !important;
+    height: 337px !important;
+  }
+  .main__highlight {
+    margin-bottom: 0 !important;
+  }
+  .main__highlight h2 {
+    margin-bottom: 48px;
+  }
+  .main__highlight_container_mob {
+    width: 100% !important;
+  }
+  .main__highlight_container_mob .main__highlight_container {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 388px !important;
+  }
+  .main__highlight_container-img2 {
+    top: 80px !important;
+    left: 0 !important;
+  }
+  .main__highlight .main__highlight_container div:last-child {
+    top: 188px !important;
+    left: 138px !important;
+  }
+  .main__highlight_container_mob .main__highlight_content {
+    padding: 40px 24px 0;
+  }
+  .main__highlight_container-img1 img {
+    width: 236px;
+    height: 148px;
+  }
+  .main__highlight_container-img2 img {
+    width: 216px;
+    height: 133px;
+  }
+  .main__highlight_container-img3 img {
+    width: 156px;
+    height: 200px;
+  }
+  .main__highlight .main__highlight_container-highlight {
+    width: 100% !important;
+    margin-bottom: 40px;
+  }
   .header .flex-button {
     display: none;
+  }
+  .main__facilities {
+    padding: 0 24px !important;
+    margin-bottom: 120px;
+  }
+  .main__facilities-info p {
+    margin-bottom: 40px !important;
+  }
+  .main__facilities-img {
+    display: none;
+  }
+  .room__type-wrapper {
+    margin-bottom: 0 !important;
   }
   .container-fluid .mytable .logo {
     -webkit-box-ordinal-group: 2;

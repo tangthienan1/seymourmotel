@@ -93,7 +93,6 @@ $query_acco = new WP_Query($args);
 					<img src="<?php echo $back_image; ?>" style="width:100%; height:100%">
 				</div>
 			</div>
-
 		</section>
 
 		<section class="main__highlight">
@@ -117,6 +116,30 @@ $query_acco = new WP_Query($args);
 					<p>For an individual traveller, hiring a double room is an unwanted expenditure.</p>
 				</div>
 
+			</div>
+			<div class="main__highlight_container_mob">
+				<div class="main__highlight_container">
+					<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
+						<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/accommodation1.png" alt="">
+					</div>
+					<div class="main__highlight_container-img2 wow fadeInRight" data-wow-delay="500ms">
+						<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/accommodation2.png" alt="">
+					</div>
+					<div class="main__highlight_container-img3 wow fadeInLeft" data-wow-delay="500ms">
+						<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/accommodation3.png" alt="">
+					</div>
+				</div>
+				<div class="main__highlight_content">
+					<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
+						<h3>Highlight</h3>
+						<p>People always don’t travel in groups – some travel alone for various reasons.</p>
+					</div>
+					<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
+						<h3>Who should choose this</h3>
+						<p>For an individual traveller, hiring a double room is an unwanted expenditure.</p>
+					</div>
+
+				</div>
 			</div>
 		</section>
 

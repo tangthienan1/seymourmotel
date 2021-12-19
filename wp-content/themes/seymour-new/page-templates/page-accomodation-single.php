@@ -93,7 +93,6 @@ $query_acco = new WP_Query($args);
 					<img src="<?php echo $back_image; ?>" style="width:100%; height:100%">
 				</div>
 			</div>
-
 		</section>
 
 		<section class="main__highlight">

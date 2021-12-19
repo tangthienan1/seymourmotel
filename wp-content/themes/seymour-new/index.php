@@ -277,7 +277,7 @@ get_header();
         <h1 class="cta__wrapper-title">Book your stay</h1>
         <p class="cta__wrapper-description">Find the best suit you</p>
         <div class="row justify-content-center mx-0">
-          <div class="col-8 col-md-5 col-xl-2 pb-2">
+          <div class="col-8 col-md-5 col-xl-3 pb-2">
             <button data-toggle="modal" data-target="#book-modal-wrapper" class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">
               BOOK NOW
             </button>
@@ -637,11 +637,11 @@ get_header();
 
     <section>
       <div style="background-color: #e9e6e5">
-        <div class="p-120-60 row text-center text-sm-left">
-          <div class="col pb-5">
+        <div class="p-120-60 row text-center text-sm-left justify-content-between">
+          <div class="col-6 pb-5 px-0">
             <h1 style="font-family: 'Rozha One' !important">Stay in touch</h1>
           </div>
-          <div class="col d-flex flex-column">
+          <div class="col-5 d-flex flex-column px-0">
             <input placeholder="Name" class="seymour-input" type="text" />
             <input placeholder="Email" class="seymour-input" type="text" style="margin: 30px 0" />
             <div>

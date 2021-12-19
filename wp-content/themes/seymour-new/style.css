@@ -3196,6 +3196,9 @@ address a {
 .header .phone {
   display: none;
 }
+.footer-mob {
+  display: none;
+}
 /* IPAD */
 @media (max-width: 1439px) {
   .header {
@@ -3355,6 +3358,27 @@ address a {
 }
 /* MOBILE */
 @media (max-width: 767px) {
+  .footer-mob {
+    display: block;
+  }
+  .footer-tab {
+    display: none !important;
+  }
+  .header {
+    height: 56px !important;
+  }
+  .logo {
+    width: 131px !important;
+  }
+  .header .logo a img {
+    width: 100px !important;
+  }
+  .header .logo a {
+    padding: 4.5vw 3vw !important;
+  }
+  .phone {
+    padding: 4.5vw 0;
+  }
   .subMenu {
     display: none;
   }

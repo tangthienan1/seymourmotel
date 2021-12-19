@@ -104,24 +104,7 @@ $query_acco = new WP_Query($args);
         </section>
         <!-- End Mission -->
         <!-- 		CTA -->
-        <section>
-            <div class="text-center cta__wrapper pdd-120">
-                <h1 class="cta__wrapper-title">Book your stay</h1>
-                <p class="cta__wrapper-description">Find the best suit you</p>
-                <div class="d-flex justify-content-center">
-                    <a href="https://useross.com/booking.php?dialog=motel&motel_id=433">
-                        <button data-toggle="modal" data-target="#book-modal-wrapper" class="btn w-100 btn-lg btn-primary" class="btn btn-lg btn-primary" style="margin-right: 14px">
-                            BOOK NOW
-                        </button>
-                    </a>
-                    <a href="/how-to-book">
-                        <button class="btn w-100 btn-lg btn-outline-primary">
-                            HOW TO BOOK
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </section>
+        <?php get_template_part('inc/cta'); ?>
         <!-- 		END CTA -->
         <!-- Why us -->
         <section class="main__why">

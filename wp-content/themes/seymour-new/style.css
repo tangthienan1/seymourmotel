@@ -1274,6 +1274,9 @@ main > section {
   .cta__wrapper .d-flex a {
     width: 55%;
   }
+  .room__type-wrapper {
+    padding-bottom: 80px;
+  }
   .room__type-wrapper .room__type-discover {
     display: none;
   }

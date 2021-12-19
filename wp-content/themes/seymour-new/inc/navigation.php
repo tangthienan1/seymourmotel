@@ -29,7 +29,7 @@
             <div>
                 <ul>
                     <li><a href="/how-to-book">How to book?</a></li>
-                    <li><a href="/welcome">Welcome</a></li>
+                    <li><a href="/about">Welcome</a></li>
                     <li><a href="/facilities">Facilities</a></li>
                     <li><a href="/local-attraction">Area</a></li>
                 </ul>

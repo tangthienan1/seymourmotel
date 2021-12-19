@@ -35,7 +35,7 @@ get_header();
             </svg>
           </div>
           <div class="text-left slide__btn-next slide__btn">
-            <p class="mb-0">Next</p>
+            <p class="mb-0">Next one</p>
             <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
               <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
             </svg>
@@ -109,7 +109,7 @@ get_header();
 
     <section>
       <div style="background-color: #e9e6e5">
-        <div class="row py-6" style="padding: 144px 60px">
+        <div class="row py-6 intro__wrapper">
           <div class="col-12 col-md-4 text-center convention__wrapper">
             <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/convention-1.png" />
             <h3 class="convention__wrapper-title" style="color: #c0bcb7">
@@ -303,9 +303,9 @@ get_header();
 
 
     <section>
-      <div class="row justify-content-between pr-6">
+      <div class="row justify-content-between px-md-0 pr-6 pl-xs-6">
         <div data-wow-delay="500ms" class="col-md-5 d-none d-md-block wow fadeInLeft px-0">
-          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/room-type-1.png" class="img-fluid h-100 w-100" alt="" style="object-fit: cover" />
+          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/Rectangle-30.png" class="img-fluid h-100 w-100" alt="" style="object-fit: cover" />
         </div>
         <div class="col-12 col-md-7 col-lg-6">
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2" data-description="Seymour Motel is an ideal rest stop for travelers as well as a
@@ -489,7 +489,7 @@ get_header();
             Local Attraction
           </h2>
           <a href="./local-attractions.html">
-            <div class="d-flex align-items-center btn__arrow">
+            <div class="d-none d-md-flex align-items-center btn__arrow">
               <p class="mb-0 mr-2">SEE MORE</p>
               <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
             </div>
@@ -508,7 +508,7 @@ get_header();
         </div>
       </div>
       <div class="splide-2 pl-6">
-        <div class="splide__arrows d-flex justify-content-end pr-6">
+        <div class="splide__arrows d-none d-md-flex justify-content-end pr-6">
           <div class="text-right pr-4 slide__btn slide__btn-prev">
             <p class="mb-0">Previous</p>
             <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
@@ -516,7 +516,7 @@ get_header();
             </svg>
           </div>
           <div class="text-left slide__btn-next slide__btn">
-            <p class="mb-0">Next</p>
+            <p class="mb-0">Next one</p>
             <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
               <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
             </svg>
@@ -595,6 +595,12 @@ get_header();
           </ul>
         </div>
       </div>
+      <a href="./local-attractions.html">
+        <div class="ml-3 mt-3 d-flex d-md-none align-items-center btn__arrow">
+          <p class="mb-0 mr-2">SEE MORE</p>
+          <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
+        </div>
+      </a>
     </section>
 
     <section>
@@ -622,7 +628,7 @@ get_header();
               </svg>
             </div>
             <div class="text-left slide__btn-next slide__btn">
-              <p class="mb-0">Next</p>
+              <p class="mb-0">Next one</p>
               <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
                 <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
               </svg>
@@ -665,16 +671,23 @@ get_header();
 
     <section>
       <div style="background-color: #e9e6e5">
-        <div class="p-120-60 row text-center text-sm-left justify-content-between flex-column flex-md-row">
-          <div class="col-6 pb-5 px-0">
+        <div class="
+              row
+              px-6
+              py-5
+              text-center text-sm-left
+              contact__wrapper
+              flex-column flex-md-row
+            ">
+          <div class="col pb-5">
             <h1 style="font-family: 'Rozha One' !important">Stay in touch</h1>
           </div>
-          <div class="col-5 d-flex flex-column px-0">
+          <div class="col d-flex flex-column">
             <input placeholder="Name" class="seymour-input" type="text" />
             <input placeholder="Email" class="seymour-input" type="text" style="margin: 30px 0" />
             <div>
               <button class="btn btn-lg btn-primary" style="margin-right: 14px">
-                SUBMIT
+                BOOK NOW
               </button>
             </div>
           </div>

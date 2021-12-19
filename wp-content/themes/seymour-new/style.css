@@ -884,15 +884,19 @@ main > section {
   height: 312px;
 } */
 .splide-gallery .splide__slide {
-  padding: 0 14px;
+  padding: 0 12px;
 }
 
 .splide__slide img {
   width: 100%;
 }
 
+.room__type-wrapper > div {
+  margin-top: 8px;
+}
+
 .splide-testominal .splide__track .splide__list .splide__slide img {
-  width: 3.5vw;
+  width: 50px;
   color: #c0bcb7;
 }
 
@@ -1129,7 +1133,7 @@ main > section {
   /* End Accommodation */
   /* Welcome */
   .main__img {
-    padding: 120px 60px 110px !important;
+    padding: 120px 0px 110px !important;
   }
   .main__img img {
     width: 81.5vw !important;
@@ -1235,6 +1239,10 @@ main > section {
   /* END FACILITIES */
 }
 
+.intro__wrapper {
+  padding: 144px 60px;
+}
+
 /* MOBILE */
 @media (max-width: 767px) {
   h1 {
@@ -1243,6 +1251,15 @@ main > section {
   h2 {
     font-size: 36px;
   }
+
+  .pl-xs-6 {
+    padding-left: 24px;
+  }
+
+  .intro__wrapper {
+    padding: 40px 24px;
+  }
+
   .cta__wrapper .d-flex {
     flex-direction: column;
     gap: 16px;

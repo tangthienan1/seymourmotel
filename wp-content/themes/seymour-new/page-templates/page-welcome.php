@@ -26,7 +26,7 @@ $query_acco = new WP_Query($args);
                         </svg>
                     </div>
                     <div class="text-left slide__btn-next slide__btn">
-                        <p class="mb-0">Next</p>
+                        <p class="mb-0">Next one</p>
                         <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
                             <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
                         </svg>
@@ -125,7 +125,7 @@ $query_acco = new WP_Query($args);
         <!-- 		END CTA -->
         <!-- Why us -->
         <section class="main__why">
-            <h2>Why us</h2>
+            <h2>Why us?</h2>
             <div class="main__why_relative">
                 <div class="main__why_wrapper wow fadeInRight" data-wow-delay="500ms">
                     <div class="main__why_wrapper-location">
@@ -134,8 +134,8 @@ $query_acco = new WP_Query($args);
                             Seymour is located next to the Hume Highway and is approximately an hour away from Melbourn
                         </p>
                         <a href="/location">
-                            <div class="d-flex align-items-center btn__arrow">
-                                <p class="mb-0 mr-2">DISCOVER </p>
+                            <div class="d-sm-none btn__arrow align-items-center mt-4 p-0">
+                                <p class="mb-0">DISCOVER</p>
                                 <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                             </div>
                         </a>
@@ -148,8 +148,8 @@ $query_acco = new WP_Query($args);
                         <p>
                             Seymour is located next to the Hume Highway and is approximately an hour away from Melbourn </p>
                         <a href="/location">
-                            <div class="d-flex align-items-center btn__arrow">
-                                <p class="mb-0 mr-2">READ MORE</p>
+                            <div class="d-sm-none btn__arrow align-items-center mt-4 p-0">
+                                <p class="mb-0">DISCOVER</p>
                                 <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
                             </div>
                         </a>

@@ -17,7 +17,7 @@ $query_acco = new WP_Query($args);
         <section style="padding-top: 80px;">
             <section class="row justify-content-between pb-5 px-6  mx-0">
                 <div class="
-              col-12 col-md-8 col-lg-6
+              col-12 col-md-7 col-lg-6
               text-center text-md-left
               align-self-end
             ">
@@ -323,7 +323,7 @@ $query_acco = new WP_Query($args);
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-md-block col-12 col-md-4 col-lg-5">
+                <div class="d-none d-md-block col-12 col-md-5 col-lg-5 px-0">
                     <div class="facilities__adrress-wrapper">
                         <div class="facilities__adrress-inner">
                             <img class="img-fluid w-100" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/facilities-banner.png" alt="" />

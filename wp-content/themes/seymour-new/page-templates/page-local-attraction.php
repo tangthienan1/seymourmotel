@@ -31,7 +31,7 @@ $query_acco = new WP_Query($args);
 						city along the Hume Highway.
 					</p>
 				</div>
-				<div class="d-none col-12 d-md-block col-md-6 col-lg-7 pr-0">
+				<div class="d-none col-12 d-md-block col-md-5 col-lg-7 pr-0">
 					<img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-banner.png" alt="" />
 				</div>
 			</section>

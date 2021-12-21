@@ -83,7 +83,7 @@ $query_acco = new WP_Query($args);
                                 </div>
                                 <div>
                                     <p>
-                                        A guest may be able to cancel their reservation by clicking on a link in their confirmation email or by calling us. In rare situations, you may be allowed to initiate a cancellation request if a guest requests it or if there are problems with guest payments.
+                                        You can cancel the booking by calling the property and the property can cancel it in UseRoss and can update the availability in UseRoss or PMS (software) if you are using one.
                                     </p>
                                 </div>
                             </div>

@@ -991,7 +991,13 @@ main > section {
     padding-top: 12px !important;
   }
   .menu-btn {
-    width: 10vw !important;
+    width: 5vw !important;
+  }
+  .menu-btn__burger::after {
+    transform: translateY(5px);
+  }
+  .menu-btn__burger::before {
+    transform: translateY(-5px);
   }
   .header .flex-button {
     justify-content: end;

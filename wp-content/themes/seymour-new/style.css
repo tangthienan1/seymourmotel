@@ -1010,7 +1010,7 @@ main > section {
     bottom: 0;
     width: 600px !important;
     height: 477px !important;
-    padding: 64px 156px 64px 78px !important;
+    padding: 64px 162px 64px 78px !important;
   }
   .main__banner_info-button {
     margin-top: 60px !important;
@@ -1513,6 +1513,9 @@ main > section {
   }
   .accommodation__sticky-bookNow .tol_no p {
     padding: 15px 35px;
+  }
+  .main__banner_info-button.flex-button .tol_no {
+    margin: 0 !important;
   }
   /* END ACCOMMODATION */
 
@@ -3416,7 +3419,7 @@ section .px-6 {
   .header .tol_no {
     margin: 17px 0;
   }
-  .tol_no {
+  .header .tol_no {
     margin: 60px 0;
   }
   .mynav li:last-child {

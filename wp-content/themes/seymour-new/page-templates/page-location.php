@@ -244,28 +244,7 @@ $query_acco = new WP_Query($args);
             </div>
         </section>
 
-        <section>
-            <div class="text-center cta__wrapper py-6">
-                <h1 class="cta__wrapper-title">Book your stay</h1>
-                <p class="cta__wrapper-description">Find the best suit you</p>
-                <div class="row justify-content-center">
-                    <div class="col-8 col-md-3 col-xl-2 pb-2">
-
-                        <button class="btn w-100 btn-lg btn-primary" style="margin-right: 14px" data-toggle="modal" data-target="#book-modal-wrapper">
-                            BOOK NOW
-                        </button>
-
-                    </div>
-                    <div class="col-8 col-md-3 col-xl-2">
-                        <a href="/how-to-book">
-                            <button class="btn w-100 btn-lg btn-outline-primary">
-                                HOW TO BOOK
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php get_template_part('inc/cta'); ?>
 
         <?php get_template_part('inc/gallery'); ?>
 

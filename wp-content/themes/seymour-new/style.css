@@ -232,7 +232,12 @@ a:hover {
 .navMobile h4 {
   padding-bottom: 24px;
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+.contact__wrapper.py-5 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+/* IPAD */
+@media (min-width: 768px) and (max-width: 1025px) {
   h2 {
     font-style: normal;
     font-weight: 500;
@@ -265,9 +270,27 @@ a:hover {
   .slider__title h2 {
     font-size: 36px !important;
   }
+
   /* Accommodation */
   .flex-button {
     width: 50vw;
+  }
+  .main__banner_img {
+    top: 0;
+    width: 40vw !important;
+    height: 42vw !important;
+  }
+  .main__banner_wrapper {
+    height: 62vw !important;
+  }
+  .main__banner_info {
+    bottom: 0;
+    width: 55vw !important;
+    height: 53vw !important;
+    padding: 5vw 17vw 19vw 5vw !important;
+  }
+  .main__banner_info-button .tol_no {
+    margin: 0 !important;
   }
   .main__banner_info {
     font-size: 14px !important;
@@ -957,6 +980,49 @@ main > section {
   padding-bottom: 120px;
 }
 /* IPAD */
+@media (width: 1024px) {
+  .header a {
+    font-size: 20px !important;
+  }
+  .home__comment .splide__track ul li p {
+    font-size: 20px !important;
+  }
+  .header .mynav ul li {
+    padding-top: 12px !important;
+  }
+  .menu-btn {
+    width: 10vw !important;
+  }
+  .header .flex-button {
+    justify-content: end;
+  }
+  .sub-menu-description {
+    width: 23vw !important;
+  }
+  .main__banner_wrapper {
+    height: 628px;
+  }
+  .main__banner_img {
+    width: 460px !important;
+    height: 444px !important;
+  }
+  .main__banner_info {
+    bottom: 0;
+    width: 600px !important;
+    height: 477px !important;
+    padding: 64px 156px 64px 78px !important;
+  }
+  .main__banner_info-button {
+    margin-top: 60px !important;
+  }
+  .main__banner_info-button.flex-button .tol_no {
+    width: 210px;
+    height: 56px;
+  }
+  .main__banner_info-button.flex-button .tol_no p {
+    padding: 4px 0 !important;
+  }
+}
 @media (max-width: 1439px) {
   main {
     padding-top: 90px;
@@ -1019,7 +1085,7 @@ main > section {
     top: 70%;
     transform: translate(-270px, 0);
   }
-  .main__more_title {
+  .home__comment .main__more_title {
     color: #c0bcb7;
     font-weight: 500;
     font-size: 48px;
@@ -1074,23 +1140,7 @@ main > section {
   .main-container {
     padding-bottom: 190px;
   }
-  .main__banner_wrapper {
-    height: 62vw !important;
-  }
-  .main__banner_info {
-    bottom: 0;
-    width: 55vw !important;
-    height: 53vw !important;
-    padding: 5vw 17vw 19vw 5vw !important;
-  }
-  .main__banner_info-button .tol_no {
-    margin: 0 !important;
-  }
-  .main__banner_img {
-    top: 0;
-    width: 40vw !important;
-    height: 42vw !important;
-  }
+
   .main__highlight h2 {
     font-size: 36px !important;
     line-height: 48px !important;
@@ -3459,6 +3509,8 @@ section .px-6 {
     transform: rotate(-45deg) translate(35px, 35px);
   }
   .subMenu.subOpen {
+    margin: 0 -60px;
+    padding: 0 60px 0 90px;
     visibility: visible;
     display: flex !important;
     justify-content: space-between;

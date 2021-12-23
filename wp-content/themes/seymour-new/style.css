@@ -1377,6 +1377,10 @@ main > section {
   padding: 144px 60px;
 }
 
+.splide-gallery img {
+  aspect-ratio: 1 / 1;
+}
+
 /* MOBILE */
 @media (max-width: 767px) {
   h1 {

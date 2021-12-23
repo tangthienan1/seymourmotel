@@ -80,7 +80,9 @@ get_header();
       </div>
       <div class="col-4 d-md-none">
         <div class="d-sm-none btn__arrow align-items-center mb-4 p-0">
-          <p class="mb-0">DISCOVER</p>
+          <a href="/welcome">
+            <p class="mb-0">DISCOVER</p>
+          </a>
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
         </div>
       </div>
@@ -468,7 +470,7 @@ get_header();
         <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2">
           Local Attraction
         </h2>
-        <a href="./local-attractions.html">
+        <a href="/local-attractions">
           <div class="d-none d-md-flex align-items-center btn__arrow">
             <p class="mb-0 mr-2">SEE MORE</p>
             <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
@@ -595,7 +597,9 @@ get_header();
               justify-content-end
               btn__arrow
             ">
-        <p class="mb-0">READ MORE</p>
+        <a href="https://www.tripadvisor.com/Hotel_Review-g261665-d7384774-Reviews-Seymour_Motel-Seymour_Victoria.html">
+          <p class="mb-0">READ MORE</p>
+        </a>
         <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
       </div>
     </div>
@@ -620,7 +624,7 @@ get_header();
             <li class="splide__slide">
               <div>
                 <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
-                <p class="py-5" style="height: 276px; font-size: 20px; font-weight: 300">
+                <p class="py-5" style="font-size: 20px; font-weight: 300">
                   The bed was one of the more comfortable motel beds I have ever found. Something you don't generally find in any motel. Just great. Thank you. We would recommend.
                 </p>
                 <p style="color: #c0bcb7">- Hazel Ron M -</p>
@@ -629,7 +633,7 @@ get_header();
             <li class="splide__slide">
               <div>
                 <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
-                <p class="py-5" style="height: 276px; font-size: 20px; font-weight: 300">
+                <p class="py-5" style="font-size: 20px; font-weight: 300">
                   Great overnight we wish we had more time to see some of the history and sights Just have to give it more time next time.
                 </p>
                 <p style="color: #c0bcb7">- Barry -</p>
@@ -638,7 +642,7 @@ get_header();
             <li class="splide__slide">
               <div>
                 <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
-                <p class="py-5" style="height: 276px; font-size: 20px; font-weight: 300">
+                <p class="py-5" style="font-size: 20px; font-weight: 300">
                   The air conditioner was new and quiet, the bed was super comfy, the room was clean, the staff were friendly and helpful, the breakfast was fine. There was good water...
                 </p>
                 <p style="color: #c0bcb7">- Joanna -</p>
@@ -667,9 +671,11 @@ get_header();
           <input placeholder="Name" class="seymour-input" type="text" />
           <input placeholder="Email" class="seymour-input" type="text" style="margin: 30px 0" />
           <div>
-            <button class="btn btn-lg btn-primary" style="margin-right: 14px">
-              BOOK NOW
-            </button>
+            <a href="mailto:info@seymourmotel.com">
+              <button class="btn btn-lg btn-primary" style="margin-right: 14px">
+                SUBMIT
+              </button>
+            </a>
           </div>
         </div>
       </div>

@@ -22,16 +22,25 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-1.png" alt="" class="img-fluid" />
+                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-1.jpg" alt="" class="img-fluid" />
                         </li>
                         <li class="splide__slide">
-                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-2.png" alt="" class="img-fluid" />
+                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-2.jpg" alt="" class="img-fluid" />
                         </li>
                         <li class="splide__slide">
-                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-3.png" alt="" class="img-fluid" />
+                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-3.jpg" alt="" class="img-fluid" />
                         </li>
                         <li class="splide__slide">
-                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-1.png" alt="" class="img-fluid" />
+                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-4.jpg" alt="" class="img-fluid" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-5.jpg" alt="" class="img-fluid" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-6.jpg" alt="" class="img-fluid" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/gallery-7.jpg" alt="" class="img-fluid" />
                         </li>
                     </ul>
                 </div>

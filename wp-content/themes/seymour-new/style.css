@@ -788,6 +788,7 @@ main > section {
 
 .location__map-wrapper {
   position: relative;
+  height: 800px;
 }
 
 .location__map-popup {
@@ -807,6 +808,36 @@ main > section {
 .location__map-popup .location__map-popup-sub {
   font-size: 20px;
   font-weight: 300;
+}
+
+#share-modal-wrapper .social__item {
+  width: 40px;
+  height: 40px;
+}
+
+#share-modal-wrapper .share__popup-wraper {
+  padding: 64px 48px;
+}
+
+#share-modal-wrapper .social__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+#share-modal-wrapper .copy__wrapper-input {
+  flex: 1;
+  overflow-x: hidden;
+}
+
+#share-modal-wrapper .modal__close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.copy__wrapper-input {
+  margin-right: 16px;
 }
 
 /* End Homepage */
@@ -1056,6 +1087,13 @@ main > section {
     display: none;
   }
 
+  .room__type-wrapper:hover .room__type-discover {
+    display: none;
+  }
+  .local__gallery-wrapper .row > div p {
+    visibility: visible;
+  }
+
   /* FOR HEADER */
   main > section:first-child {
     padding-bottom: 80px;
@@ -1088,7 +1126,7 @@ main > section {
     height: 380px;
     position: absolute;
     left: 0%;
-    top: 70%;
+    top: 65%;
     transform: translate(-270px, 0);
   }
   .home__comment .main__more_title {
@@ -1293,6 +1331,10 @@ main > section {
     height: 17vw !important;
   }
 
+  .location__map-wrapper {
+    height: 700px;
+  }
+
   /* End Location */
 
   .local__item-wrapper p {
@@ -1308,6 +1350,27 @@ main > section {
   }
 
   /* END FACILITIES */
+}
+
+.nav__mobile-wrapper {
+  padding-top: 136px;
+}
+
+.nav__mobile-wrapper p {
+  padding-bottom: 24px;
+}
+
+.nav__mobile-wrapper .nav__title {
+  color: #c0bcb7;
+  opacity: 70%;
+}
+.nav__mobile-wrapper .nav__item {
+  color: #222222;
+  font-size: 20px;
+}
+
+.nav__mobile-wrapper .nav__item:hover {
+  text-decoration: underline;
 }
 
 .intro__wrapper {
@@ -1329,6 +1392,10 @@ main > section {
 
   .intro__wrapper {
     padding: 40px 24px;
+  }
+
+  .home__sticky-address {
+    display: none;
   }
 
   .cta__wrapper .d-flex {
@@ -1446,6 +1513,10 @@ main > section {
     margin-bottom: 0;
   }
   .location__map-wrapper {
+    height: 250px;
+  }
+
+  .location__map-wrapper {
     padding: 0 24px;
   }
   .location__map-wrapper img {
@@ -1470,6 +1541,13 @@ main > section {
 
   .cta__wrapper {
     padding: 80px 0;
+  }
+
+  .local__gallery-wrapper .row > div p {
+    display: none;
+  }
+  .local__gallery-wrapper .row div:not(:last-child) {
+    padding-bottom: 40px;
   }
 
   /* FACILITITES */

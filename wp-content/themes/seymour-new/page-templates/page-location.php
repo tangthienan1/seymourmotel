@@ -93,7 +93,7 @@ $query_acco = new WP_Query($args);
                             <a class="social__item" target="_blank" href="https://twitter.com/intent/tweet?url=https://goo.gl/maps/3L5kxHowCJoJBjQQ6&text=">
                                 <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/twitter.png" alt="" />
                             </a>
-                            <a class="social__item" target="_blank" href="#">
+                            <a class="social__item" target="_blank" href="https://api.whatsapp.com/send?text=https://goo.gl/maps/3L5kxHowCJoJBjQQ6">
                                 <img class="img-fluid" src="http://www.seymourmotel.com/wp-content/uploads/2021/12/phone-1.png" alt="" />
                             </a>
                         </div>

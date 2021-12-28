@@ -46,10 +46,10 @@
         <div class="navMobile px-6" style="width: 100vw">
             <p class="nav__title">Accommodations</p>
             <a href="/single-room">
-                <h4 class="nav__item">Single Room</h4>
+                <h4 class="nav__item">Double Room</h4>
             </a>
             <a href="/twin-room">
-                <h4 class="nav__item">Twin Room</h4>
+                <h4 class="nav__item">Triple Room</h4>
             </a>
             <a href="/family-room">
                 <h4 class="nav__item">Family Room</h4>

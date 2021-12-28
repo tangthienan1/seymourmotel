@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Accommodation Single Room Templates
+ * Template Name: Accommodation Double Room Templates
  */
 
 get_header();
@@ -272,7 +272,7 @@ $query_acco = new WP_Query($args);
 							</a>
 						</div>
 						<div class="room__type-title">
-							<h2>Twin Room</h2>
+							<h2>Triple Room</h2>
 							<div class="room__type-discover">
 								<a href="/twin-room">
 									<div class="d-flex align-items-center btn__arrow">

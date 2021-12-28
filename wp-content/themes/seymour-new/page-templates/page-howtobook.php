@@ -5,11 +5,13 @@
  */
 
 get_header();
+
 $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 $showposts = 20;
 $args = array('orderby' => 'menu_order', 'order' => 'ASC', 'posts_per_page' => $showposts, 'post_status' => 'publish', 'post_type' => 'accomodation', 'paged' => $paged);
 $query_acco = new WP_Query($args);
 ?>
+
 <div id="pushIt">
     <main role="main">
         <!-- WELCOME -->
@@ -83,7 +85,7 @@ $query_acco = new WP_Query($args);
                                 </div>
                                 <div>
                                     <p>
-                                        You can cancel the booking by calling the property and the property can cancel it in UseRoss and can update the availability in UseRoss or PMS (software) if you are using one.
+                                        To cancel your reservation, please phone +61 3 5792 1500. The rest of the procedure will be handled by us.
                                     </p>
                                 </div>
                             </div>

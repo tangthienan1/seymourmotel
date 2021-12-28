@@ -4,8 +4,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-/* copy */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -2699,7 +2697,7 @@ textarea.form-control.is-invalid {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 2px;
+  border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2737,29 +2735,29 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #b52804;
-  border-color: #b52804;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #222222;
-  border-color: #222222;
+  background-color: #0069d9;
+  border-color: #0062cc;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #b52804;
-  border-color: #b52804;
-  box-shadow: 0 0 0 0.2rem #b52804;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #b52804;
-  border-color: #b52804;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -3064,25 +3062,24 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #b52804;
-  border-color: #b52804;
+  color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: rgba(181, 40, 4, 0.1);
-  border-color: #b52804;
-  color: #b52804;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem #b52804;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #b52804;
+  color: #007bff;
   background-color: transparent;
 }
 
@@ -3376,10 +3373,10 @@ fieldset:disabled a.btn {
 
 .btn-lg,
 .btn-group-lg > .btn {
-  padding: 16px 32px;
-  font-size: 1.125rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 2px;
+  border-radius: 0.3rem;
 }
 
 .btn-sm,

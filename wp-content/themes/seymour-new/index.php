@@ -177,7 +177,7 @@ get_header();
               </a>
             </div>
             <div class="room__type-title">
-              <h2>Single Room</h2>
+              <h2>Double Room</h2>
               <div class="room__type-discover">
                 <a href="/single-room">
                   <div class="d-flex align-items-center btn__arrow">
@@ -217,7 +217,7 @@ get_header();
               </a>
             </div>
             <div class="room__type-title">
-              <h2>Twin Room</h2>
+              <h2>Triple Room</h2>
               <div class="room__type-discover">
                 <a href="/twin-room">
                   <div class="d-flex align-items-center btn__arrow">

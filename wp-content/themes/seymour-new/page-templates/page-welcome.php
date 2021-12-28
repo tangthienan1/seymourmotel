@@ -75,7 +75,9 @@ $query_acco = new WP_Query($args);
         </section>
         <!-- End Intro -->
         <section class="main__img wow fadeInLeft" data-wow-delay="500ms">
-            <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcomebanner.png" />
+            <?php $back_image = (get_field('banner_image')) ? get_field('banner_image') : get_bloginfo('template_directory') . "/images/static-bg.jpg"; ?>
+            <img src="<?php echo $back_image; ?>">
+            <!-- <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcomebanner.png" /> -->
         </section>
         <!-- Mission -->
         <section class="main__mission">

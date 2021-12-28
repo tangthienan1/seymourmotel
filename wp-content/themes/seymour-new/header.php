@@ -13,14 +13,14 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1. maximum-scale=1">
-
-    <!-- custom css -->
+    <!-- header -->
     <?php wp_head(); ?>
+    <!-- custom css -->
     <link rel="shortcut icon" href="http://seymourmotel.com/wp-content/uploads/2016/05/favicon-96x96.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>?t=<?php echo time() ?>" />
     <link rel="stylesheet" type="text/css" href="https://useross.com/433.css" />
     <!-- J Query -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.2/viewer.css" integrity="sha512-HGWrJz+Lr07phD0DNoLsSVwn3przno/eSLf1cGOrLzr6c7NUZROZJPhQdSPmLHNbsO0HP2UfUnpKTMiVxonEHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -45,22 +45,4 @@
             </div>
         </div>
     </div>
-    <!-- <header class="header-mbl hidden-lg clearfix fixed">
-        <div class="mytable">
-            <div class="logo table-cell va-middle">
-                <a href="<?php echo home_url('/'); ?>">
-                    <img src="<?php bloginfo("template_url") ?>/icons/seymour-motel-logo.png" alt="Seymour Motel - Seymour Accommodation - Best Seymour Motel">
-                </a>
-            </div>
-            <div class="toggle table-cell va-middle text-right">
-                <a href="javascript:;" class="pull-right">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
-            </div>
-        </div>
-    </header>
-    <div id="headerMblHeight"></div> -->
     <?php get_template_part('inc/navigation'); ?>

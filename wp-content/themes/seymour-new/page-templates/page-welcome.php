@@ -87,15 +87,7 @@ $query_acco = new WP_Query($args);
                 </div>
                 <div class="main__mission_content-text">
                     <p class="wow fadeInRight" data-wow-delay="500ms">
-                        Despite the fact that our services are extremely affordable, we never
-                        sacrifice quality for the sake of saving money. With that vision in
-                        mind, we've received a lot of positive feedback from our guests over
-                        the last few years. We have significantly increased our customer base
-                        by sticking to our vision. We have a large number of repeat guests who
-                        appreciate the service we provide and the quiet environment away from
-                        the hustle and bustle of town. The majority of these visitors consider
-                        us to be one of the best country Victoria lodging providers, which
-                        fuels our desire to improve.
+                        Despite the fact that our services are extremely affordable, we never sacrifice quality for the sake of saving money. With that vision in mind, we've received a lot of positive feedback from our guests over the last few years. By sticking to our vision, we have significantly increased our customer base. We have a large number of repeat guests who appreciate the service we provide and the quiet environment away from the hustle and bustle of town. The majority of these visitors consider us to be one of the best country Victoria lodging providers, which fuels our desire to improve.
                     </p>
                     <div class="main__mission-quote">
                         <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/qoute.png" alt="" />
@@ -116,7 +108,7 @@ $query_acco = new WP_Query($args);
                     <div class="main__why_wrapper-location">
                         <h3 class="pb-2">Location</h3>
                         <p>
-                            Seymour is located next to the Hume Highway and is approximately an hour away from Melbourn
+                            Seymour is roughly an hour's drive from Melbourne, and is located along the Hume Highway. The beauty and convenience of the surrounding area are also enjoyed by the motel's position, in addition to the convenience of transportation.
                         </p>
                         <a href="/location">
                             <div class="d-sm-none btn__arrow align-items-center mt-4 p-0">
@@ -131,7 +123,8 @@ $query_acco = new WP_Query($args);
                     <div class="main__why_wrapper-location">
                         <h3 class="pb-2">Your safe</h3>
                         <p>
-                            Seymour is located next to the Hume Highway and is approximately an hour away from Melbourn </p>
+                            Despite the fact that the region is intrinsically secure, your safety is one of our top considerations. In addition, visitor information booklets accessible at our front desk can provide information on Seymour, Mitchell Shire Council in Victoria.
+                        </p>
                         <a href="/location">
                             <div class="d-sm-none btn__arrow align-items-center mt-4 p-0">
                                 <p class="mb-0">DISCOVER</p>

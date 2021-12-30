@@ -56,10 +56,8 @@ $query_acco = new WP_Query($args);
 			<div class="main__banner_info">
 				<div>Start from</div>
 				<div class="main__banner_info-price">$160 / night</div>
-				<div class="main__banner_info-text">These rooms have been designed specifically to meet the needs of individuals.
-					They are extremely comfortable, allowing you to begin a new "next day"
-					with a positive mindset. The gentle touch of nature in a calm and quiet environment
-					can be a great relief for your's tiredness.
+				<div class="main__banner_info-text">
+					These rooms have been designed specifically to meet the needs of families. They are extremely comfortable, allowing you to begin a new "next day" with a positive mindset. The gentle touch of nature in a calm and quiet environment can be a great relief for you and your family's tiredness.
 				</div>
 				<div class="main__banner_info-benefit">
 					<span>
@@ -95,7 +93,7 @@ $query_acco = new WP_Query($args);
 		<div class="main__highlight_container">
 			<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 				<h3>Highlight</h3>
-				<p>People always don’t travel in groups – some travel alone for various reasons.</p>
+				<p>To make things more affordable for guests, we offer family rooms which provide comfort, safety and other basic features.</p>
 			</div>
 			<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
 				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight1.png" alt="">
@@ -142,7 +140,7 @@ $query_acco = new WP_Query($args);
 		<div class="main__facilities-info wow fadeInRight" data-wow-delay="500ms">
 
 			<h3>Facilities</h3>
-			<p>These rooms also have all the basic facilities in addition to the safety and comfort.</p>
+			<p>These rooms also have all the basic facilities, in addition to safety and comfort.</p>
 			<div class="main__facilities-benefit">
 				<ul>
 					<li>

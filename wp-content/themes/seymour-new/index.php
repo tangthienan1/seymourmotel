@@ -65,15 +65,10 @@ get_header();
         <div style="padding: 54px 0">
           <div>
             <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2">
-              Welcome to the clean and peaceful motel in Seymour
+              Welcome to the cleanest and most peaceful motel in Seymour.
             </h2>
             <p style="font-weight: 200">
-              Seymour is located next to the Hume Highway and is
-              approximately an hour away from Melbourne. Seymour Motel was
-              the town's first and remains one of the best in the area,
-              offering perfectly reasonable rates. The motel has expansive
-              large blocks of land, densely forested with magnificent gum
-              trees and tranquil, authentic Australian gardens.
+              Seymour is located next to the Hume Highway and is approximately an hour away from Melbourne. Seymour Motel was the town's first and remains one of the best in the area, offering perfectly reasonable rates. The motel has expansive, large blocks of land, densely forested with magnificent gum trees and tranquil, authentic Australian gardens.
             </p>
           </div>
         </div>
@@ -119,7 +114,7 @@ get_header();
             Cozy Space
           </h3>
           <p class="convention__wrapper-subtitle">
-            Away from the hustle and bustle of cities and towns, relax and enjoy the country air, unwind your stresses in the cozy place. Because of the comfort this location provides, you will not even feel like you're far from home.
+            Away from the hustle and bustle of cities and towns, relax and enjoy the country air. Unwind your stresses in this cozy place. Because of the comfort this location provides, you will not even feel like you're far from home.
           </p>
         </div>
         <div class="col-12 col-md-4 text-center convention__wrapper">
@@ -128,16 +123,16 @@ get_header();
             Local Attraction
           </h3>
           <p class="convention__wrapper-subtitle">
-            Seymour is a beautiful town located on the banks of the wonderful Goulburn River. You can reach this charming town within an hours’ drive from Melbourne city along the Hume Highway.
+            Seymour is a lovely town on the banks of the magnificent Goulburn River. Along the Hume Highway, you can get to this quaint village in under an hour from Melbourne.
           </p>
         </div>
         <div class="col-12 col-md-4 text-center convention__wrapper">
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/convention-3.png" />
           <h3 class="convention__wrapper-title" style="color: #c0bcb7">
-            Chill vibe
+            Chill vibes
           </h3>
           <p class="convention__wrapper-subtitle">
-            Our team has mastered the skills in understanding the exact needs of guests, who arrive after a tiresome journey. Thanks to our serene surrounding spread on a large block of land, we guarantee our guests the most tranquil Seymour spaces.
+            Our team has mastered the skills to understand the exact needs of guests who arrive after a tiresome journey. Thanks to our serene surroundings spread on a large block of land, we guarantee our guests the most tranquil Seymour spaces.
           </p>
         </div>
       </div>
@@ -149,11 +144,10 @@ get_header();
       <div class="row" style="margin-bottom: 160px">
         <div class="col-12 col-md-7">
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2">
-            Explore rooms & suites
+            Explore rooms and suites
           </h2>
           <p style="font-weight: 200">
-            Seymour Motel is an ideal rest stop for travelers as well as a wonderful place to stay while exploring the town's true beauty. There are three options available to you, depending on your needs and purposes for visiting Seymour.
-            Our single, twin and family rooms all feature excellent amenities.
+            Seymour Motel is an ideal rest stop for travelers as well as a wonderful place to stay while exploring the town's true beauty. There are three options available to you, depending on your needs and purposes for visiting Seymour. Our double, triple, and family rooms all feature excellent amenities.
           </p>
         </div>
       </div>
@@ -299,12 +293,7 @@ get_header();
           Facility
         </h2>
         <p style="font-weight: 200">
-          Knowing the sensitiveness of the needs of the travelers, we always
-          wish to keep our guests happy by providing various facilities. In
-          fact, these facilities help them to be relaxed and enjoy a
-          wonderful time during their stay. We mainly believe in the fact of
-          making them a “home away from home” no matter how long they stay
-          with us.
+          Knowing the sensitive nature of the needs of travelers, we always wish to keep our guests happy by providing various facilities. In fact, these facilities help them relax and have a wonderful time during their stay. We mainly believe in making them a "home away from home" no matter how long they stay with us.
         </p>
         <a href="/facilities">
           <div class="d-flex align-items-center mt-4 btn__arrow">
@@ -481,13 +470,7 @@ get_header();
       </div>
       <div class="col-12 col-md-6">
         <p>
-          Seymour is in such a great location being a regional hub for the
-          district with a range of social services with an abundance of
-          medical options including the Seymour Hospital, Government
-          Agency’s Humans Services and Vic Roads along with great Shopping
-          with all major supermarkets available. The rail line junction with
-          multiple daily services to Melbourne for the daily commute along
-          with services to access all of Australia.
+          Seymour is in such an excellent location, serving as the district's regional hub, with a variety of social services and medical alternatives, including the Seymour Hospital, government agencies Humans Services and Vic Roads, as well as great shopping with all major supermarkets. The rail line junction offers numerous daily commuter trains to Melbourne, as well as connectivity to the rest of Australia.
         </p>
       </div>
     </div>
@@ -627,7 +610,7 @@ get_header();
               <div>
                 <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
                 <p class="py-5" style="font-size: 20px; font-weight: 300">
-                  The bed was one of the more comfortable motel beds I have ever found. Something you don't generally find in any motel. Just great. Thank you. We would recommend.
+                  The bed was one of the most comfortable motel beds I'd ever slept in. Something you won't find in a typical motel. Excellent. We would recommend it.
                 </p>
                 <p style="color: #c0bcb7">- Hazel Ron M -</p>
               </div>
@@ -636,7 +619,7 @@ get_header();
               <div>
                 <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
                 <p class="py-5" style="font-size: 20px; font-weight: 300">
-                  Great overnight we wish we had more time to see some of the history and sights Just have to give it more time next time.
+                  We enjoyed our wonderful overnight stay and wish we had more time to visit more of the history and sights. Just have to give it more time next time.
                 </p>
                 <p style="color: #c0bcb7">- Barry -</p>
               </div>
@@ -645,7 +628,7 @@ get_header();
               <div>
                 <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
                 <p class="py-5" style="font-size: 20px; font-weight: 300">
-                  The air conditioner was new and quiet, the bed was super comfy, the room was clean, the staff were friendly and helpful, the breakfast was fine. There was good water...
+                  The air conditioner was new and quiet, the bed was super comfy, the room was clean, the staff were friendly and helpful, the breakfast was delicous.
                 </p>
                 <p style="color: #c0bcb7">- Joanna -</p>
               </div>

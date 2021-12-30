@@ -1359,6 +1359,7 @@ main > section {
 
 .splide-gallery img {
   aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 /* MOBILE */

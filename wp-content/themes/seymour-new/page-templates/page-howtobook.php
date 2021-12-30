@@ -27,7 +27,7 @@ $query_acco = new WP_Query($args);
                 <div class="col-12 col-md-5 col text-center text-md-left">
                     <h3>Step 1. Check the schedule</h3>
                     <p class="mb-5">
-                        You will see a live time schedule for our motel when you visit the booking site. Simply select your arrival date to see if your reservation is available.
+                        When you visit the booking site, you will see a live time schedule for our motel. Simply select your arrival date to see if your reservation is available.
                     </p>
                 </div>
                 <div class="col-12 col-md-1"></div>
@@ -85,7 +85,7 @@ $query_acco = new WP_Query($args);
                                 </div>
                                 <div>
                                     <p>
-                                        To cancel your reservation, please phone +61 3 5792 1500. The rest of the procedure will be handled by us.
+                                        To cancel your reservation, please call +61 3 5792 1500. The rest of the procedure will be handled by us.
                                     </p>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@ $query_acco = new WP_Query($args);
                                 </div>
                                 <div>
                                     <p>
-                                        Hi, Please note our standard check in time is from 2 PM to 9 PM. For late check in request, contact us at +61 3 5792 1500
+                                        Please note that our standard check-in time is from 2 PM to 9 PM. For late check-in requests, contact us at +61 3 5792 1500.
                                     </p>
                                 </div>
                             </div>

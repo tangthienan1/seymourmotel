@@ -24,11 +24,7 @@ $query_acco = new WP_Query($args);
             ">
 					<h1 class="rozha-font">Local Attractions</h1>
 					<p>
-						Seymour Motel is located in a prime location alongside the Hume
-						Highway, Mitchel Shire – Country Victoria. Seymour is a beautiful
-						town located on the banks of the wonderful Goulburn River. You can
-						reach this charming town within an hours’ drive from Melbourne
-						city along the Hume Highway.
+						Seymour Motel is located in a prime location alongside the Hume Highway in Mitchel Shire, Country Victoria. Seymour is a beautiful town located on the banks of the wonderful Goulburn River. You can reach this charming town within an hour’s drive from Melbourne city along the Hume Highway.
 					</p>
 				</div>
 				<div class="d-none col-12 d-md-block col-md-5 col-lg-7 pr-0">
@@ -51,7 +47,7 @@ $query_acco = new WP_Query($args);
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/galleries.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Galleries & Exhibition</h3>
 					<p>
-						One of the major attractions in Seymour is its farming exhibition held annually every February providing visitors the opportunity to enjoy different foods, see extraordinary livestock breeds and beautiful crafts.
+						One of the major attractions in Seymour is its farming exhibition, held annually every February, providing visitors the opportunity to enjoy different foods, see extraordinary livestock breeds and beautiful crafts.
 					</p>
 				</div>
 				<div class="col-8 ml-auto col-md-4">
@@ -73,21 +69,21 @@ $query_acco = new WP_Query($args);
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/Rectangle-19.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">River Activities</h3>
 					<p>
-						Goulburn River is famous for many other interesting activities for those who love adventurous outdoor activities such as fishing or boating,
+						The Goulburn River is famous for many other interesting activities for those who love adventurous outdoor activities such as fishing or boating.
 					</p>
 				</div>
 				<div class="col-8 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-3.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Great Outdoors</h3>
 					<p>
-						Towns in the Mitchell Shire were considered a major stop for those that came to the goldfields from the ports and towns of the Melbourne area, consisting of drinking houses and other essential services by then.
+						The towns in the Mitchell Shire were considered a major stop for those that came to the goldfields from the ports and towns of the Melbourne area, consisting of drinking houses and other essential services by then.
 					</p>
 				</div>
 				<div class="col-6 col-md-4">
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-4.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Sport & Leisure</h3>
 					<p>
-						Seymour’s recreation and open spaces provide a vast array of active, passive, indoor, and outdoor experiences for residents and visitors like outdoor pools, stadiums, skate parks, riding, and racing, golfs.
+						Seymour’s recreation and open spaces provide a vast array of active, passive, indoor, and outdoor experiences for residents and visitors, like outdoor pools, stadiums, skate parks, horse riding, and golf.
 					</p>
 				</div>
 				<div class="col-6 col-md-4">

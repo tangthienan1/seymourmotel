@@ -58,7 +58,7 @@ $query_acco = new WP_Query($args);
 				<div>Start from</div>
 				<div class="main__banner_info-price">$110 / night</div>
 				<div class="main__banner_info-text">
-					These rooms have been designed specifically to meet the needs of individuals. They are extremely comfortable, allowing you to begin a new "next day" with a positive mindset. The gentle touch of nature in a calm and quiet environment can be a great relief for your's tiredness.
+					These rooms have been designed specifically to meet the needs of individuals. They are extremely comfortable, allowing you to begin a new "next day" with a positive mindset. Nature's gentle touch in a calm and quiet environment can be a great source of relief for your tiredness.
 				</div>
 				<div class="main__banner_info-benefit">
 					<span>
@@ -94,7 +94,7 @@ $query_acco = new WP_Query($args);
 		<div class="main__highlight_container">
 			<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 				<h3>Highlight</h3>
-				<p>For people don’t travel in groups – some travel alone for various reasons, this one is the best suit you.</p>
+				<p>Traveling alone is a favorite pastime for some people, so this is the best option for you.</p>
 			</div>
 			<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
 				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/accommodation1.png" alt="">
@@ -107,7 +107,7 @@ $query_acco = new WP_Query($args);
 			</div>
 			<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 				<h3>Who should choose this</h3>
-				<p>This is a terrific alternative for solo travelers who want to enjoy their privacy while conserving money.</p>
+				<p>Travelers on a budget who want to enjoy a comfortable room at a reasonable cost should consider</p>
 			</div>
 
 		</div>

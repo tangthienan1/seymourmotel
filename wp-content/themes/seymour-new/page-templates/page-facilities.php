@@ -24,12 +24,8 @@ $query_acco = new WP_Query($args);
                     <div style="padding-bottom: 160px">
                         <h1 class="rozha-font">Facilities</h1>
                         <p>
-                            Knowing how sensitive travelers' needs are, we strive to make
-                            our guests happy by providing a variety of amenities. In fact,
-                            these amenities allow them to unwind and have a great time
-                            during their stay. We primarily believe in providing them with a
-                            "home away from home" experience, regardless of how long they
-                            stay with us.
+                            We strive to make our guests happy by providing a wide range of amenities, knowing that their needs are unique.
+                            In fact, they are able to unwind and enjoy their trip more fully. Even if they stay with us only for a short time, we aim to make them feel at home.
                         </p>
                     </div>
                     <div>

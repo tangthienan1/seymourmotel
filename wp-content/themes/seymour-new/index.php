@@ -19,7 +19,7 @@ get_header();
       <div class="mx-auto text-center pt-5 pb-2 col-12 col-lg-8 col-xl-8">
         <h1 class="rozha-font">Seymour Motel</h1>
         <p class="home__subtitle">
-          Affordable, all-inclusive packages available in Victoria
+          Affordable, all-inclusive packages are available in Victoria.
         </p>
       </div>
       <div class="col-12 col-lg-10 col-xl-6"></div>
@@ -76,7 +76,7 @@ get_header();
       <div class="col-4 d-md-none">
         <div class="d-sm-none btn__arrow align-items-center mb-4 p-0">
           <a href="/welcome">
-            <p class="mb-0">DISCOVER</p>
+            <p class="mb-0">DISCOVER MORE</p>
           </a>
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
         </div>
@@ -114,7 +114,7 @@ get_header();
             Cozy Space
           </h3>
           <p class="convention__wrapper-subtitle">
-            Away from the hustle and bustle of cities and towns, relax and enjoy the country air. Unwind your stresses in this cozy place. Because of the comfort this location provides, you will not even feel like you're far from home.
+            Away from the hustle and bustle of cities and towns, relax and enjoy the country air. Unwind your stress in this cozy place. Because of the comfort this location provides, you will not even feel like you're far from home.
           </p>
         </div>
         <div class="col-12 col-md-4 text-center convention__wrapper">
@@ -132,7 +132,7 @@ get_header();
             Chill vibes
           </h3>
           <p class="convention__wrapper-subtitle">
-            Our team has mastered the skills to understand the exact needs of guests who arrive after a tiresome journey. Thanks to our serene surroundings spread on a large block of land, we guarantee our guests the most tranquil Seymour spaces.
+            Seymour's staff has mastered the skills to understand the exact needs of guests who arrive after a tiresome journey. Thanks to the serene surroundings spread on a large block of land, we guarantee to create for our guests the most tranquil Seymour atmosphere.
           </p>
         </div>
       </div>
@@ -144,10 +144,10 @@ get_header();
       <div class="row" style="margin-bottom: 160px">
         <div class="col-12 col-md-7">
           <h2 style="color: #c0bcb7; font-weight: 500" class="pb-2">
-            Explore rooms and suites
+            Explore our rooms and suites and make a reservation today.
           </h2>
           <p style="font-weight: 200">
-            Seymour Motel is an ideal rest stop for travelers as well as a wonderful place to stay while exploring the town's true beauty. There are three options available to you, depending on your needs and purposes for visiting Seymour. Our double, triple, and family rooms all feature excellent amenities.
+            Seymour Motel is an ideal rest stop for travelers as well as a wonderful place to stay while exploring the town's true beauty. There are three options available to you, depending on your needs and purposes for visiting Seymour. Our double, triple, and family rooms all feature excellent amenities.
           </p>
         </div>
       </div>
@@ -293,7 +293,9 @@ get_header();
           Facility
         </h2>
         <p style="font-weight: 200">
-          Knowing the sensitive nature of the needs of travelers, we always wish to keep our guests happy by providing various facilities. In fact, these facilities help them relax and have a wonderful time during their stay. We mainly believe in making them a "home away from home" no matter how long they stay with us.
+          We strive to make our guests happy by providing a wide range of amenities, knowing that their needs are unique.
+
+          In fact, they are able to unwind and enjoy their trip more fully. Even if they stay with us only for a short time, we aim to make them feel at home.
         </p>
         <a href="/facilities">
           <div class="d-flex align-items-center mt-4 btn__arrow">
@@ -619,7 +621,9 @@ get_header();
               <div>
                 <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/brown-quote.png" alt="" />
                 <p class="py-5" style="font-size: 20px; font-weight: 300">
-                  We enjoyed our wonderful overnight stay and wish we had more time to visit more of the history and sights. Just have to give it more time next time.
+                  We strive to make our guests happy by providing a wide range of amenities, knowing that their needs are unique.
+
+                  In fact, they are able to unwind and enjoy their trip more fully. Even if they stay with us only for a short time, we aim to make them feel at home.
                 </p>
                 <p style="color: #c0bcb7">- Barry -</p>
               </div>

@@ -54,7 +54,7 @@ $query_acco = new WP_Query($args);
 					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-6.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">History & Heritage</h3>
 					<p>
-						Explore our Shire's historic buildings and locations. Learn more about our rich military history, railway heritage, and tourist attractions.
+						Travelers can visit and explore the Shire's historic buildings and locations, as well as learn more about the town's rich military history, railway heritage, and tourist attractions.
 					</p>
 				</div>
 				<div class="col-6 col-md-4">
@@ -73,14 +73,14 @@ $query_acco = new WP_Query($args);
 					</p>
 				</div>
 				<div class="col-8 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-3.png" alt="" class="img-fluid" />
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2022/01/Rectangle-19.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Great Outdoors</h3>
 					<p>
 						The towns in the Mitchell Shire were considered a major stop for those that came to the goldfields from the ports and towns of the Melbourne area, consisting of drinking houses and other essential services by then.
 					</p>
 				</div>
 				<div class="col-6 col-md-4">
-					<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/local-4.png" alt="" class="img-fluid" />
+					<img src="http://www.seymourmotel.com/wp-content/uploads/2022/01/Rectangle-19-1.png" alt="" class="img-fluid" />
 					<h3 class="pt-4">Sport & Leisure</h3>
 					<p>
 						Seymour’s recreation and open spaces provide a vast array of active, passive, indoor, and outdoor experiences for residents and visitors, like outdoor pools, stadiums, skate parks, horse riding, and golf.

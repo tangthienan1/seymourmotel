@@ -795,8 +795,8 @@ main > section {
   background-color: #fff;
   padding: 56px;
   position: absolute;
-  left: 120px;
-  top: 60px;
+  right: 80px;
+  top: 8px;
   max-width: 540px;
   display: none;
 }

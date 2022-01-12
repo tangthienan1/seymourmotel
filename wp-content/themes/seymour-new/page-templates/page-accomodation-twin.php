@@ -125,11 +125,11 @@ $query_acco = new WP_Query($args);
 			<div class="main__highlight_content">
 				<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 					<h3>Highlight</h3>
-					<p>To make things more affordable for guests, we offer budget rooms. Although these rooms are categorized as budget rooms, they provide comfort, safety and other basic features.</p>
+					<p>To make things more affordable for guests traveling in a small group, we offer these budget-friendly but cozy rooms. We believe these rooms will be the best option for providing comfort, safety, and other basic features.</p>
 				</div>
 				<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 					<h3>Who should choose this</h3>
-					<p>This is a great option for travelers who hit the road with strict budget plans. These rooms offer one queen size and one single bed.</p>
+					<p>To make things more affordable for guests traveling in a small group, we offer these budget-friendly but cozy rooms. We believe these rooms will be the best option for providing comfort, safety, and other basic features.</p>
 				</div>
 
 			</div>

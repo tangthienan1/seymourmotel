@@ -33,13 +33,13 @@ $query_acco = new WP_Query($args);
                 <div class="col-12 col-md-8 col-lg-6">
                     <p class="subtitle pb-3">Personal Information</p>
                     <p>
-                        When you use the Seymour website, we collect personal information about you. We may not be able to supply you with all of the services you have requested if we do not have it. Contact Information, Account, Profile Information, Identity Verification, and Payment Information are all part of this information.
+                        When you use the Seymour website, we collect personal information about you. We may not be able to supply you with all of the services you have requested if we do not have them. Contact Information, Account Information, Profile Information, Identity Verification, and Payment Information are all part of this information.
                     </p>
                 </div>
             </div>
             <div class="row justify-content-center pb-5">
                 <div class="col-12 col-md-8 col-lg-6">
-                    <p class="subtitle pb-3">How we use information we collecy</p>
+                    <p class="subtitle pb-3">How do we use the information we collect?</p>
                     <p>
                         Create and maintain a trusted and safer environment by detecting and preventing fraud, spam, abuse, security and safety incidents, and other harmful activity. Moreover, we provide payment services such as complying with legal obligations (such as anti-money laundering regulations), enforcing the Payment Terms and other payment policies.
                     </p>

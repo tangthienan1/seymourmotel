@@ -57,7 +57,7 @@ $query_acco = new WP_Query($args);
 				<div>Start from</div>
 				<div class="main__banner_info-price">$120 / night</div>
 				<div class="main__banner_info-text">
-					These rooms have been designed specifically to meet the needs of groups. They are extremely comfortable, allowing you to begin a new "next day" with a positive mindset. The gentle touch of nature in a calm and quiet environment can be a great relief for you and your friend's tiredness.
+					For small gatherings, triple rooms are always the most cost-effective option to choose from. You'll have a good experience with your loved ones while staying here, thanks to the full amenities, integrated services, and attractive surroundings.Phù thuỷ bạch tuộc replied to themself.
 				</div>
 				<div class="main__banner_info-benefit">
 					<span>

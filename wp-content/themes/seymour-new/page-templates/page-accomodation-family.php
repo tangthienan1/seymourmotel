@@ -57,7 +57,7 @@ $query_acco = new WP_Query($args);
 				<div>Start from</div>
 				<div class="main__banner_info-price">$160 / night</div>
 				<div class="main__banner_info-text">
-					These rooms have been designed specifically to meet the needs of families. They are extremely comfortable, allowing you to begin a new "next day" with a positive mindset. The gentle touch of nature in a calm and quiet environment can be a great relief for you and your family's tiredness.
+					For many families visiting Seymour, this is the ideal type of lodging. Combined with the pleasant surroundings, you'll feel right at home. We're sure the peaceful neighborhood, beautiful scenery, and comfort that our location has to offer your family will give you such an experience while at Victoria.
 				</div>
 				<div class="main__banner_info-benefit">
 					<span>
@@ -93,7 +93,7 @@ $query_acco = new WP_Query($args);
 		<div class="main__highlight_container">
 			<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 				<h3>Highlight</h3>
-				<p>To make things more affordable for guests, we offer family rooms which provide comfort, safety and other basic features.</p>
+				<p>Seymour Motel is aware of the bare necessities in terms of family travel. That is why we pay close attention to the design and arrangement of the space to ensure that our guests feel secure, comfortable, and warm, all at a reasonable price. Additionally, our facilities and associated services would be guaranteed, giving your family a homey atmosphere.</p>
 			</div>
 			<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
 				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight1.png" alt="">

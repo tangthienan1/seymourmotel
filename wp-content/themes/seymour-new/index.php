@@ -528,9 +528,7 @@ get_header();
               </div>
               <h3>Interesting Events</h3>
               <p>
-                Goulburn River is famous for many other interesting
-                activities for those who love adventurous outdoor activities
-                such as fishing or boating,
+                Even though it is a peaceful town, Seymour isn't a boring one. Visitors and residents commonly flock to a wide range of intriguing events held throughout the year. Every weekend is filled with activities for people of all interests and passions. Discover the town and enjoy the fun right now!
               </p>
             </div>
           </li>

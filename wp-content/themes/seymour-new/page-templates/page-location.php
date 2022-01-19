@@ -170,9 +170,7 @@ $query_acco = new WP_Query($args);
                     <div class="ml-3" style="flex: 1">
                         <h3 class="pb-3">By Car or Taxi</h3>
                         <p class="mb-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Tincidunt orci, arcu erat metus quis convallis. Ac velit elit,
-                            sem sed commodo.
+                            Seymour Motel is located approximately 100 kilometers away from Melbourne Central Station, roughly 1 hour and 30 minutes if you’re driving. From State Route 55 in Mickleham, take National Highway M31 to Seymour-Tooborac, then follow the C384 exit toward Seymour and you will arrive at our motel.
                         </p>
                         <div class="d-flex">
                             <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -233,9 +231,7 @@ $query_acco = new WP_Query($args);
                     <div class="ml-3" style="flex: 1">
                         <h3 class="pb-3">By Subway</h3>
                         <p class="mb-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Tincidunt orci, arcu erat metus quis convallis. Ac velit elit,
-                            sem sed commodo.
+                            It will take approximately 2 hours by subway to get to Seymoure Motel from Melbourne Central Station. Enter via Elizabeth St-Stop 5 and take the subway to Southern Cross, then from Southern Cross to Seymour Station. Our motel is only 10 minutes away from the station by cab or taxi.
                         </p>
                         <div class="d-flex pb-4">
                             <p class="pr-5">Name Station</p>

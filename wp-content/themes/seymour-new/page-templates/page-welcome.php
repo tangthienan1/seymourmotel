@@ -121,9 +121,9 @@ $query_acco = new WP_Query($args);
                 </div>
                 <div class="main__why_wrapper wow fadeInRight" data-wow-delay="500ms" style="justify-content:end">
                     <div class="main__why_wrapper-location">
-                        <h3 class="pb-2">Your safe</h3>
+                        <h3 class="pb-2">Scenery</h3>
                         <p>
-                            Despite the fact that the region is intrinsically secure, your safety is one of our top considerations. In addition, visitor information booklets accessible at our front desk can provide information on Seymour, Mitchell Shire Council in Victoria.
+                            One of the finest features of Seymour Motel is its enchanting landscape. A beautiful view can be seen from your bedroom window by simply letting the curtains open. Enjoying a leisurely breakfast outside while sipping on your favorite beverage is such an ideal moment while staying at our motel. You can only really comprehend the sensation of being enveloped in this indescribably gorgeous area if you experience it for yourself.
                         </p>
                         <a href="/location">
                             <div class="d-sm-none btn__arrow align-items-center mt-4 p-0">

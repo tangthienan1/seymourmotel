@@ -26,7 +26,7 @@ $query_acco = new WP_Query($args);
                         </svg>
                     </div>
                     <div class="text-left slide__btn-next slide__btn">
-                        <p class="mb-0">Next one</p>
+                        <p class="mb-0">Next</p>
                         <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
                             <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
                         </svg>
@@ -48,7 +48,6 @@ $query_acco = new WP_Query($args);
                             <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcome4.png" alt="" class="img-fluid" />
                         </li>
                         <li class="splide__slide">
-
                             <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcome5.png" alt="" class="img-fluid" />
                         </li>
                     </ul>
@@ -77,7 +76,6 @@ $query_acco = new WP_Query($args);
         <section class="main__img wow fadeInLeft" data-wow-delay="500ms">
             <?php $back_image = (get_field('banner_image')) ? get_field('banner_image') : get_bloginfo('template_directory') . "/images/static-bg.jpg"; ?>
             <img src="<?php echo $back_image; ?>">
-            <!-- <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/welcomebanner.png" /> -->
         </section>
         <!-- Mission -->
         <section class="main__mission">

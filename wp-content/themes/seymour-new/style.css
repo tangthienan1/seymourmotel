@@ -236,6 +236,23 @@ a:hover {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
 }
+
+.btn-primary {
+  background-color: #b52804;
+  border-color: #b52804;
+}
+.btn-primary:hover {
+  border-color: #222222;
+  background-color: #222222;
+}
+.btn-outline-primary {
+  color: #b52804;
+  border-color: #b52804;
+}
+.btn-outline-primary:hover {
+  background-color: #edded9;
+}
+
 /* IPAD */
 @media (min-width: 768px) and (max-width: 1025px) {
   h2 {

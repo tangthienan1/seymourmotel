@@ -1,7 +1,7 @@
 <section>
     <div class="text-center cta__wrapper py-6">
         <h1 class="cta__wrapper-title">Book your stay</h1>
-        <p class="cta__wrapper-description">Find a stay that suits you best</p>
+        <p class="cta__wrapper-description">Find a stay that suits you best.</p>
         <div class="row justify-content-center mx-0">
             <div class="col-8 col-md-4 col-xl-3 pb-2">
                 <button data-toggle="modal" data-target="#book-modal-wrapper" class="btn w-100 btn-lg btn-primary" style="margin-right: 14px">

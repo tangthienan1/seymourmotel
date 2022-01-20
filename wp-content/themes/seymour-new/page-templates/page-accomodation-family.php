@@ -30,7 +30,7 @@ $query_acco = new WP_Query($args);
 					</svg>
 				</div>
 				<div class="text-left slide__btn-next slide__btn">
-					<p class="mb-0">Next one</p>
+					<p class="mb-0">Next</p>
 					<svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
 						<path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
 					</svg>
@@ -106,7 +106,7 @@ $query_acco = new WP_Query($args);
 			</div>
 			<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 				<h3>Who should choose this</h3>
-				<p>For family traveller, all rooms have one queen size and two single beds as standard configuration.</p>
+				<p>This room type is best suited for families, as it comes standard with a queen bed and two single beds.</p>
 			</div>
 
 		</div>

@@ -30,7 +30,7 @@ $query_acco = new WP_Query($args);
 					</svg>
 				</div>
 				<div class="text-left slide__btn-next slide__btn">
-					<p class="mb-0">Next one</p>
+					<p class="mb-0">Next</p>
 					<svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
 						<path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
 					</svg>
@@ -68,6 +68,10 @@ $query_acco = new WP_Query($args);
 						<img src="<?php bloginfo('template_directory'); ?>/icons/tick.png">
 						Free Parking
 					</span>
+					<span>
+						<img src="<?php bloginfo('template_directory'); ?>/icons/tick.png">
+						1 Queen Bed and 1 Single Bed
+					</span>
 				</div>
 				<div class="main__banner_info-button flex-button">
 					<div data-toggle="modal" data-target="#book-modal-wrapper" class="tol_no danger" class="tol_no danger">
@@ -93,7 +97,7 @@ $query_acco = new WP_Query($args);
 		<div class="main__highlight_container">
 			<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 				<h3>Highlight</h3>
-				<p>To make things more affordable for guests, we offer budget rooms. Although these rooms are categorized as budget rooms, they provide comfort, safety and other basic features.</p>
+				<p>To make things more affordable for guests traveling in a small group, we offer these budget-friendly but cozy rooms. We believe these rooms will be the best option for providing comfort, safety, and other basic features.</p>
 			</div>
 			<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
 				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/twin-highlight1.png" alt="">
@@ -106,7 +110,7 @@ $query_acco = new WP_Query($args);
 			</div>
 			<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 				<h3>Who should choose this</h3>
-				<p>This is a great option for travelers who hit the road with strict budget plans. These rooms offer one queen size and one single bed.</p>
+				<p>If you're on a tight budget, this is an excellent option for group travelers. These rooms accommodate up to three people with a queen bed and a single bed.</p>
 			</div>
 
 		</div>

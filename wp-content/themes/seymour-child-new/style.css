@@ -468,6 +468,7 @@ section .px-6 {
 /* MOBILE */
 @media (max-width: 767px) {
   main > section:not(:first-child) {
+    padding: 0;
     margin-bottom: 160px;
   }
   .home__sticky-address {
@@ -520,9 +521,12 @@ section .px-6 {
     padding-bottom: 14px;
     margin-bottom: 0;
   }
+  .main-container {
+    margin-bottom: 80px !important;
+  }
   /* end index */
   .main__banner {
-    height: 200vw;
+    height: 230vw;
     padding: 0 24px 120px !important;
     margin-bottom: 0 !important;
   }

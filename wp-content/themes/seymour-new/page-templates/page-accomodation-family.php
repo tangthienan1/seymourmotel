@@ -68,6 +68,10 @@ $query_acco = new WP_Query($args);
 						<img src="<?php bloginfo('template_directory'); ?>/icons/tick.png">
 						Free Parking
 					</span>
+					<span>
+						<img src="<?php bloginfo('template_directory'); ?>/icons/tick.png">
+						1 Queen Bed and 2 Single Bed
+					</span>
 				</div>
 				<div class="main__banner_info-button flex-button">
 					<div data-toggle="modal" data-target="#book-modal-wrapper" class="tol_no danger" class="tol_no danger">

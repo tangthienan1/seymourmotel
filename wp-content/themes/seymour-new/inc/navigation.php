@@ -45,10 +45,10 @@
         </div>
         <div class="navMobile px-6" style="width: 100vw">
             <p class="nav__title">Accommodations</p>
-            <a href="/single-room">
+            <a href="/double-room">
                 <h4 class="nav__item">Double Room</h4>
             </a>
-            <a href="/twin-room">
+            <a href="/triple-room">
                 <h4 class="nav__item">Triple Room</h4>
             </a>
             <a href="/family-room">

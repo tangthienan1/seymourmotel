@@ -355,6 +355,9 @@ a:hover {
   h2 {
     font-size: 48px;
   }
+  .room__type-wrapper:hover .room__type-discover {
+    display: block;
+  }
 
   .px-6 {
     padding-left: 60px;
@@ -401,10 +404,6 @@ a:hover {
 
 .room__type-wrapper .room__type-discover {
   display: none;
-}
-
-.room__type-wrapper:hover .room__type-discover {
-  display: block;
 }
 
 .room__type-wrapper .room__type-title {
@@ -806,9 +805,10 @@ main > section {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
-
 .location__map-wrapper {
   position: relative;
+}
+.location__map-wrapper iframe {
   height: 800px;
 }
 
@@ -1325,7 +1325,7 @@ main > section {
     height: 17vw !important;
   }
 
-  .location__map-wrapper {
+  .location__map-wrapper iframe {
     height: 700px;
   }
 
@@ -1511,7 +1511,7 @@ main > section {
     box-sizing: border-box;
     margin-bottom: 0;
   }
-  .location__map-wrapper {
+  .location__map-wrapper iframe {
     height: 250px;
   }
 

@@ -279,6 +279,11 @@ section .px-6 {
 .home__main-wrapper section .intro__wrapper {
   padding-top: 100px;
 }
+
+.location__nav-wrapper {
+  margin-bottom: 120px;
+}
+
 /* IPAD Pro */
 @media (width: 1024px) {
   .header a {
@@ -509,6 +514,11 @@ section .px-6 {
   /* index */
   .home__main-wrapper section .splide__testominal .splide__track ul li p {
     height: 144px;
+  }
+
+  .location__nav-wrapper {
+    padding-bottom: 14px;
+    margin-bottom: 0;
   }
   /* end index */
   .main__banner {

@@ -34,7 +34,7 @@ get_header();
           </svg>
         </div>
         <div class="text-left slide__btn-next slide__btn">
-          <p class="mb-0">Next</p>
+          <p class="mb-0">Next one</p>
           <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
             <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
           </svg>
@@ -75,7 +75,7 @@ get_header();
       </div>
       <div class="col-4 d-md-none">
         <div class="d-sm-none btn__arrow align-items-center mb-4 p-0">
-          <a href="/welcome">
+          <a href="/about">
             <p class="mb-0">DISCOVER MORE</p>
           </a>
           <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
@@ -175,7 +175,7 @@ get_header();
             <div class="room__type-title">
               <h2>Double Room</h2>
               <div class="room__type-discover">
-                <a href="/single-room">
+                <a href="/double-room">
                   <div class="d-flex align-items-center btn__arrow">
                     <p style="color: #b52804" class="mb-0 mr-2">DETAILS</p>
                     <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
@@ -205,7 +205,7 @@ get_header();
                   $120 / night
                 </p>
               </div>
-              <a href="/twin-room">
+              <a href="/triple-room">
                 <div class="align-items-center btn__arrow">
                   <p class="mb-0 mr-2">DETAILS</p>
                   <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
@@ -215,7 +215,7 @@ get_header();
             <div class="room__type-title">
               <h2>Triple Room</h2>
               <div class="room__type-discover">
-                <a href="/twin-room">
+                <a href="/family-room">
                   <div class="d-flex align-items-center btn__arrow">
                     <p class="mb-0 mr-2">DETAILS</p>
                     <img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
@@ -485,7 +485,7 @@ get_header();
           </svg>
         </div>
         <div class="text-left slide__btn-next slide__btn">
-          <p class="mb-0">Next</p>
+          <p class="mb-0">Next one</p>
           <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
             <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
           </svg>
@@ -598,7 +598,7 @@ get_header();
             </svg>
           </div>
           <div class="text-left slide__btn-next slide__btn">
-            <p class="mb-0">Next</p>
+            <p class="mb-0">Next one</p>
             <svg width="88" height="6" viewBox="0 0 88 6" fill="#E9E6E5" xmlns="http://www.w3.org/2000/svg">
               <path d="M88 3L83 0.113249V5.88675L88 3ZM0 3.5H83.5V2.5H0V3.5Z" />
             </svg>

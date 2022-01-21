@@ -253,8 +253,12 @@ a:hover {
 }
 .btn-outline-primary:hover {
   background-color: #edded9;
+  border-color: #b52804;
+  color: #b52804;
 }
-
+.btn {
+  border-radius: 2px;
+}
 /* IPAD */
 @media (min-width: 768px) and (max-width: 1025px) {
   h2 {
@@ -1082,13 +1086,6 @@ main > section {
     padding-bottom: 160px;
   }
 
-  .room__type-wrapper:hover .room__type-discover {
-    display: none;
-  }
-
-  .room__type-wrapper:hover .room__type-discover {
-    display: none;
-  }
   .local__gallery-wrapper .row > div p {
     visibility: visible;
   }

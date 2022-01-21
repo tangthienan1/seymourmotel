@@ -464,7 +464,7 @@ section .px-6 {
 @media (max-width: 767px) {
   main > section:not(:first-child) {
     padding: 0;
-    margin-bottom: 120px;
+    margin-bottom: 160px;
   }
   .home__sticky-address {
     display: none;

@@ -266,7 +266,7 @@ $query_acco = new WP_Query($args);
 									$120 / night
 								</p>
 							</div>
-							<a href="/twin-room">
+							<a href="/triple-room">
 								<div class="align-items-center btn__arrow">
 									<p class="mb-0 mr-2">DETAILS</p>
 									<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />
@@ -276,7 +276,7 @@ $query_acco = new WP_Query($args);
 						<div class="room__type-title">
 							<h2>Triple Room</h2>
 							<div class="room__type-discover">
-								<a href="/twin-room">
+								<a href="/triple-room">
 									<div class="d-flex align-items-center btn__arrow">
 										<p class="mb-0 mr-2">DETAILS</p>
 										<img src="http://www.seymourmotel.com/wp-content/uploads/2021/11/arrow.png" />

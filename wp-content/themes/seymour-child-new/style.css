@@ -464,7 +464,7 @@ section .px-6 {
 @media (max-width: 767px) {
   main > section:not(:first-child) {
     padding: 0;
-    margin-bottom: 160px;
+    margin-bottom: 120px;
   }
   .home__sticky-address {
     display: none;
@@ -511,9 +511,12 @@ section .px-6 {
   .home__main-wrapper section .splide__testominal .splide__track ul li p {
     height: 144px;
   }
+  .main-container{
+    margin-bottom: 80px !important;
+  }
   /* end index */
   .main__banner {
-    height: 200vw;
+    height: 230vw;
     padding: 0 24px 120px !important;
     margin-bottom: 0 !important;
   }

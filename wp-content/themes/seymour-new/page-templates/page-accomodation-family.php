@@ -97,7 +97,7 @@ $query_acco = new WP_Query($args);
 		<div class="main__highlight_container">
 			<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 				<h3>Highlight</h3>
-				<p>Seymour Motel is aware of the bare necessities in terms of family travel. That is why we pay close attention to the design and arrangement of the space to ensure that our guests feel secure, comfortable, and warm, all at a reasonable price. Additionally, our facilities and associated services would be guaranteed, giving your family a homey atmosphere.</p>
+				<p>To make things more affordable for guests, we offer family rooms which provide comfort, safety and other basic features.</p>
 			</div>
 			<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
 				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight1.png" alt="">

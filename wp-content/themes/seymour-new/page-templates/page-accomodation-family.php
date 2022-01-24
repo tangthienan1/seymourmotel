@@ -70,7 +70,7 @@ $query_acco = new WP_Query($args);
 					</span>
 					<span>
 						<img src="<?php bloginfo('template_directory'); ?>/icons/tick.png">
-						1 Queen Bed and 2 Single Bed
+						1 Queen Bed and 2 Single Beds
 					</span>
 				</div>
 				<div class="main__banner_info-button flex-button">

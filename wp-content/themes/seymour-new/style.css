@@ -1545,7 +1545,7 @@ main > section {
   }
 
   .local__gallery-wrapper .row > div p {
-    display: none;
+    display: block;
   }
   .local__gallery-wrapper .row div:not(:last-child) {
     padding-bottom: 40px;

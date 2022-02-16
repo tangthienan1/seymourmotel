@@ -11,7 +11,7 @@ $args = array('orderby' => 'menu_order', 'order' => 'ASC', 'posts_per_page' => $
 $query_acco = new WP_Query($args);
 ?>
 <div id="pushIt">
-	<main role="main">
+	<main role="main" class="local__attraction">
 		<!-- WELCOME -->
 
 		<section>

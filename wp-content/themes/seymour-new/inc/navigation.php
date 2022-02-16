@@ -23,8 +23,12 @@
             </div>
             <div class="phone">
                 <a href="tel:+61 3 5792 1500">
-                    <img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/phone.png" style="width: 18px">
+                    <img src="<?php bloginfo('template_directory'); ?>/icons/phone.svg" alt="phone" style="width: 18px">
                 </a>
+                <div data-toggle="modal" data-target="#book-modal-wrapper">
+                    <img src="<?php bloginfo('template_directory'); ?>/icons/calender.svg" alt="phone" style="width: 18px">
+
+                </div>
             </div>
         </div>
         <div class="subMenu">

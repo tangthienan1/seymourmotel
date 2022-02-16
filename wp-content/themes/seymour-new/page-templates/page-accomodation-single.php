@@ -11,11 +11,6 @@ $args = array('orderby' => 'menu_order', 'order' => 'ASC', 'posts_per_page' => $
 $query_acco = new WP_Query($args);
 ?>
 <main class="main">
-	<div class="accommodation__sticky-bookNow">
-		<div data-toggle="modal" data-target="#book-modal-wrapper" style="background: #b52804" class="tol_no danger" class="tol_no danger">
-			<p>BOOK NOW</p>
-		</div>
-	</div>
 	<section class="main-container">
 		<div class="mx-auto text-center p-title">
 			<h1 class="rozha-font">Accommodation</h1>

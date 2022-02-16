@@ -273,9 +273,7 @@ address a {
 .footer-mob {
   display: none;
 }
-section .px-6 {
-  margin-bottom: -80px;
-}
+
 .home__main-wrapper section .intro__wrapper {
   padding-top: 100px;
 }
@@ -500,7 +498,8 @@ section .px-6 {
     display: none;
   }
   .header .phone {
-    display: block;
+    display: flex;
+    gap: 1rem;
   }
   .mynav {
     display: none;

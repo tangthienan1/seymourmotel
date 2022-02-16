@@ -11,11 +11,6 @@ $args = array('orderby' => 'menu_order', 'order' => 'ASC', 'posts_per_page' => $
 $query_acco = new WP_Query($args);
 ?>
 <main class="main">
-	<div class="accommodation__sticky-bookNow">
-		<div data-toggle="modal" data-target="#book-modal-wrapper" style="background: #b52804" class="tol_no danger" class="tol_no danger">
-			<p>BOOK NOW</p>
-		</div>
-	</div>
 	<section class="main-container">
 		<div class="mx-auto text-center p-title">
 			<h1 class="rozha-font">Accommodation</h1>
@@ -70,7 +65,7 @@ $query_acco = new WP_Query($args);
 					</span>
 					<span>
 						<img src="<?php bloginfo('template_directory'); ?>/icons/tick.png">
-						1 Queen Bed and 2 Single Bed
+						1 Queen Bed and 2 Single Beds
 					</span>
 				</div>
 				<div class="main__banner_info-button flex-button">
@@ -97,7 +92,7 @@ $query_acco = new WP_Query($args);
 		<div class="main__highlight_container">
 			<div class="main__highlight_container-highlight wow fadeInLeft" data-wow-delay="500ms">
 				<h3>Highlight</h3>
-				<p>To make things more affordable for guests, we offer family rooms which provide comfort, safety and other basic features.</p>
+				<p>Seymour Motel is aware of the bare necessities in terms of family travel. That is why we pay close attention to the design and arrangement of the space to ensure that our guests feel secure, comfortable, and warm, all at a reasonable price. Additionally, our facilities and associated services would be guaranteed, giving your family a homey atmosphere.</p>
 			</div>
 			<div class="main__highlight_container-img1 wow fadeInLeft" data-wow-delay="500ms">
 				<img src="http://www.seymourmotel.com/wp-content/uploads/2021/12/family-highlight1.png" alt="">

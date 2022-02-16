@@ -259,6 +259,9 @@ a:hover {
 .btn {
   border-radius: 2px;
 }
+section .px-6 {
+  margin-bottom: 80px;
+}
 /* IPAD */
 @media (min-width: 768px) and (max-width: 1025px) {
   h2 {
@@ -1033,6 +1036,7 @@ main > section {
   text-align: center;
   padding-bottom: 120px;
 }
+
 /* IPAD Pro */
 @media (width: 1024px) {
   .home__comment .splide__track ul li p {
@@ -1413,7 +1417,9 @@ main > section {
   .room__type-wrapper .room__type-discover {
     display: none;
   }
-
+  section .px-6 {
+    margin-bottom: 14px;
+  }
   .home__welcome-right {
     height: 375px;
     margin-bottom: -6rem;
@@ -1563,6 +1569,9 @@ main > section {
   }
 
   /* LOCAL ATTRACTION */
+  .local__attraction p {
+    font-size: 11px;
+  }
   .local__header {
     padding: 0 24px !important;
   }

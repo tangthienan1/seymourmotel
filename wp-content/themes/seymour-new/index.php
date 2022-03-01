@@ -105,7 +105,7 @@ get_header();
     </div>
   </section>
 
-  <section>
+  <section class="mt-md-5">
     <div style="background-color: #e9e6e5">
       <div class="row py-6 intro__wrapper">
         <div class="col-12 col-md-4 text-center convention__wrapper">

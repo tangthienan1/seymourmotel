@@ -340,6 +340,11 @@ section .px-6 {
   .main__banner_info-benefit {
     gap: 30px !important;
   }
+  /* Home Page */
+  .home__welcome-right .home__welcome-right-second {
+    top: 70% !important;
+  }
+
   /* Welcome */
   .main__intro-left h2 {
     font-size: 28px !important;
